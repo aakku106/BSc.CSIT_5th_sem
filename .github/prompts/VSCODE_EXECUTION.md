@@ -49,6 +49,7 @@ Before saying "Go", ensure:
 ```
 
 **Check command:**
+
 ```bash
 cd /Users/aakku/Desktop/5th_sem
 for subject in DAA SAD Cripto SM WT SEIT; do
@@ -61,11 +62,13 @@ done
 ### 2. API Keys Configured (if using external APIs)
 
 **For GPT-5:**
+
 ```bash
 export OPENAI_API_KEY="your-key-here"
 ```
 
 **For Gemini 2.5 Pro & 3 Pro:**
+
 ```bash
 export GEMINI_API_KEY="your-key-here"
 ```
@@ -95,6 +98,7 @@ Start generating all 5th semester materials
 ```
 
 I will then:
+
 1. Confirm prerequisites
 2. Start with DAA subject
 3. Generate all 4 files for DAA
@@ -107,21 +111,25 @@ I will then:
 If you want to process one subject at a time:
 
 **For DAA:**
+
 ```
 Generate CS4.5.md for DAA
 ```
 
 **Then:**
+
 ```
 Generate G5.md for DAA based on CS4.5.md
 ```
 
 **Then:**
+
 ```
 Generate G2.5_p.md for DAA based on CS4.5.md and G5.md
 ```
 
 **Finally:**
+
 ```
 Generate survival_guide.md for DAA based on all previous files
 ```
@@ -248,16 +256,19 @@ Ready to use! 🎉
 While generation is running, you can:
 
 **Check current status:**
+
 ```
 What's the current progress?
 ```
 
 **View generated files:**
+
 ```
 Show me the CS4.5.md for DAA
 ```
 
 **Pause and resume:**
+
 ```
 Pause generation
 ```
@@ -275,15 +286,19 @@ If something goes wrong:
 **Common Issues:**
 
 1. **Missing files:**
+
    ```
    Error: 2078_questions.pdf not found in DAA/qtn_sets_and_syllabus/
    ```
+
    **Solution:** Add the missing file and say "Retry"
 
 2. **API rate limit:**
+
    ```
    Error: Gemini API rate limit exceeded
    ```
+
    **Solution:** Wait 60 seconds and say "Retry"
 
 3. **File already exists:**
@@ -305,7 +320,7 @@ sequenceDiagram
     participant G as GPT-5 (API)
     participant G2 as Gemini 2.5 (API)
     participant G3 as Gemini 3 (API)
-    
+
     U->>C: "Go"
     C->>C: Read materials
     C->>C: Generate CS4.5.md
@@ -324,6 +339,7 @@ sequenceDiagram
 ### Agent Communication
 
 **I (Claude) act as the coordinator:**
+
 - Read your materials
 - Generate my part (CS4.5.md)
 - Call GPT-5 API with context
@@ -333,6 +349,7 @@ sequenceDiagram
 - Report to you
 
 **You don't need to:**
+
 - Manually switch between AI tools
 - Copy-paste between different chats
 - Track which agent is doing what
@@ -345,24 +362,28 @@ sequenceDiagram
 Each generated file is automatically checked for:
 
 **Content Quality:**
+
 - [ ] Bachelor-level language (simple, clear)
 - [ ] No vague statements
 - [ ] Concrete examples provided
 - [ ] Proper explanations
 
 **Technical Quality:**
+
 - [ ] Word count in range
 - [ ] All sections present
 - [ ] Code syntax correct
 - [ ] Formulas accurate
 
 **Formatting Quality:**
+
 - [ ] No emojis in headings
 - [ ] Mermaid diagrams render
 - [ ] Tables formatted correctly
 - [ ] Links work
 
 **Strategic Quality:**
+
 - [ ] Meets exam prep needs
 - [ ] Practical and useful
 - [ ] Time-efficient approach
@@ -424,15 +445,15 @@ git push origin main
 
 ## Comparison: Manual vs Automated
 
-| Aspect | Manual Process | VS Code "Go" Command |
-|--------|----------------|----------------------|
-| **Setup** | Configure 4 different AI tools | Just say "Go" |
-| **Coordination** | Manual copy-paste between tools | Automatic |
-| **Time** | 180-210 hours | 2-3 hours |
-| **Error rate** | High (manual transfer) | Low (automated) |
-| **Consistency** | Variable | Uniform |
-| **Quality checks** | Manual | Automated |
-| **Your effort** | High | Minimal |
+| Aspect             | Manual Process                  | VS Code "Go" Command |
+| ------------------ | ------------------------------- | -------------------- |
+| **Setup**          | Configure 4 different AI tools  | Just say "Go"        |
+| **Coordination**   | Manual copy-paste between tools | Automatic            |
+| **Time**           | 180-210 hours                   | 2-3 hours            |
+| **Error rate**     | High (manual transfer)          | Low (automated)      |
+| **Consistency**    | Variable                        | Uniform              |
+| **Quality checks** | Manual                          | Automated            |
+| **Your effort**    | High                            | Minimal              |
 
 ---
 
@@ -470,6 +491,7 @@ Done!
 ## Ready to Start?
 
 When you have:
+
 - ✅ All 48 files collected (42 question papers + 6 syllabi)
 - ✅ Files organized in correct folders
 - ✅ This documentation read

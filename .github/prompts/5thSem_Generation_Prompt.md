@@ -99,6 +99,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 **CRITICAL:** All agents MUST read and follow [AGENT_GUIDELINES.md](./AGENT_GUIDELINES.md) before starting work.
 
 **Key Requirements:**
+
 - Write in simple, bachelor-level language
 - NO unnecessary emojis in headings/topics
 - Use GitHub-Flavored Mermaid diagrams extensively
@@ -243,7 +244,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 **Primary Focus: Detailed Question Solutions & Explanations**
 
-#### 
+####
 
 1. **Question-Answer Compilation**
 
@@ -335,7 +336,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 **Primary Focus: Visual Learning & Quick Reference**
 
-#### 
+####
 
 1. **Visual Representations**
 
@@ -385,12 +386,12 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 #### Charts
 [Where applicable - algorithm comparisons, method differences, etc.]
 
-#### 
+####
 [For processes, algorithms, methodologies]
 
 ---
 
-## 
+##
 
 ### 1 Flashcards
 
@@ -405,7 +406,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ## Interconnections
 
-### 
+###
 [What you need to know before studying each chapter]
 
 ### Topics
@@ -422,7 +423,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ## Techniques
 
-### 
+###
 [Memory aids for formulas, lists, processes]
 
 ### Recognition
@@ -688,7 +689,7 @@ Where:
 
 [![Repository Views](https://komarev.com/ghpvc/?username=5thsem&abbreviated=true&base=1&label=Repo+VIEWS&style=for-the-badge)]
 
-## 
+##
 
 Comprehensive exam preparation materials for 5th semester BSc.CSIT students, powered by advanced AI analysis.
 
@@ -793,7 +794,7 @@ Content verified and enhanced by:
 3. Use **G2.5_p.md** one-page summaries
 4. Last day: **2DayPrep** emergency prep
 
-#### You Have 2 Days: 
+#### You Have 2 Days:
 
 1. **GO DIRECTLY TO 2DayPrep/survival_guide.md**
 2. Follow it religiously
@@ -943,7 +944,7 @@ Output format: [survival_guide.md template above]"
 - [ ] Cross-verification completed
 - [ ] Quality check passed
 
-### 
+###
 
 - [ ] All 6 subjects completed
 - [ ] README.md created
@@ -1033,7 +1034,7 @@ The three-AI-model approach ensures:
 - Calculate priorities
 - Output: CS4.5.md
 
-### 
+###
 
 - Provide detailed answers
 - Explain concepts thoroughly
@@ -1047,7 +1048,7 @@ The three-AI-model approach ensures:
 - Design flashcards and summaries
 - Output: G2.5_p.md
 
-### 
+###
 
 - Create emergency 2-day guide
 - Cross-verify all outputs

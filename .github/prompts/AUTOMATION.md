@@ -1,10 +1,10 @@
 # Project Automation Script
 
-## 
+##
 
 This script automates the entire 5th semester exam preparation materials generation process. When you say "Go", it will orchestrate all AI agents to work on all subjects simultaneously.
 
-## 
+##
 
 Before running automation:
 
