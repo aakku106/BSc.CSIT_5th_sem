@@ -1,65 +1,192 @@
-# Semester BSc.CSIT Exam Preparation Materials
+# 5th Semester BSc.CSIT Exam Preparation
 
-[![Repository Views](https://komarev.com/ghpvc/?username=5thsem&abbreviated=true&base=1&label=Repo+VIEWS&style=for-the-badge)](https://github.com/aakku106/5thSem_impQtns)
+## Quick Start Guide
 
-## Overview
+This repository contains AI-generated exam preparation materials for 5th semester BSc.CSIT subjects.
 
-Comprehensive exam preparation materials for 5th semester BSc.CSIT students, carefully curated and analyzed using multiple advanced AI models. This repository follows the successful methodology from the [4th Semester repository](https://github.com/aakku106/4thSem_impQtns).
-
-### AI-Powered Analysis
-
-The materials were created by analyzing:
-
-- **7 sets** of previous year questions (2076-2081 + Model Questions)
-- **Current syllabus** structure and weightage
-- **Chapter-wise importance** and frequency patterns
-
-### Models Used for Analysis
-
-Content has been verified and enhanced using multiple state-of-the-art AI models:
-
-- **Claude Sonnet 4.5** - Strategic analysis & pattern recognition
-- **GPT-5** - Detailed solutions & explanations
-- **Gemini 2.5 Pro** - Visual learning & quick references
+**How it works:** Choose a subject → Choose which file to generate → Use the appropriate AI model → Get high-quality study materials
 
 ---
 
-## Subjects Covered
+## Subjects Available
 
-| Code   | Subject                                 | Credit | Status         |
-| ------ | --------------------------------------- | ------ | -------------- |
-| CSC325 | Design and Analysis of Algorithms (DAA) | 3      | 🔄 In Progress |
-| CSC326 | System Analysis and Design (SAD)        | 3      | 🔄 In Progress |
-| CSC327 | Cryptography                            | 3      | 🔄 In Progress |
-| CSC328 | Simulation and Modeling (SM)            | 3      | 🔄 In Progress |
-| CSC329 | Web Technology (WT)                     | 3      | 🔄 In Progress |
-| CSC334 | Society and Ethics in IT (SEIT)         | 3      | 🔄 In Progress |
-|        | **Total Credit Hours**                  | **18** |                |
+| Subject                   | Code   | Papers   | Files to Generate                             |
+| ------------------------- | ------ | -------- | --------------------------------------------- |
+| **Cryptography**          | CSC327 | 7 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
+| **Web Technology**        | CSC329 | 7 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
+| **DAA**                   | CSC325 | 6 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
+| **SAD**                   | CSC326 | 6 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
+| **Simulation & Modeling** | CSC328 | 6 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
+| **SEIT**                  | CSC334 | 3 papers | CS4.5.md, G5.md, G2.5_p.md, survival_guide.md |
 
 ---
 
-## What's Inside Each Subject?
+## File Types Explained
 
-### Subject Folder Structure
+### CS4.5.md (Strategic Analysis)
+
+- **Best Model:** Claude Sonnet 4.5
+- **Length:** 5000-7000 words
+- **Content:** Frequency analysis, study plans, topic priorities
+- **Use for:** Understanding exam patterns
+
+### G5.md (Detailed Q&A)
+
+- **Best Model:** GPT-5 or GPT-4
+- **Length:** 8000-12000 words
+- **Content:** Complete answers, examples, step-by-step solutions
+- **Use for:** Deep understanding of concepts
+
+### G2.5_p.md (Visual Materials)
+
+- **Best Model:** Gemini 2.5 Pro
+- **Length:** 4000-6000 words
+- **Content:** Diagrams, flowcharts, quick reference tables
+- **Use for:** Visual learning and revision
+
+### survival_guide.md (2-Day Prep)
+
+- **Best Model:** Any (Gemini 3 Pro recommended)
+- **Length:** 2000-3000 words
+- **Content:** Emergency prep, critical topics only
+- **Use for:** Last-minute revision
+
+---
+
+## How to Generate Files
+
+### Step 1: Pick a Subject
+
+Example: Cryptography (Cripto)
+
+### Step 2: Pick a File Type
+
+Example: CS4.5.md
+
+### Step 3: Use the Right Prompt
+
+Go to `.github/prompts/` and find:
+
+- `PROMPT_CS45.md` for CS4.5.md files
+- `PROMPT_G5.md` for G5.md files
+- `PROMPT_G25P.md` for G2.5_p.md files
+- `PROMPT_SURVIVAL.md` for survival_guide.md files
+
+### Step 4: Generate
+
+Copy the prompt, specify the subject name, and let the AI model create the file.
+
+---
+
+## Current Status
+
+**Materials Collected:** ✅ 41 files (35 question papers + 6 syllabi)
+
+**Files Generated:**
+
+- Cripto: CS4.5.md ✅ | G5.md ⏳ | G2.5_p.md ⏳ | survival_guide.md ⏳
+- WT: ⏳
+- DAA: ⏳
+- SAD: ⏳
+- SM: ⏳
+- SEIT: ⏳
+
+**Total:** 1/24 files complete
+
+---
+
+## For Students (Using Generated Materials)
+
+Once files are generated, check each subject's `imp_qtns/` folder for:
+
+- Strategic analysis
+- Detailed Q&A
+- Visual materials
+- 2-day emergency prep
+
+---
+
+## For Contributors (Generating Materials)
+
+**New here?** Read `.github/prompts/START_HERE_SIMPLE.md`
+
+**Quick process:**
+
+1. Pick subject + file type
+2. Use appropriate prompt from `.github/prompts/PROMPT_*.md`
+3. Generate with recommended AI model
+4. Save to subject's imp_qtns folder
+
+**Guidelines:** See `.github/prompts/AGENT_GUIDELINES.md`
+
+---
+
+## Repository Structure
 
 ```
-[Subject]/
-├── qtn_sets_and_syllabus/    # All question papers and syllabus
-│   ├── syllabus.pdf
-│   ├── 2076_questions.pdf
-│   ├── 2077_questions.pdf
-│   ├── 2078_questions.pdf
-│   ├── 2079_questions.pdf
-│   ├── 2080_questions.pdf
-│   ├── 2081_questions.pdf
-│   └── model_questions.pdf
+5th_sem/
+├── Cripto/
+│   ├── qtn_sets_and_syllabus/     # Source materials
+│   └── imp_qtns/                  # Generated files
+│       ├── CS4.5.md
+│       ├── G5.md
+│       ├── G2.5_p.md
+│       └── 2DayPrep/
+│           └── survival_guide.md
 │
-└── imp_qtns/                  # AI-generated analysis
-    ├── CS4.5.md              # Strategic analysis by Claude Sonnet 4.5
-    ├── G5.md                 # Detailed Q&A by GPT-5
-    ├── G2.5_p.md             # Visual guide by Gemini 2.5 Pro
-    └── 2DayPrep/             # Emergency preparation
-        └── survival_guide.md
+├── WT/ [same structure]
+├── DAA/ [same structure]
+├── SAD/ [same structure]
+├── SM/ [same structure]
+└── SEIT/ [same structure]
+```
+
+---
+
+## Materials Status
+
+See detailed analysis in `.github/prompts/MATERIALS_STATUS.md`
+
+**Summary:**
+
+- Cripto: 7 papers + syllabus ✅
+- WT: 7 papers + syllabus ✅
+- DAA: 6 papers + syllabus ✅
+- SAD: 6 papers + syllabus ✅
+- SM: 6 papers + syllabus ✅
+- SEIT: 3 papers + syllabus ⚠️ (limited)
+
+---
+
+## Contributing
+
+1. Generate files using prompts in `.github/prompts/`
+2. Follow `AGENT_GUIDELINES.md` strictly
+3. Ensure quality (no emojis in headings, include diagrams, simple language)
+4. Submit via pull request
+
+---
+
+## License
+
+Educational use only. Content generated using AI models and based on publicly available question papers.
+
+---
+
+**Start generating:** See `.github/prompts/START_HERE_SIMPLE.md`
+│ ├── 2078_questions.pdf
+│ ├── 2079_questions.pdf
+│ ├── 2080_questions.pdf
+│ ├── 2081_questions.pdf
+│ └── model_questions.pdf
+│
+└── imp_qtns/ # AI-generated analysis
+├── CS4.5.md # Strategic analysis by Claude Sonnet 4.5
+├── G5.md # Detailed Q&A by GPT-5
+├── G2.5_p.md # Visual guide by Gemini 2.5 Pro
+└── 2DayPrep/ # Emergency preparation
+└── survival_guide.md
+
 ```
 
 ### File Descriptions
@@ -94,7 +221,7 @@ Visual learning materials including:
 - One-page chapter summaries
 - Memory techniques and mnemonics
 
-#### 
+####
 
 Emergency 2-day preparation guide:
 
@@ -118,9 +245,9 @@ Emergency 2-day preparation guide:
 
 ### Approach
 
-✅ **High-frequency questions** - Focus on what's repeatedly asked  
-✅ **Maximum ROI** - Best marks return for study time invested  
-✅ **Practical strategies** - Real exam tips, not just theory  
+✅ **High-frequency questions** - Focus on what's repeatedly asked
+✅ **Maximum ROI** - Best marks return for study time invested
+✅ **Practical strategies** - Real exam tips, not just theory
 ✅ **Strategic selection** - Know what to study (and what to skip)
 
 ### Plans Available
@@ -190,7 +317,7 @@ We provide multiple study plans to fit your schedule:
 - Prioritized content to maximize efficiency
 - Skip low-value topics guilt-free
 
-### 
+###
 
 - Question selection strategies
 - Time management tips
@@ -214,24 +341,24 @@ Following these materials, students can expect:
 
 ### This Repository Is
 
-✅ Strategic study guide based on pattern analysis  
-✅ Supplementary resource to official curriculum  
-✅ Time-efficient exam preparation tool  
+✅ Strategic study guide based on pattern analysis
+✅ Supplementary resource to official curriculum
+✅ Time-efficient exam preparation tool
 ✅ Based on past trends and expert analysis
 
 ### This Repository Is NOT
 
-❌ Not a replacement for attending classes  
-❌ Not a substitute for textbooks  
-❌ Not a guarantee of specific scores  
+❌ Not a replacement for attending classes
+❌ Not a substitute for textbooks
+❌ Not a guarantee of specific scores
 ❌ Not predicting future exam questions
 
 ### Should
 
-✅ Use this as a strategic study tool  
-✅ Cross-reference with official syllabus  
-✅ Practice previous year questions yourself  
-✅ Consult with faculty for clarifications  
+✅ Use this as a strategic study tool
+✅ Cross-reference with official syllabus
+✅ Practice previous year questions yourself
+✅ Consult with faculty for clarifications
 ✅ Maintain academic integrity
 
 ---
@@ -272,12 +399,15 @@ Following these materials, students can expect:
 ### Calculation Formula
 
 ```
+
 Importance Score = (Frequency × 0.4) + (Marks × 0.3) + (Recency × 0.3)
 
 Where:
+
 - Frequency = How many times asked (0-7)
 - Marks = Average marks allocated (normalized)
 - Recency = Weighted by year (2081=1.0, 2076=0.5)
+
 ```
 
 ---
@@ -392,9 +522,9 @@ This material is for **educational purposes only**.
 
 ### Updated
 
-⭐ **Star this repository** to show support!  
-👁️ **Watch** to get notified of updates  
-🔀 **Fork** to create your own version  
+⭐ **Star this repository** to show support!
+👁️ **Watch** to get notified of updates
+🔀 **Fork** to create your own version
 📢 **Share** with your classmates
 
 ---
@@ -439,10 +569,10 @@ This material is for **educational purposes only**.
 
 ### Mistakes to Avoid
 
-❌ Trying to study everything equally  
-❌ Starting preparation too late  
-❌ Only reading without practicing  
-❌ Ignoring time management  
+❌ Trying to study everything equally
+❌ Starting preparation too late
+❌ Only reading without practicing
+❌ Ignoring time management
 ❌ Not following strategic guidance
 
 ---
@@ -478,8 +608,8 @@ _Empowering students to achieve their academic goals efficiently_
 
 ---
 
-**Last Updated:** November 30, 2025  
-**Version:** 1.0.0  
+**Last Updated:** November 30, 2025
+**Version:** 1.0.0
 **Maintained by:** AI-Powered Analysis Team
 
 ---
@@ -495,3 +625,4 @@ _Empowering students to achieve their academic goals efficiently_
 5. 📚 Start studying smart, not hard!
 
 **Happy Learning! 🎓**
+```
