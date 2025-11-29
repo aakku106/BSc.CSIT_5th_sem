@@ -154,7 +154,7 @@
 
 ---
 
-### 📝 WhatWeAreDoing.prompt.md
+### WhatWeAreDoing.prompt.md
 
 **File:** `WhatWeAreDoing.prompt.md` (existing)  
 **Purpose:** Original task definition  

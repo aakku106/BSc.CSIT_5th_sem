@@ -299,7 +299,7 @@ git status
 
 ## Pro Tips
 
-### ✅
+### 
 
 1. **Start with one subject** (pilot) - Don't do all 6 at once
 2. **Follow the templates** - They're based on proven 4th sem success
@@ -308,7 +308,7 @@ git status
 5. **Keep it simple** - Student-friendly language
 6. **Be consistent** - Same format across all subjects
 
-### ❌
+### 
 
 1. **Don't skip the planning phase** - Understanding before doing
 2. **Don't work without question papers** - Data is crucial
@@ -489,4 +489,4 @@ You're going to create something awesome that will help hundreds of students! �
 
 ---
 
-## Read README.md → PROJECT_SUMMARY.md → Then collect question papers! 📚
+## Read README.md → PROJECT_SUMMARY.md → Then collect question papers! 

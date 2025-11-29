@@ -779,7 +779,7 @@ Content verified and enhanced by:
 3. Use **G2.5_p.md** one-page summaries
 4. Last day: **2DayPrep** emergency prep
 
-#### You Have 2 Days: 😱
+#### You Have 2 Days: 
 
 1. **GO DIRECTLY TO 2DayPrep/survival_guide.md**
 2. Follow it religiously
