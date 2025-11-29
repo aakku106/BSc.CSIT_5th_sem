@@ -94,20 +94,34 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Agent Roles & Responsibilities
+## AI Agent Roles & Responsibilities
 
-### 1: Claude Sonnet 4.5 (CS4.5.md)
+**CRITICAL:** All agents MUST read and follow [AGENT_GUIDELINES.md](./AGENT_GUIDELINES.md) before starting work.
+
+**Key Requirements:**
+- Write in simple, bachelor-level language
+- NO unnecessary emojis in headings/topics
+- Use GitHub-Flavored Mermaid diagrams extensively
+- Provide concrete examples for every concept
+- Take as much time and resources as needed for quality
+- Properly link all related files and sections
+
+---
+
+### Agent 1: Claude Sonnet 4.5 (CS4.5.md)
 
 **Primary Focus: Strategic Analysis & Pattern Recognition**
 
-#### 
+**Guidelines:** See [AGENT_GUIDELINES.md Section 7](./AGENT_GUIDELINES.md#claude-sonnet-45-cs45md) for detailed requirements.
+
+#### Tasks:
 
 1. **Frequency Analysis**
 
    - Analyze all 7 question sets (2076-2081 + Model Questions)
    - Track question repetition patterns
    - Identify high-frequency topics (asked 3+ times)
-   - Create frequency heat maps
+   - Create frequency heat maps using Mermaid diagrams
 
 2. **Chapter-wise Breakdown**
 

@@ -27,18 +27,20 @@ Before running automation:
 **Input:** CS4.5.md + Question papers + Syllabus
 **Output:** Detailed Q&A (~8000-12000 words)
 
-### 3: Gemini 2.5 Pro
+### Agent 3: Gemini 2.5 Pro
 
 **Generates:** G2.5_p.md for each subject
 **Input:** CS4.5.md + G5.md
 **Output:** Visual materials (~4000-6000 words)
+**Guidelines:** See [AGENT_GUIDELINES.md - Gemini 2.5 Pro Section](./AGENT_GUIDELINES.md#gemini-25-pro-g25_pmd)
 
-### 4: Gemini 3 Pro
+### Agent 4: Gemini 3 Pro
 
 **Generates:** 2DayPrep/survival_guide.md for each subject
 **Input:** CS4.5.md + G5.md + G2.5_p.md
 **Output:** Emergency 2-day guide (~2000-3000 words)
 **Reference:** https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
+**Guidelines:** See [AGENT_GUIDELINES.md - Gemini 3 Pro Section](./AGENT_GUIDELINES.md#gemini-3-pro-survival_guidemd)
 
 ## Workflow
 
