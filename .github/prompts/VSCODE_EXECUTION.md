@@ -30,32 +30,50 @@ Before saying "Go", ensure:
 
 ### 1. All Materials Collected
 
+**ACTUAL MATERIALS GATHERED:** (See [MATERIALS_STATUS.md](./MATERIALS_STATUS.md) for detailed analysis)
+
 ```
 5th_sem/
-├── DAA/qtn_sets_and_syllabus/
-│   ├── syllabus.md (or .pdf) ✓
-│   ├── 2076_questions.pdf
-│   ├── 2077_questions.pdf
-│   ├── 2078_questions.pdf
-│   ├── 2079_questions.pdf
-│   ├── 2080_questions.pdf
-│   ├── 2081_questions.pdf
-│   └── model_questions.pdf
-├── SAD/qtn_sets_and_syllabus/ [7 PDFs + syllabus]
-├── Cripto/qtn_sets_and_syllabus/ [7 PDFs + syllabus]
-├── SM/qtn_sets_and_syllabus/ [7 PDFs + syllabus]
-├── WT/qtn_sets_and_syllabus/ [7 PDFs + syllabus]
-└── SEIT/qtn_sets_and_syllabus/ [7 PDFs + syllabus]
+├── Cripto/qtn_sets_and_syllabus/     [7 papers + syllabus] ✅ COMPLETE
+│   ├── syllabus.md ✓
+│   ├── 2076.md, 2078.md, 2079.md, 2080.md, 2081.md, 2082.md
+│   └── modelQtn.md
+│
+├── WT/qtn_sets_and_syllabus/         [7 papers + syllabus] ✅ COMPLETE
+│   ├── syllabus.md ✓
+│   ├── 2076.md, 2078.md, 2079.md, 2080.md, 2081.md, 2082.md
+│   └── modelQtn.md
+│
+├── DAA/qtn_sets_and_syllabus/        [6 papers + syllabus] ⚠️ Missing 2077, 2082
+│   ├── syllabus.md ✓
+│   ├── 2076.md, 2078.md, 2079.md, 2080.md, 2081.md
+│   └── modelQtn.md
+│
+├── SAD/qtn_sets_and_syllabus/        [6 papers + syllabus] ⚠️ Missing 2077, 2082
+│   ├── syllabus.md ✓
+│   ├── 2076.md, 2078.md, 2079.md, 2080.md, 2081.md
+│   └── modelQtn.md
+│
+├── SM/qtn_sets_and_syllabus/         [6 papers + syllabus] ⚠️ Missing 2077, 2082
+│   ├── syllabus.md ✓
+│   ├── 2076.md, 2078.md, 2079.md, 2080.md, 2081.md
+│   └── modelQtn.md
+│
+└── SEIT/qtn_sets_and_syllabus/       [3 papers + syllabus] ⚠️ LIMITED DATA
+    ├── syllabus.md ✓
+    └── 2076.md, 2078.md, 2079.md (Missing: 2077, 2080, 2081, 2082, modelQtn)
 ```
+
+**Total Materials:** 41 files (35 question papers + 6 syllabi)
 
 **Check command:**
 
 ```bash
 cd /Users/aakku/Desktop/5th_sem
-for subject in DAA SAD Cripto SM WT SEIT; do
+for subject in Cripto WT DAA SAD SM SEIT; do
     echo "=== $subject ==="
-    ls -1 $subject/qtn_sets_and_syllabus/ | wc -l
-    echo "Expected: 8 files (1 syllabus + 7 question papers)"
+    count=$(ls -1 $subject/qtn_sets_and_syllabus/*.md 2>/dev/null | wc -l)
+    echo "Files found: $count"
 done
 ```
 
@@ -78,6 +96,20 @@ export GEMINI_API_KEY="your-key-here"
 ### 3. Guidelines Read
 
 Ensure all agents follow: [AGENT_GUIDELINES.md](./AGENT_GUIDELINES.md)
+
+### 4. Special Note: SEIT Limited Data
+
+**SEIT has only 3 papers** (2076, 2078, 2079) instead of expected 6-7 papers.
+
+**Modified Strategy for SEIT:**
+
+- Focus more on syllabus-based analysis
+- Use available 3 papers for pattern identification only
+- Add disclaimer about limited historical data
+- Emphasize comprehensive syllabus coverage
+- Do not over-rely on frequency analysis
+
+**Other subjects** (Cripto, WT, DAA, SAD, SM) have 6-7 papers - use standard frequency analysis.
 
 ---
 

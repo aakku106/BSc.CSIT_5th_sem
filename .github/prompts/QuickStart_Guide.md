@@ -21,7 +21,7 @@ Before starting analysis, ensure you have:
 - ✅ 2081 Question Paper
 - ✅ Model Question Paper
 
-**Total:** 8 documents per subject × 6 subjects = 48 documents
+**Total:** ~8 documents per subject × 6 subjects = ~48 documents
 
 ---
 
@@ -286,7 +286,7 @@ Tone: Urgent, direct, no fluff.
 - [ ] 2-day guide actually achievable
 - [ ] Cross-references between files working
 
-#### 
+####
 
 - [ ] CS4.5.md priorities match G5.md coverage
 - [ ] G2.5_p.md flashcards cover CS4.5.md high-priority topics
@@ -439,7 +439,7 @@ Within each subject's files, create navigation:
 **In G5.md:**
 
 ```markdown
-## 
+##
 
 - [Strategic Analysis](./CS4.5.md) - See priority rankings
 - [Visual Aids](./G2.5_p.md) - Diagrams and flashcards

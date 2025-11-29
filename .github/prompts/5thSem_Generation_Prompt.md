@@ -24,7 +24,22 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ## Repository Structure
 
-### Structure
+### Actual Materials Collected
+
+**Status:** 41 files total (35 question papers + 6 syllabi)
+
+**Detailed breakdown:** See [MATERIALS_STATUS.md](./MATERIALS_STATUS.md)
+
+**Summary:**
+
+- Cripto: 7 papers + syllabus (COMPLETE)
+- WT: 7 papers + syllabus (COMPLETE)
+- DAA: 6 papers + syllabus (missing 2077, 2082)
+- SAD: 6 papers + syllabus (missing 2077, 2082)
+- SM: 6 papers + syllabus (missing 2077, 2082)
+- SEIT: 3 papers + syllabus (LIMITED - missing 2077, 2080, 2081, 2082, modelQtn)
+
+### Target Structure
 
 ```
 5th_sem/
@@ -119,10 +134,14 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 1. **Frequency Analysis**
 
-   - Analyze all 7 question sets (2076-2081 + Model Questions)
+   - Analyze all available question papers per subject:
+     - Cripto & WT: 7 papers (2076, 2078-2082, Model)
+     - DAA, SAD, SM: 6 papers (2076, 2078-2081, Model)
+     - SEIT: 3 papers only (2076, 2078-2079) - use modified strategy
    - Track question repetition patterns
-   - Identify high-frequency topics (asked 3+ times)
+   - Identify high-frequency topics (asked 2+ times for SEIT, 3+ times for others)
    - Create frequency heat maps using Mermaid diagrams
+   - **SEIT Special Note:** With only 3 papers, focus more on syllabus coverage than frequency
 
 2. **Chapter-wise Breakdown**
 
@@ -141,12 +160,13 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 4. **Output Format for CS4.5.md:**
 
 ```markdown
-# Name] - Strategic Exam Analysis by Claude Sonnet 4.5
+# [Subject Name] - Strategic Exam Analysis by Claude Sonnet 4.5
 
 ## Statistics
 
 - Total Chapters: [X]
-- Total Questions Analyzed: [X from 7 sets]
+- Total Questions Analyzed: [X papers - varies by subject]
+- Available Papers: [List actual years available]
 - High Priority Topics: [X]
 - Expected Coverage: [X]%
 

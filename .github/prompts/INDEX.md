@@ -169,7 +169,94 @@
 
 ---
 
-## Order by Role
+### MATERIALS_STATUS.md
+
+**File:** `MATERIALS_STATUS.md` (NEW - Nov 30, 2025)  
+**Purpose:** Comprehensive analysis of all collected materials  
+**Read time:** 20-25 minutes  
+**Read when:** Before triggering generation
+
+**Contains:**
+
+- Summary of 41 files collected
+- Subject-by-subject breakdown (papers + syllabi)
+- Missing papers analysis (2077 universal, SEIT limited)
+- Duplicate detection results
+- Data quality assessment
+- Readiness evaluation per subject
+- Modified strategy for SEIT
+
+**Best for:** Understanding what materials we have and quality expectations
+
+---
+
+### READY_TO_GO.md
+
+**File:** `READY_TO_GO.md` (NEW - Nov 30, 2025)  
+**Purpose:** Final summary before execution  
+**Read time:** 15-20 minutes  
+**Read when:** Right before saying "Go"
+
+**Contains:**
+
+- Materials collection summary
+- Subject coverage analysis
+- Modified SEIT strategy explanation
+- Expected output quality by subject
+- Updated documentation list
+- Phase-by-phase execution plan
+- Potential issues and solutions
+- Next steps and decision points
+
+**Best for:** Final verification and understanding before generation starts
+
+---
+
+### AGENT_GUIDELINES.md
+
+**File:** `AGENT_GUIDELINES.md` (NEW - Nov 28, 2025)  
+**Purpose:** Mandatory writing and quality guidelines for all AI agents  
+**Read time:** 25-30 minutes  
+**Read when:** BEFORE starting any generation work
+
+**Contains:**
+
+- Critical rules (NO emojis, simple language, diagrams, examples)
+- Good vs bad example comparisons
+- 5 types of Mermaid diagram syntax with examples
+- File linking standards
+- Word count enforcement
+- Quality standards
+- Agent-specific guidelines for all 4 agents
+- 15-point verification checklist
+
+**Best for:** Ensuring consistent, high-quality output across all agents
+
+---
+
+### VSCODE_EXECUTION.md
+
+**File:** `VSCODE_EXECUTION.md` (NEW - Nov 28, 2025)  
+**Purpose:** Guide for one-command execution from VS Code  
+**Read time:** 20-25 minutes  
+**Read when:** Understanding how "Go" command works
+
+**Contains:**
+
+- How "Go" command triggers workflow
+- Prerequisites checklist (updated with actual materials)
+- Three execution methods
+- Phase-by-phase process flow
+- Mermaid sequence diagram for agent coordination
+- Progress monitoring commands
+- Error handling procedures
+- SEIT special strategy notes
+
+**Best for:** Understanding automation and one-command execution
+
+---
+
+### WhatWeAreDoing.prompt.md
 
 ### You're the Project Owner
 
@@ -218,18 +305,33 @@
 ```
 .github/prompts/
 ├── START_HERE.md                    ← Start here!
-├── 5thSem_Generation_Prompt.md      ← Complete specs
+├── READY_TO_GO.md                   ← Materials ready summary (NEW)
+├── MATERIALS_STATUS.md              ← Detailed materials analysis (NEW)
+├── 5thSem_Generation_Prompt.md      ← Complete specs (UPDATED)
 ├── QuickStart_Guide.md              ← Execution guide
 ├── CS4.5_Template_Example.md        ← Format reference
 ├── WORKFLOW_VISUAL_GUIDE.md         ← Visual workflows
+├── VSCODE_EXECUTION.md              ← One-command execution (UPDATED)
+├── AGENT_GUIDELINES.md              ← Mandatory writing rules
+├── AUTOMATION.md                    ← Automation specifications
 ├── PROJECT_SUMMARY.md               ← Overview
+├── STATUS.md                        ← Current status (UPDATED)
+├── UPDATE_LOG.md                    ← Change tracking
 ├── INDEX.md                         ← This file
 └── WhatWeAreDoing.prompt.md         ← Original request
 
+.github/scripts/
+└── remove_emojis.py                 ← Emoji cleanup script
+
 ../../README.md                       ← Main repo README
 
-[Subject Folders - To be populated]
-DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
+[Subject Folders - Materials Collected]
+Cripto/ [7 papers + syllabus] ✅
+WT/ [7 papers + syllabus] ✅
+DAA/ [6 papers + syllabus] ⚠️
+SAD/ [6 papers + syllabus] ⚠️
+SM/ [6 papers + syllabus] ⚠️
+SEIT/ [3 papers + syllabus] ⚠️
 ```
 
 ---
