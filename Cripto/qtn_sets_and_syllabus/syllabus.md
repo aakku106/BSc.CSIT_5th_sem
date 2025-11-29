@@ -1,0 +1,60 @@
+Course Description : The course introduces the underlying the principles and design of cryptosystems. The course covers the basics concepts of cryptography including: traditional ciphers, block ciphers, stream ciphers, public and private key cryptosystems. The course also includes the theory of hash functions, authentication systems, network security protocols and malicious logic.
+
+Course Objective : The objectives of this course are to familiarize the students with cryptography and its applications. The students will be able to develop basic understanding of cryptographic mechanisms.
+
+Course Contents:
+Unit 1. Introduction and Classical Ciphers 7 Hrs.
+
+1.4. Security: Computer Security, Information Security, Network Security, CIA Triad, Cryptography, Cryptosystem, Cryptanalysis, Security Threats and Attacks, Security Services, Security Mechanisms
+1.5. Classical Cryptosystems: Substitution Techniques: Ceasar, Monoalphabetic, Playfair, Hill, Polyalphabetic ciphers, One-time pad Transposition Techniques: Rail Fence Cipher
+1.6. Modern Ciphers: Block vs. Stream Ciphers, Symmetric vs. Asymmetric Ciphers
+
+Unit 2. Symmetric Ciphers 10 Hrs.
+
+2.4. Feistel Cipher Structure, Substitution Permutation Network (SPN)
+2.5. Data Encryption Standards (DES), Double DES, Triple DES
+2.6. Finite Fields: Groups Rings, Fields, Modular Arithmetic, Euclidean Algorithm, Galois Fields (GF(p) & GF(2n)), Polynomial Arithmetic
+2.7. International Data Encryption Standard (IDEA)
+2.8. Advanced Encryption Standards (AES) Cipher
+2.9. Modes of Block Cipher Encryptions (Electronic Code Book, Cipher Block Chaining, Cipher Feedback Mode, Output Feedback Mode, Counter Mode)
+
+Unit 3. Asymmetric Ciphers 8 Hrs.
+
+3.4. Number Theory: Prime Numbers, Fermat’s Theorem, Euler’s Theorem, Primility Testing, Miller-Rabin Algorithm, Extended Euclidean Theorem, Discrete Logarithms
+3.5. Public Key Cryptosystems, Applications of Public Key Cryptosystems
+3.6. Distribution of public key, Distribution of secret key by using public key cryptography, Diffie-Helman Key Exchange, Man-in-the-Middle Attack
+3.7. RSA Algorithm
+3.8. Elgamal Cryptographic System
+
+Unit 4. Cryptographic Hash Functions and Digital Signatures 8 Hrs.
+
+4.4. Message Authentication, Message Authentication Functions, Message Authentication Codes
+4.5. Hash Functions, Properties of Hash functions, Applications of Hash Functions
+4.6. Message Digests: MD4 and MD5
+4.7. Secure Hash Algorithms: SHA-1 and SHA-2
+4.8. Digital Signatures: Direct Digital Signatures, Arbitrated Digital Signature
+4.9. Digital Signature Standard: The DSS Approach, Digital Signature Algorithm
+4.10. Digital Signature Standard: The RSA Approach
+
+Unit 5. Authentication 3 Hrs.
+
+5.4. Authentication System,
+5.5. Password Based Authentication, Dictionary Attacks,
+5.6. Challenge Response System,
+5.7. Biometric System
+5.8. Needham-Schroeder Scheme, Kerberos Protocol
+
+Unit 6. Network Security and Public Key Infrastructure 6 Hrs.
+
+6.1. Overview of Network Security
+6.2. Digital Certificates and X.509 certificates, Certificate Life Cycle Management
+6.3. PKI trust models, PKIX
+6.4. Email Security: Pretty Good Privacy (PGP)
+6.5. Secure Socket Layer (SSL) and Transport Layer Security (TLS)
+6.6. IP Security (IPSec)
+6.7. Firewalls and their types
+
+Unit 7. Malicious Logic 3 Hrs.
+
+7.1. Malicious Logic, Types of Malicious Logic: Virus, Worm, Trojan Horse, Zombies, Denial of Service Attacks,
+7.2. Intrusion, Intruders and their types, Intrusion Detection System
