@@ -1,11 +1,13 @@
 # One-Click Project Automation Script
 
 ## Purpose
+
 This script automates the entire 5th semester exam preparation materials generation process. When you say "Go", it will orchestrate all AI agents to work on all subjects simultaneously.
 
 ## Prerequisites
 
 Before running automation:
+
 - All question papers collected (7 per subject × 6 subjects = 42 PDFs)
 - All syllabi collected (6 PDFs)
 - All materials organized in respective qtn_sets_and_syllabus folders
@@ -14,21 +16,25 @@ Before running automation:
 ## Agent Assignment
 
 ### Agent 1: Claude Sonnet 4.5
+
 **Generates:** CS4.5.md for each subject
 **Input:** Question papers + Syllabus
 **Output:** Strategic analysis (~5000-7000 words)
 
 ### Agent 2: GPT-5
+
 **Generates:** G5.md for each subject
 **Input:** CS4.5.md + Question papers + Syllabus
 **Output:** Detailed Q&A (~8000-12000 words)
 
 ### Agent 3: Gemini 2.5 Pro
+
 **Generates:** G2.5_p.md for each subject
 **Input:** CS4.5.md + G5.md
 **Output:** Visual materials (~4000-6000 words)
 
 ### Agent 4: Gemini 3 Pro
+
 **Generates:** 2DayPrep/survival_guide.md for each subject
 **Input:** CS4.5.md + G5.md + G2.5_p.md
 **Output:** Emergency 2-day guide (~2000-3000 words)
@@ -271,17 +277,17 @@ The script will update a progress file: `/Users/aakku/Desktop/5th_sem/.automatio
   "subjects": {
     "DAA": {
       "status": "in_progress",
-      "CS4.5.md": {"status": "complete", "duration": "8min"},
-      "G5.md": {"status": "in_progress", "progress": "45%"},
-      "G2.5_p.md": {"status": "pending"},
-      "survival_guide.md": {"status": "pending"}
+      "CS4.5.md": { "status": "complete", "duration": "8min" },
+      "G5.md": { "status": "in_progress", "progress": "45%" },
+      "G2.5_p.md": { "status": "pending" },
+      "survival_guide.md": { "status": "pending" }
     },
     "SAD": {
       "status": "pending",
-      "CS4.5.md": {"status": "pending"},
-      "G5.md": {"status": "pending"},
-      "G2.5_p.md": {"status": "pending"},
-      "survival_guide.md": {"status": "pending"}
+      "CS4.5.md": { "status": "pending" },
+      "G5.md": { "status": "pending" },
+      "G2.5_p.md": { "status": "pending" },
+      "survival_guide.md": { "status": "pending" }
     }
   },
   "estimated_completion": "2025-11-30T16:30:00Z"
@@ -332,6 +338,7 @@ After automation completes:
 ## Error Handling
 
 If any step fails:
+
 - Script logs error to `.automation_errors.log`
 - Continues with other subjects
 - Generates partial output
@@ -347,17 +354,17 @@ ai_models:
     model: "claude-sonnet-4.5"
     api_key_env: "CLAUDE_API_KEY"
     max_retries: 3
-  
+
   gpt:
     model: "gpt-5"
     api_key_env: "OPENAI_API_KEY"
     max_retries: 3
-  
+
   gemini_2_5:
     model: "gemini-2.5-pro"
     api_key_env: "GEMINI_API_KEY"
     max_retries: 3
-  
+
   gemini_3:
     model: "gemini-3-pro"
     api_key_env: "GEMINI_API_KEY"
@@ -386,7 +393,7 @@ subjects:
 execution:
   parallel: true
   max_concurrent_subjects: 2
-  timeout_per_agent: 600  # 10 minutes
+  timeout_per_agent: 600 # 10 minutes
   retry_on_timeout: true
 
 output:
@@ -396,7 +403,7 @@ output:
   error_log: ".automation_errors.log"
 
 quality_checks:
-  word_count_tolerance: 10  # percentage
+  word_count_tolerance: 10 # percentage
   require_all_sections: true
   check_cross_references: true
   check_emoji_usage: true
@@ -406,6 +413,7 @@ quality_checks:
 ## API Rate Limiting
 
 The script handles rate limiting:
+
 - Waits between requests
 - Implements exponential backoff
 - Retries failed requests
@@ -414,10 +422,12 @@ The script handles rate limiting:
 ## Estimated Total Time
 
 With parallel processing:
+
 - All 6 subjects: 2-3 hours
 - Sequential: 6-8 hours
 
 Time per subject:
+
 - Claude Sonnet 4.5: 6-10 min
 - GPT-5: 10-15 min
 - Gemini 2.5 Pro: 6-10 min
@@ -427,6 +437,7 @@ Time per subject:
 ## Success Criteria
 
 Automation is successful when:
+
 - All 24 files generated (4 per subject × 6 subjects)
 - All quality checks pass
 - No critical errors in log
@@ -436,6 +447,7 @@ Automation is successful when:
 ## Manual Intervention Points
 
 You may need to manually:
+
 - Provide API keys (first time)
 - Review quality report
 - Approve final output
@@ -445,6 +457,7 @@ You may need to manually:
 ## Ready to Go
 
 Once you say "Go", the automation will:
+
 1. Verify all materials present
 2. Configure AI agents
 3. Process all 6 subjects
@@ -460,7 +473,7 @@ Total automation time: 2-3 hours (parallel mode)
 **Automation Ready:** YES  
 **Prerequisites:** Complete when all materials collected  
 **Command:** "Go" triggers execution  
-**Mode:** One-click automated generation  
+**Mode:** One-click automated generation
 
 ---
 
