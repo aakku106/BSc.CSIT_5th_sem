@@ -79,7 +79,7 @@ This proves the process works before scaling to all 6 subjects.
 
 ### Step 6: Engage AI Agents
 
-#### For Claude Sonnet 4.5:
+#### For Claude Sonnet 4.5
 
 ```
 Prompt: "I need you to create a strategic exam analysis (CS4.5.md) for
@@ -102,7 +102,7 @@ comprehensive analysis (~5000-7000 words) including:
 [Attach: Section from 5thSem_Generation_Prompt.md about Claude's role]"
 ```
 
-#### For GPT-5:
+#### For GPT-5
 
 ```
 Prompt: "Based on the strategic analysis by Claude Sonnet 4.5, create a
@@ -126,7 +126,7 @@ Please create detailed answers for all HIGH and MEDIUM priority questions
 [Attach: Relevant section from 5thSem_Generation_Prompt.md]"
 ```
 
-#### For Gemini 2.5 Pro:
+#### For Gemini 2.5 Pro
 
 ```
 Prompt: "Create visual learning materials (G2.5_p.md) for [Subject Name]
@@ -150,13 +150,18 @@ Use tables, ASCII art, and structured layouts extensively.
 [Attach: Relevant section from 5thSem_Generation_Prompt.md]"
 ```
 
-#### For 2-Day Guide (All agents working together):
+#### For 2-Day Guide (Gemini 3 Pro)
 
 ```
-Prompt: "Create an emergency 2-day survival guide that guarantees 35+ marks
-for [Subject Name].
+Prompt: "You are Gemini 3 Pro. Analyze the complete study materials for [Subject Name]:
 
-Based on:
+- CS4.5.md (Claude Sonnet 4.5's strategic analysis)
+- G5.md (GPT-5's detailed Q&A)
+- G2.5_p.md (Gemini 2.5 Pro's visual materials)
+
+Create an emergency 2-day survival guide that guarantees 35+ marks.
+
+Extract:
 1. High-priority topics from CS4.5.md
 2. Essential questions from G5.md
 3. Quick revision aids from G2.5_p.md
@@ -352,7 +357,7 @@ git status
 
 ## 🎓 Success Definition
 
-### You'll Know You've Succeeded When:
+### You'll Know You've Succeeded When
 
 1. ✅ All 6 subjects have complete materials (4 files each)
 2. ✅ A student can actually use these to score 35+ marks
@@ -457,7 +462,7 @@ git status
 
 ---
 
-## 🎉 Let's Build This!
+## 🎉 Let's Build This
 
 **The only thing between you and a complete, helpful repository is action.**
 

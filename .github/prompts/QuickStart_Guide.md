@@ -45,11 +45,12 @@ Before starting analysis, ensure you have:
 **Output:** ~4000-6000 words  
 **Focus:** Diagrams, tables, flashcards, summaries
 
-### All Agents → 2DayPrep/survival_guide.md
+### Gemini 3 Pro → 2DayPrep/survival_guide.md
 
-**Role:** Emergency Prep Team  
+**Role:** Emergency Prep Specialist  
 **Output:** ~2000-3000 words  
-**Focus:** Minimum content for 35+ marks in 2 days
+**Focus:** Minimum content for 35+ marks in 2 days  
+**Analyzes:** CS4.5.md + G5.md + G2.5_p.md
 
 ---
 
@@ -196,16 +197,22 @@ Use tables, ASCII art, and structured layouts extensively.
 - [ ] One-page summaries for all chapters
 - [ ] Visual aids and tables added
 
-### Phase 5: Emergency Prep (All Agents)
+### Phase 5: Emergency Prep (Gemini 3 Pro)
 
 **Task:** Create 2DayPrep/survival_guide.md
 
 **Input Prompt Template:**
 
 ```
-Create a 2-day survival guide for [Subject Name] that guarantees 35+ marks.
+You are Gemini 3 Pro. Analyze all three comprehensive files created for [Subject Name]:
 
-Use insights from:
+1. CS4.5.md (Strategic analysis by Claude Sonnet 4.5)
+2. G5.md (Detailed Q&A by GPT-5)
+3. G2.5_p.md (Visual materials by Gemini 2.5 Pro)
+
+Based on this complete analysis, create a 2-day survival guide that guarantees 35+ marks.
+
+Extract insights from:
 - CS4.5.md: High-priority topics
 - G5.md: Essential questions
 - G2.5_p.md: Quick revision aids

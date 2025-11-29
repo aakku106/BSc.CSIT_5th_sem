@@ -62,10 +62,11 @@
 │   │       ├─ Comparison tables
 │   │       └─ Quick reference cards
 │   │
-│   └─► STEP 4: All Agents (Collaborative)
+│   └─► STEP 4: Gemini 3 Pro
 │       │
 │       ├── Input: CS4.5.md + G5.md + G2.5_p.md
-│       ├── Process: Emergency prep guide creation
+│       ├── Process: Emergency prep guide creation (solo)
+│       ├── Reference: 4th sem DBMS 2DayPrep format
 │       └── Output: 2DayPrep/survival_guide.md
 │           ├─ Hour-by-hour schedule
 │           ├─ Must-memorize content
@@ -202,7 +203,7 @@ Total Time per Subject: 30-35 hours
 
 ---
 
-## 🔢 Time Investment Breakdown
+## Time Investment Breakdown
 
 ```
 Per Subject Analysis:
@@ -213,7 +214,7 @@ Per Subject Analysis:
 │ Strategic Analysis  │ Claude 4.5   │   6-8 hrs    │
 │ Detailed Q&A        │ GPT-5        │  10-12 hrs   │
 │ Visual Materials    │ Gemini 2.5   │   6-8 hrs    │
-│ 2-Day Guide         │ All Agents   │   4-5 hrs    │
+│ 2-Day Guide         │ Gemini 3 Pro │   4-5 hrs    │
 │ Cross-Verification  │ All Agents   │   2-3 hrs    │
 │ Final Polish        │ You          │   1-2 hrs    │
 ├─────────────────────┼──────────────┼──────────────┤

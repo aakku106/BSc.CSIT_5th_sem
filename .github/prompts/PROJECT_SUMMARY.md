@@ -39,6 +39,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
   - Claude Sonnet 4.5 (Strategic Analysis)
   - GPT-5 (Detailed Q&A)
   - Gemini 2.5 Pro (Visual Learning)
+  - Gemini 3 Pro (2-Day Emergency Prep)
 - Output format templates for each agent
 - Analysis methodology
 - Success criteria
@@ -197,10 +198,11 @@ For each subject:
    - Make one-page summaries
    - Time: ~6-8 hours per subject
 
-4. **All Agents (Collaborative):**
+4. **Gemini 3 Pro:**
+   - Analyze all previous outputs (CS4.5, G5, G2.5_p)
    - Create 2DayPrep/survival_guide.md
-   - Cross-verify all content
-   - Ensure consistency
+   - Emergency preparation strategy
+   - Reference format: https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
    - Time: ~4-5 hours per subject
 
 **Total per subject:** ~30-35 hours of AI work
@@ -330,6 +332,19 @@ Reference these documents:
 3. CS4.5.md and G5.md outputs (attach)
 
 Create diagrams, flashcards, and one-page summaries."
+```
+
+**Gemini 3 Pro:**
+
+```
+Prompt: "I need you to create 2DayPrep/survival_guide.md for [Subject].
+Reference these documents:
+1. 5thSem_Generation_Prompt.md - See your role and output format
+2. QuickStart_Guide.md - Phase 5 workflow
+3. All previous outputs: CS4.5.md, G5.md, G2.5_p.md (attach)
+4. Format reference: https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
+
+Analyze all previous files and create an emergency 2-day preparation guide."
 ```
 
 ---

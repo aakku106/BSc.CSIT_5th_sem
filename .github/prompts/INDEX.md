@@ -1,10 +1,10 @@
-# 📚 Documentation Index
+# Documentation Index
 
 > **Navigation Hub** - All documentation for the 5th Semester BSc.CSIT Exam Preparation Materials Project
 
 ---
 
-## 🎯 Quick Navigation
+## Quick Navigation
 
 **New here?** Start with: [START_HERE.md](./START_HERE.md) → [README.md](../../README.md)
 
@@ -18,7 +18,7 @@
 
 ## 📑 All Documents
 
-### 1. 🚀 START_HERE.md
+### 1. START_HERE.md
 
 **File:** `START_HERE.md`  
 **Purpose:** Quick start guide - your first read  
@@ -37,7 +37,7 @@
 
 ---
 
-### 2. 📖 README.md
+### 2. README.md
 
 **File:** `../../README.md` (repository root)  
 **Purpose:** Main repository documentation  
@@ -56,7 +56,7 @@
 
 ---
 
-### 3. 📋 5thSem_Generation_Prompt.md
+### 3. 5thSem_Generation_Prompt.md
 
 **File:** `5thSem_Generation_Prompt.md`  
 **Purpose:** Complete project specifications  
@@ -76,7 +76,7 @@
 
 ---
 
-### 4. ⚡ QuickStart_Guide.md
+### 4. QuickStart_Guide.md
 
 **File:** `QuickStart_Guide.md`  
 **Purpose:** Practical execution guide  
@@ -96,7 +96,7 @@
 
 ---
 
-### 5. 📐 CS4.5_Template_Example.md
+### 5. CS4.5_Template_Example.md
 
 **File:** `CS4.5_Template_Example.md`  
 **Purpose:** Format reference for Claude Sonnet 4.5 output  
@@ -115,7 +115,7 @@
 
 ---
 
-### 6. 🎨 WORKFLOW_VISUAL_GUIDE.md
+### 6. WORKFLOW_VISUAL_GUIDE.md
 
 **File:** `WORKFLOW_VISUAL_GUIDE.md`  
 **Purpose:** Visual representation of workflows  
@@ -134,7 +134,7 @@
 
 ---
 
-### 7. 📊 PROJECT_SUMMARY.md
+### 7. PROJECT_SUMMARY.md
 
 **File:** `PROJECT_SUMMARY.md`  
 **Purpose:** Complete project overview and summary  
@@ -169,7 +169,7 @@
 
 ---
 
-## 🎯 Reading Order by Role
+## Reading Order by Role
 
 ### If You're the Project Owner
 
@@ -199,6 +199,12 @@
 
 1. **5thSem_Generation_Prompt.md** - Your role section
 2. **QuickStart_Guide.md** - Phase 4 workflow
+
+### If You're an AI Agent (Gemini 3 Pro)
+
+1. **5thSem_Generation_Prompt.md** - Your role section
+2. **QuickStart_Guide.md** - Phase 5 workflow
+3. **Reference:** https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
 
 ### If You're a Student (Future)
 
@@ -275,7 +281,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## 📊 Document Statistics
+## Document Statistics
 
 | Document                    | Word Count (approx) | Sections | Purpose          |
 | --------------------------- | ------------------- | -------- | ---------------- |
@@ -320,9 +326,9 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## 🎯 Key Concepts Across Documents
+## Key Concepts Across Documents
 
-### The 3 AI Agents
+### The 4 AI Agents
 
 **Mentioned in:** All documents  
 **Detailed in:** 5thSem_Generation_Prompt.md, QuickStart_Guide.md
@@ -330,6 +336,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 1. **Claude Sonnet 4.5** → Strategic Analysis → CS4.5.md
 2. **GPT-5** → Detailed Q&A → G5.md
 3. **Gemini 2.5 Pro** → Visual Materials → G2.5_p.md
+4. **Gemini 3 Pro** → 2-Day Emergency Prep → survival_guide.md
 
 ### The 4 Output Files (Per Subject)
 
@@ -365,7 +372,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## 🚀 Success Path
+## Success Path
 
 ```
 START_HERE.md
@@ -494,7 +501,7 @@ With this documentation, you have:
 
 ---
 
-## 🚀 Next Action
+## Next Action
 
 **Go to:** [START_HERE.md](./START_HERE.md) and begin your journey!
 

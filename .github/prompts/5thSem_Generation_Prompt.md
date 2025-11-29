@@ -1,12 +1,12 @@
 # 5th Semester BSc.CSIT Exam Preparation Materials - Generation Prompt
 
-## 🎯 Project Objective
+## Project Objective
 
 Create comprehensive exam preparation materials for 5th semester BSc.CSIT students, mirroring the successful structure and methodology used in the 4th semester repository (https://github.com/aakku106/4thSem_impQtns).
 
 ---
 
-## 📋 Subject Information
+## Subject Information
 
 ### Course Details
 
@@ -22,7 +22,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 📁 Required Repository Structure
+## Required Repository Structure
 
 ### Overall Structure
 
@@ -94,7 +94,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🤖 AI Agent Roles & Responsibilities
+## AI Agent Roles & Responsibilities
 
 ### Agent 1: Claude Sonnet 4.5 (CS4.5.md)
 
@@ -128,14 +128,14 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 ```markdown
 # [Subject Name] - Strategic Exam Analysis by Claude Sonnet 4.5
 
-## 📊 Overview Statistics
+## Overview Statistics
 
 - Total Chapters: [X]
 - Total Questions Analyzed: [X from 7 sets]
 - High Priority Topics: [X]
 - Expected Coverage: [X]%
 
-## 🎯 Frequency Analysis
+## Frequency Analysis
 
 ### High-Frequency Questions (Asked 4+ times)
 
@@ -149,7 +149,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [List]
 
-## 📚 Chapter-wise Analysis
+## Chapter-wise Analysis
 
 ### Chapter 1: [Name]
 
@@ -169,7 +169,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [Repeat for all chapters]
 
-## 🎓 Strategic Study Plans
+## Strategic Study Plans
 
 ### 30-Day Comprehensive Plan
 
@@ -195,7 +195,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [Absolute minimum to pass/score 35+]
 
-## 📈 Expected Marks Distribution
+## Expected Marks Distribution
 
 - High Priority Topics: 45-55 marks
 - Medium Priority Topics: 25-30 marks
@@ -208,7 +208,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 3. Question Selection Tips
 4. Marking Scheme Insights
 
-## 🔥 Must-Study Questions
+## Must-Study Questions
 
 [Top 30-40 questions guaranteed to maximize marks]
 
@@ -254,7 +254,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 ```markdown
 # [Subject Name] - Comprehensive Q&A Guide by GPT-5
 
-## 📖 Table of Contents
+## Table of Contents
 
 [Chapter-wise navigation]
 
@@ -297,15 +297,15 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [Concise notes for last-minute review]
 
-## 🧩 Practice Problems
+## Practice Problems
 
 [Additional questions with solutions]
 
-## 📝 Formula Sheet
+## Formula Sheet
 
 [Important formulas, algorithms, definitions]
 
-## 🎯 Exam Tips for This Subject
+## Exam Tips for This Subject
 
 [Specific to subject nature]
 
@@ -346,13 +346,13 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 ```markdown
 # [Subject Name] - Visual Learning Guide by Gemini 2.5 Pro
 
-## 🎨 Visual Overview
+## Visual Overview
 
 ### Subject Mind Map
 
 [ASCII or Mermaid diagram showing all chapters and connections]
 
-## 📊 Chapter-wise Visual Summaries
+## Chapter-wise Visual Summaries
 
 ### Chapter 1: [Name]
 
@@ -376,7 +376,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🎴 Flashcards
+## Flashcards
 
 ### Chapter 1 Flashcards
 
@@ -389,7 +389,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🔗 Topic Interconnections
+## Topic Interconnections
 
 ### Prerequisites
 [What you need to know before studying each chapter]
@@ -399,14 +399,14 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 📋 One-Page Summaries
+## One-Page Summaries
 
 ### Chapter 1 - Single Page Cheat Sheet
 [Ultra-condensed version fitting in one page]
 
 ---
 
-## 🧠 Memory Techniques
+## Memory Techniques
 
 ### Mnemonics
 [Memory aids for formulas, lists, processes]
@@ -416,7 +416,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🎯 Topic Priority Matrix
+## Topic Priority Matrix
 
 | Chapter | Priority | Difficulty | Time | Expected Marks |
 |---------|----------|-----------|------|----------------|
@@ -426,7 +426,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 📈 Study Tracker Template
+## Study Tracker Template
 
 - [ ] Chapter 1 - Topic 1
 - [ ] Chapter 1 - Topic 2
@@ -440,22 +440,24 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 📅 2-Day Survival Guide (2DayPrep/survival_guide.md)
+## 2-Day Survival Guide (2DayPrep/survival_guide.md)
 
-**Purpose:** Absolute minimum to score 35+ marks with just 2 days of study
+**Created by:** Gemini 3 Pro  
+**Purpose:** Absolute minimum to score 35+ marks with just 2 days of study  
+**Reference Format:** https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
 
 **Format:**
 
 ```markdown
 # [Subject Name] - 2-Day Survival Guide
 
-## ⏰ Time Allocation
+## Time Allocation
 
 - **Day 1:** 8-10 hours
 - **Day 2:** 6-8 hours
 - **Exam Day Morning:** 2-3 hours
 
-## 🎯 Guaranteed 35+ Marks Strategy
+## Guaranteed 35+ Marks Strategy
 
 ### Day 1 - Foundation (8 hours)
 
@@ -495,7 +497,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 📝 Must-Memorize Content
+## Must-Memorize Content
 
 ### Definitions (15-20 marks guaranteed)
 
@@ -514,7 +516,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🎯 Question Selection Strategy
+## Question Selection Strategy
 
 ### Attempt Pattern
 
@@ -529,7 +531,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## ⚡ Ultra-Quick Revision Points
+## Ultra-Quick Revision Points
 
 ### Chapter 1
 
@@ -541,13 +543,13 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🚫 What to Skip
+## What to Skip
 
 [Topics that rarely appear or are too complex for 2-day prep]
 
 ---
 
-## ✅ Exam Day Checklist
+## Exam Day Checklist
 
 - [ ] Reviewed all definitions
 - [ ] Can draw all important diagrams
@@ -557,20 +559,21 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 🎓 Success Probability
+## Success Probability
 
 Following this guide: **85-90% chance of scoring 35+**
 
 ---
 
-**Emergency Prep Mode:** Activated
-**Time Required:** 16-18 hours total
+**Created by:** Gemini 3 Pro  
+**Emergency Prep Mode:** Activated  
+**Time Required:** 16-18 hours total  
 **Target Score:** 35-40 marks
 ```
 
 ---
 
-## 📊 Analysis Methodology
+## Analysis Methodology
 
 ### Data Sources Required:
 
@@ -628,7 +631,7 @@ Where:
 
 ---
 
-## 🎯 Success Criteria
+## Success Criteria
 
 ### For Each Subject, Create:
 
@@ -664,14 +667,14 @@ Where:
 
 ---
 
-## 📝 README.md Structure
+## README.md Structure
 
 ```markdown
 # 5th Semester BSc.CSIT Exam Preparation Materials
 
 [![Repository Views](https://komarev.com/ghpvc/?username=5thsem&abbreviated=true&base=1&label=Repo+VIEWS&style=for-the-badge)]
 
-## 📚 Overview
+## Overview
 
 Comprehensive exam preparation materials for 5th semester BSc.CSIT students, powered by advanced AI analysis.
 
@@ -683,7 +686,7 @@ Materials created by analyzing:
 - **Current syllabus** structure and weightage
 - **Chapter-wise importance** and frequency patterns
 
-### 🎯 AI Models Used
+### AI Models Used
 
 Content verified and enhanced by:
 
@@ -706,7 +709,7 @@ Content verified and enhanced by:
 
 ---
 
-## 📊 What's Inside Each Subject?
+## What's Inside Each Subject?
 
 ### 📁 qtn_sets_and_syllabus/
 
@@ -723,7 +726,7 @@ Content verified and enhanced by:
 
 ---
 
-## 🎯 Target Audience
+## Target Audience
 
 - **BSc.CSIT 5th semester** students
 - Focus on scoring **35+ marks** (pass with margin)
@@ -732,7 +735,7 @@ Content verified and enhanced by:
 
 ---
 
-## 📈 Success Strategy
+## Success Strategy
 
 ### Our Approach:
 
@@ -785,7 +788,7 @@ Content verified and enhanced by:
 
 ---
 
-## 🎓 Success Stories
+## Success Stories
 
 _This section will be updated with student feedback and results_
 
@@ -816,7 +819,7 @@ Found an error? Have a suggestion?
 
 ---
 
-## 📊 Repository Statistics
+## Repository Statistics
 
 - **Total Questions Analyzed:** 500+
 - **Study Hours Saved:** Estimated 100+ hours per student
@@ -913,7 +916,7 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## 📋 Checklist for Completion
+## Checklist for Completion
 
 ### Per Subject:
 
@@ -937,7 +940,7 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## 🎯 Expected Outcomes
+## Expected Outcomes
 
 ### Student Benefits:
 
@@ -955,7 +958,7 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## 📚 Additional Features to Consider
+## Additional Features to Consider
 
 ### Optional Enhancements:
 
@@ -984,7 +987,7 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## 🎓 Final Notes
+## Final Notes
 
 This is a **comprehensive, AI-powered exam preparation system** designed to:
 
