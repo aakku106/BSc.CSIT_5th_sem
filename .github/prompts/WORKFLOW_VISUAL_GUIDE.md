@@ -1,6 +1,6 @@
-# 5th Semester Project Workflow - Visual Guide
+# Semester Project Workflow - Visual Guide
 
-## 🔄 Complete Workflow Diagram
+## Complete Workflow Diagram
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -107,7 +107,7 @@
 
 ---
 
-## 📊 Subject Processing Flow
+## Subject Processing Flow
 
 ```
 ┌──────────────┐
@@ -144,7 +144,7 @@ Total Time per Subject: 30-35 hours
 
 ---
 
-## 🎯 AI Agent Collaboration Model
+## AI Agent Collaboration Model
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -203,7 +203,7 @@ Total Time per Subject: 30-35 hours
 
 ---
 
-## Time Investment Breakdown
+## Investment Breakdown
 
 ```
 Per Subject Analysis:
@@ -228,7 +228,7 @@ Parallel Processing:   30-35 hours (1-2 weeks)
 
 ---
 
-## 📈 Progress Tracking System
+## Progress Tracking System
 
 ```
 Subject Status Legend:
@@ -254,7 +254,7 @@ Update as work progresses:
 
 ---
 
-## 🎯 Quality Assurance Checklist
+## Quality Assurance Checklist
 
 ```
 For Each Subject File:
@@ -305,7 +305,7 @@ Cross-Verification:
 
 ---
 
-## 🚀 Launch Sequence
+## Launch Sequence
 
 ```
 Step 1: Preparation
@@ -347,7 +347,7 @@ Step 7: Iterate
 
 ---
 
-## 💡 Success Formula
+## Success Formula
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -377,7 +377,7 @@ Step 7: Iterate
 
 ---
 
-## 📊 Expected Outcomes
+## Expected Outcomes
 
 ```
 BEFORE (Without this repository):
@@ -402,7 +402,7 @@ Student → Follows strategic plan → High efficiency → Confidence → 35-45 
 
 ---
 
-## 🎓 Student Journey Map
+## Student Journey Map
 
 ```
 Student discovers repository
@@ -436,26 +436,26 @@ Scores 35+ marks ✅
 
 ---
 
-## 📝 Quick Command Reference
+## Quick Command Reference
 
 ```bash
-# Create folder structure for a subject
+# folder structure for a subject
 mkdir -p [Subject]/qtn_sets_and_syllabus
 mkdir -p [Subject]/imp_qtns/2DayPrep
 
-# Navigate to project
+# to project
 cd /Users/aakku/Desktop/5th_sem
 
-# Check structure
+# structure
 ls -R
 
-# Create/edit files
+# files
 code [Subject]/imp_qtns/CS4.5.md
 code [Subject]/imp_qtns/G5.md
 code [Subject]/imp_qtns/G2.5_p.md
 code [Subject]/imp_qtns/2DayPrep/survival_guide.md
 
-# Git workflow (when ready)
+# workflow (when ready)
 git add .
 git commit -m "Add [Subject] materials"
 git push
@@ -463,7 +463,7 @@ git push
 
 ---
 
-## 🎯 Remember
+## Remember
 
 ```
 ╔═══════════════════════════════════════════════════╗

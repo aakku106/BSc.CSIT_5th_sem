@@ -1,11 +1,11 @@
-# Example Template - CS4.5.md Structure
+# Template - CS4.5.md Structure
 
 > This is a template showing the expected structure for Claude Sonnet 4.5 analysis.  
 > Use this as a reference when creating analysis for each subject.
 
 ---
 
-# [Subject Name] - Strategic Exam Analysis by Claude Sonnet 4.5
+# Name] - Strategic Exam Analysis by Claude Sonnet 4.5
 
 **Analysis Date:** [Current Date]  
 **AI Model:** Claude Sonnet 4.5  
@@ -14,9 +14,9 @@
 
 ---
 
-## 📊 Overview Statistics
+## Overview Statistics
 
-### Quick Facts
+### Facts
 
 - **Total Chapters Analyzed:** X chapters
 - **Total Questions Analyzed:** X questions from 7 sets (2076-2081 + Model)
@@ -25,7 +25,7 @@
 - **Low Priority Topics:** X topics
 - **Expected Exam Coverage:** 85-90%
 
-### Exam Pattern
+### Pattern
 
 - **Total Marks:** 80
 - **Pass Marks:** 32
@@ -35,17 +35,17 @@
 
 ---
 
-## 🎯 Frequency Analysis
+## Frequency Analysis
 
-### Legend
+### 
 
 - **High Frequency:** Asked 4+ times (⭐⭐⭐⭐⭐)
 - **Medium Frequency:** Asked 2-3 times (⭐⭐⭐)
 - **Low Frequency:** Asked once (⭐)
 
-### High-Frequency Questions (Must Study - 45-55 marks potential)
+### Questions (Must Study - 45-55 marks potential)
 
-#### 1. [Question Topic/Title]
+#### [Question Topic/Title]
 
 - **Question:** [Full question text or summary]
 - **Marks:** X marks
@@ -57,7 +57,7 @@
 - **Time to Prepare:** 2-3 hours
 - **Related Topics:** [List]
 
-#### 2. [Question Topic/Title]
+#### [Question Topic/Title]
 
 [Same structure...]
 
@@ -65,9 +65,9 @@
 
 ---
 
-### Medium-Frequency Questions (Should Study - 25-30 marks potential)
+### Questions (Should Study - 25-30 marks potential)
 
-#### 1. [Question Topic/Title]
+#### [Question Topic/Title]
 
 - **Question:** [Full question text or summary]
 - **Marks:** X marks
@@ -82,9 +82,9 @@
 
 ---
 
-### Low-Frequency Questions (Optional Study - 10-15 marks potential)
+### Questions (Optional Study - 10-15 marks potential)
 
-#### Quick List
+#### List
 
 1. [Question] - Chapter X - Asked in 2076
 2. [Question] - Chapter X - Asked in 2079
@@ -94,11 +94,11 @@
 
 ---
 
-## 📚 Chapter-wise Detailed Analysis
+## Chapter-wise Detailed Analysis
 
-### Chapter 1: [Chapter Name]
+### 1: [Chapter Name]
 
-#### Overview
+#### 
 
 - **Total Questions:** X questions across 7 years
 - **Total Marks Potential:** Y-Z marks
@@ -106,7 +106,7 @@
 - **Difficulty:** Medium
 - **Time Investment Recommended:** X hours
 
-#### Topics Breakdown
+#### Breakdown
 
 | Topic     | Frequency | Marks | Priority   | Years Asked            |
 | --------- | --------- | ----- | ---------- | ---------------------- |
@@ -114,7 +114,7 @@
 | Topic 1.2 | Medium    | 5-7   | ⭐⭐⭐     | 2077, 2079             |
 | Topic 1.3 | Low       | 3-5   | ⭐         | 2076                   |
 
-#### Key Questions from This Chapter
+#### Questions from This Chapter
 
 **Q1.1** [Question text] (X marks)
 
@@ -131,7 +131,7 @@
 
 [Continue for all important questions in this chapter]
 
-#### Exam Strategy for This Chapter
+#### Strategy for This Chapter
 
 - **Question Selection:** Attempt Q1.1 and Q1.2 (guarantee 15+ marks)
 - **Time Allocation:** 20-25 minutes
@@ -139,13 +139,13 @@
 - **Must-Know:** [List critical concepts]
 - **Can Skip:** [List if any]
 
-#### Common Mistakes Students Make
+#### Mistakes Students Make
 
 1. [Mistake 1]
 2. [Mistake 2]
 3. [Mistake 3]
 
-#### Quick Revision Points
+#### Revision Points
 
 - Point 1
 - Point 2
@@ -155,27 +155,27 @@
 
 ---
 
-### Chapter 2: [Chapter Name]
+### 2: [Chapter Name]
 
 [Same detailed structure as Chapter 1]
 
 ---
 
-### Chapter 3: [Chapter Name]
+### 3: [Chapter Name]
 
 [Continue for ALL chapters in the syllabus]
 
 ---
 
-## 🎓 Strategic Study Plans
+## Strategic Study Plans
 
-### 30-Day Comprehensive Plan
+### Comprehensive Plan
 
 **Goal:** Thorough preparation with 90%+ coverage  
 **Daily Time:** 2-3 hours  
 **Expected Score:** 45-55 marks
 
-#### Week 1: Foundation (Days 1-7)
+#### 1: Foundation (Days 1-7)
 
 **Day 1-2:** Chapter 1 (High Priority)
 
@@ -197,7 +197,7 @@
 - Revise notes
 - Self-test
 
-#### Week 2: Core Topics (Days 8-14)
+#### 2: Core Topics (Days 8-14)
 
 **Day 8-9:** Chapter 4
 
@@ -215,7 +215,7 @@
 
 - [Activities]
 
-#### Week 3: Medium Priority (Days 15-21)
+#### 3: Medium Priority (Days 15-21)
 
 **Day 15-16:** Chapter 7
 
@@ -233,7 +233,7 @@
 
 - [Activities]
 
-#### Week 4: Practice & Polish (Days 22-30)
+#### 4: Practice & Polish (Days 22-30)
 
 **Day 22-24:** Mock Tests
 
@@ -261,13 +261,13 @@
 
 ---
 
-### 15-Day Crash Course
+### Crash Course
 
 **Goal:** High-priority coverage for 35-42 marks  
 **Daily Time:** 4-5 hours  
 **Expected Score:** 38-45 marks
 
-#### Days 1-3: Must-Study Chapters
+#### 1-3: Must-Study Chapters
 
 **Day 1:** Chapter 1 + Chapter 2 (5 hours)
 
@@ -283,7 +283,7 @@
 
 - [Similar]
 
-#### Days 4-6: Important Questions
+#### 4-6: Important Questions
 
 **Day 4:** Practice all ⭐⭐⭐⭐⭐ questions
 
@@ -301,7 +301,7 @@
 - Note key points
 - 1-2 practice questions each
 
-#### Days 7-9: Application
+#### 7-9: Application
 
 **Day 7:** Mock test 1 (Past paper)
 
@@ -317,7 +317,7 @@
 - Redo wrong answers
 - Clarify concepts
 
-#### Days 10-12: Consolidation
+#### 10-12: Consolidation
 
 **Day 10:** Diagram practice
 
@@ -335,7 +335,7 @@
 - Skim through notes
 - Flashcard review
 
-#### Days 13-14: Final Prep
+#### 13-14: Final Prep
 
 **Day 13:** Comprehensive review
 
@@ -357,13 +357,13 @@
 
 ---
 
-### 7-Day Intensive Prep
+### Intensive Prep
 
 **Goal:** Essential content for 35-38 marks  
 **Daily Time:** 6-8 hours  
 **Expected Score:** 35-40 marks
 
-#### Day 1: High Priority Topics Only
+#### 1: High Priority Topics Only
 
 **Morning (3 hours):**
 
@@ -380,7 +380,7 @@
 - Memorize key points
 - Review
 
-#### Day 2: More High Priority
+#### 2: More High Priority
 
 **Morning (3 hours):**
 
@@ -396,7 +396,7 @@
 
 - Revision Day 1 + Day 2
 
-#### Day 3: Remaining Essentials
+#### 3: Remaining Essentials
 
 **Morning (3 hours):**
 
@@ -411,7 +411,7 @@
 
 - Full revision
 
-#### Day 4: Practice Test
+#### 4: Practice Test
 
 **Morning (3 hours):**
 
@@ -425,7 +425,7 @@
 
 - Note weak areas
 
-#### Day 5: Focus on Weaknesses
+#### 5: Focus on Weaknesses
 
 **All day (8 hours):**
 
@@ -433,7 +433,7 @@
 - Practice those specific questions
 - Clarify doubts
 
-#### Day 6: Memorization
+#### 6: Memorization
 
 **Morning (3 hours):**
 
@@ -448,7 +448,7 @@
 
 - Quick run-through all topics
 
-#### Day 7: Final Revision
+#### 7: Final Revision
 
 **Morning (3 hours):**
 
@@ -467,7 +467,7 @@
 
 ---
 
-### 2-Day Survival Strategy
+### Survival Strategy
 
 **Goal:** Bare minimum for 35+ marks  
 **Time Available:** 16-18 hours total  
@@ -475,7 +475,7 @@
 
 **Note:** Detailed 2-day guide available in [2DayPrep/survival_guide.md](./2DayPrep/survival_guide.md)
 
-#### Day 1 (10 hours)
+#### 1 (10 hours)
 
 **Session 1 (4 hours):** Top 10 questions
 
@@ -493,7 +493,7 @@
 - Diagrams: [List must-know]
 - Formulas: [List must-know]
 
-#### Day 2 (6 hours)
+#### 2 (6 hours)
 
 **Session 1 (2 hours):** Quick revision
 
@@ -510,15 +510,15 @@
 - Weak points
 - Question selection strategy
 
-#### Exam Morning (2 hours)
+#### Morning (2 hours)
 
 - [See 2DayPrep guide]
 
 ---
 
-## 📈 Expected Marks Distribution
+## Expected Marks Distribution
 
-### By Priority Level
+### Priority Level
 
 | Priority        | Topics | Question Count | Marks Potential | Study Time | ROI       |
 | --------------- | ------ | -------------- | --------------- | ---------- | --------- |
@@ -526,7 +526,7 @@
 | ⭐⭐⭐ Medium   | Y      | 5-7            | 25-30           | 15 hours   | Good      |
 | ⭐ Low          | Z      | 3-5            | 10-15           | 10 hours   | Low       |
 
-### By Chapter
+### Chapter
 
 | Chapter   | Priority | Marks Range | Study Hours | Probability |
 | --------- | -------- | ----------- | ----------- | ----------- |
@@ -537,7 +537,7 @@
 | Chapter 5 | Medium   | 6-8         | 3           | 55%         |
 | [etc]     |          |             |             |             |
 
-### Smart Study ROI
+### Study ROI
 
 **If you study:**
 
@@ -549,9 +549,9 @@
 
 ---
 
-## 💡 Exam Strategy
+## Exam Strategy
 
-### Question Paper Analysis
+### Paper Analysis
 
 **Typical Structure:**
 
@@ -559,27 +559,27 @@
 - Section B: Long questions (Choose 7 from 10, each 10 marks)
 - Total: 80 marks
 
-### Question Selection Strategy
+### Selection Strategy
 
-#### Step 1: Scan the Paper (5 minutes)
+#### 1: Scan the Paper (5 minutes)
 
 - Read all questions quickly
 - Identify your prepared questions
 - Mark easy/medium/hard
 
-#### Step 2: Prioritize (Mental)
+#### 2: Prioritize (Mental)
 
 - **Category A:** Questions you can answer perfectly (aim for 5-6)
 - **Category B:** Questions you can attempt decently (pick 1-2)
 - **Category C:** Skip
 
-#### Step 3: Attempt Order
+#### 3: Attempt Order
 
 1. **First:** All Category A questions (60-70 marks)
 2. **Then:** Best Category B questions (if time)
 3. **Skip:** Category C entirely
 
-### Time Management
+### Management
 
 | Task              | Time        | Tips                             |
 | ----------------- | ----------- | -------------------------------- |
@@ -590,9 +590,9 @@
 
 **Golden Rule:** Don't spend more than 25 minutes on any question
 
-### Answer Writing Strategy
+### Writing Strategy
 
-#### For Long Questions (10 marks)
+#### Long Questions (10 marks)
 
 **Structure:**
 
@@ -606,7 +606,7 @@
 
 **Length:** 1.5 to 2 pages
 
-#### For Short Questions (2 marks)
+#### Short Questions (2 marks)
 
 **Structure:**
 
@@ -616,7 +616,7 @@
 
 **Length:** 4-5 lines max
 
-### Maximizing Marks
+### Marks
 
 **Do's:**
 
@@ -639,19 +639,19 @@
 
 ---
 
-## 🔥 Must-Study Questions (Top 30)
+## Must-Study Questions (Top 30)
 
-### The Guarantee List
+### Guarantee List
 
 **If you can answer these 30 questions perfectly, you can score 35-40 marks easily.**
 
-#### From Chapter 1
+#### Chapter 1
 
 1. [Question] (8 marks) - 95% probability
 2. [Question] (7 marks) - 90% probability
 3. [Question] (5 marks) - 85% probability
 
-#### From Chapter 2
+#### Chapter 2
 
 4. [Question] (10 marks) - 90% probability
 5. [Question] (8 marks) - 85% probability
@@ -666,9 +666,9 @@
 
 ---
 
-## ⚠️ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
-### Content Mistakes
+### Mistakes
 
 1. **Mixing similar concepts**
 
@@ -689,7 +689,7 @@
    - Common: [List common errors]
    - Fix: [Memory techniques]
 
-### Strategy Mistakes
+### Mistakes
 
 1. **Spending too long on one question**
 
@@ -710,7 +710,7 @@
    - Impact: Rush at end, incomplete answers
    - Fix: Practice with timer
 
-### Preparation Mistakes
+### Mistakes
 
 1. **Studying low-priority topics first**
 
@@ -733,9 +733,9 @@
 
 ---
 
-## 📊 Topic Interconnection Map
+## Topic Interconnection Map
 
-### How Topics Connect
+### Topics Connect
 
 ```
 Chapter 1 [Core Concept]
@@ -755,30 +755,30 @@ Chapter 2 [Important Concept]
 
 ---
 
-## 🎯 Final Recommendations
+## Final Recommendations
 
-### If You Have 30 Days
+### You Have 30 Days
 
 - Follow the 30-day plan religiously
 - Don't skip practice sessions
 - Take mock tests seriously
 - Expected score: 45-55 marks
 
-### If You Have 15 Days
+### You Have 15 Days
 
 - Focus only on high-priority content
 - No time for low-priority topics
 - Practice top 40 questions minimum
 - Expected score: 38-45 marks
 
-### If You Have 7 Days
+### You Have 7 Days
 
 - Extremely focused study required
 - Top 25 questions must be perfected
 - Skip medium priority if time runs out
 - Expected score: 35-40 marks
 
-### If You Have 2 Days
+### You Have 2 Days
 
 - Switch to [survival guide](./2DayPrep/survival_guide.md) immediately
 - Follow it exactly, no deviation
@@ -787,9 +787,9 @@ Chapter 2 [Important Concept]
 
 ---
 
-## 📚 Supplementary Resources
+## Supplementary Resources
 
-### Reference Materials
+### Materials
 
 1. **Primary Textbook:** [Name]
 
@@ -803,13 +803,13 @@ Chapter 2 [Important Concept]
 3. **Online Resources:**
    - [List if any]
 
-### Practice Resources
+### Resources
 
 - **Past Papers:** [Location in repo]
 - **Mock Tests:** [If available]
 - **Additional Questions:** [G5.md](./G5.md)
 
-### Visual Aids
+### Aids
 
 - **Diagrams:** [G2.5_p.md](./G2.5_p.md)
 - **Flashcards:** [G2.5_p.md](./G2.5_p.md)
@@ -817,61 +817,61 @@ Chapter 2 [Important Concept]
 
 ---
 
-## 🔄 Cross-References
+## Cross-References
 
-### Within This Subject
+### This Subject
 
 - [Detailed Q&A Guide](./G5.md) - Full answers to all important questions
 - [Visual Learning Materials](./G2.5_p.md) - Diagrams, flashcards, summaries
 - [2-Day Emergency Prep](./2DayPrep/survival_guide.md) - Last-minute survival
 - [Question Papers](../qtn_sets_and_syllabus/) - Original question sets
 
-### Related Subjects
+### Subjects
 
 - [Subject X] - Related concepts: [List]
 - [Subject Y] - Foundation for: [List]
 
 ---
 
-## 📝 Notes & Updates
+## Notes & Updates
 
-### Analysis Notes
+### Notes
 
 - **Data Sources:** 7 question sets (2076-2081 + Model)
 - **Syllabus Version:** [Year/Version]
 - **Last Verified:** [Date]
 - **Confidence Level:** High (95%+)
 
-### Assumptions Made
+### Made
 
 1. [If any assumptions about missing data]
 2. [If any patterns extrapolated]
 3. [If any uncertainties]
 
-### Known Gaps
+### Gaps
 
 - [List if any question sets were incomplete]
 - [List if any syllabus topics had no questions]
 
 ---
 
-## 🤝 How to Use This Analysis
+## How to Use This Analysis
 
-### First Reading (30 minutes)
+### Reading (30 minutes)
 
 1. Read Overview Statistics
 2. Scan High-Frequency Questions
 3. Review Chapter-wise Priorities
 4. Choose your study plan
 
-### During Preparation
+### Preparation
 
 1. Follow the study plan for your timeframe
 2. Cross-reference with G5.md for detailed answers
 3. Use G2.5_p.md for visual learning
 4. Track progress with chapter checkboxes
 
-### Before Exam (2 days)
+### Exam (2 days)
 
 1. Review this document's "Must-Study Questions"
 2. Switch to 2DayPrep guide
@@ -879,9 +879,9 @@ Chapter 2 [Important Concept]
 
 ---
 
-## ✅ Study Progress Tracker
+## Study Progress Tracker
 
-### Chapter Completion
+### Completion
 
 - [ ] Chapter 1 - Theory done - Practice done
 - [ ] Chapter 2 - Theory done - Practice done
@@ -891,19 +891,19 @@ Chapter 2 [Important Concept]
 - [ ] Chapter 6 - Theory done - Practice done
       [List all chapters]
 
-### Question Practice
+### Practice
 
 - [ ] All ⭐⭐⭐⭐⭐ questions practiced
 - [ ] All ⭐⭐⭐⭐ questions practiced
 - [ ] All ⭐⭐⭐ questions practiced
 
-### Mock Tests
+### Tests
 
 - [ ] Mock Test 1 completed - Score: \_\_\_
 - [ ] Mock Test 2 completed - Score: \_\_\_
 - [ ] Mock Test 3 completed - Score: \_\_\_
 
-### Memorization
+### 
 
 - [ ] All key definitions memorized
 - [ ] All diagrams can be drawn
@@ -911,9 +911,9 @@ Chapter 2 [Important Concept]
 
 ---
 
-## 📞 Feedback & Updates
+## Feedback & Updates
 
-### Found an Error?
+### an Error?
 
 If you find any mistakes in this analysis:
 
@@ -921,7 +921,7 @@ If you find any mistakes in this analysis:
 - Report via issues
 - We'll verify and update
 
-### Have Additional Data?
+### Additional Data?
 
 If you have newer question papers:
 
@@ -931,9 +931,9 @@ If you have newer question papers:
 
 ---
 
-## 🎓 Success Mindset
+## Success Mindset
 
-### Remember
+### 
 
 1. **Quality > Quantity** - Master 30 questions perfectly rather than 100 poorly
 2. **Trust the Data** - These frequencies are based on 7 years of patterns
@@ -941,7 +941,7 @@ If you have newer question papers:
 4. **Stay Consistent** - Even 2 hours daily is better than 10 hours in one day
 5. **Don't Panic** - Even with 2 days, you can pass if you follow the guide
 
-### Motivation
+### 
 
 > "Success is not about studying everything, it's about studying the right things well."
 

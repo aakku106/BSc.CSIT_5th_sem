@@ -1,12 +1,12 @@
-# 5th Semester BSc.CSIT Exam Preparation Materials
+# Semester BSc.CSIT Exam Preparation Materials
 
 [![Repository Views](https://komarev.com/ghpvc/?username=5thsem&abbreviated=true&base=1&label=Repo+VIEWS&style=for-the-badge)](https://github.com/aakku106/5thSem_impQtns)
 
-## 📚 Overview
+## Overview
 
 Comprehensive exam preparation materials for 5th semester BSc.CSIT students, carefully curated and analyzed using multiple advanced AI models. This repository follows the successful methodology from the [4th Semester repository](https://github.com/aakku106/4thSem_impQtns).
 
-### 🤖 AI-Powered Analysis
+### AI-Powered Analysis
 
 The materials were created by analyzing:
 
@@ -14,7 +14,7 @@ The materials were created by analyzing:
 - **Current syllabus** structure and weightage
 - **Chapter-wise importance** and frequency patterns
 
-### AI Models Used for Analysis
+### Models Used for Analysis
 
 Content has been verified and enhanced using multiple state-of-the-art AI models:
 
@@ -24,7 +24,7 @@ Content has been verified and enhanced using multiple state-of-the-art AI models
 
 ---
 
-## 📂 Subjects Covered
+## Subjects Covered
 
 | Code   | Subject                                 | Credit | Status         |
 | ------ | --------------------------------------- | ------ | -------------- |
@@ -38,9 +38,9 @@ Content has been verified and enhanced using multiple state-of-the-art AI models
 
 ---
 
-## 📊 What's Inside Each Subject?
+## What's Inside Each Subject?
 
-### 📁 Subject Folder Structure
+### Subject Folder Structure
 
 ```
 [Subject]/
@@ -62,9 +62,9 @@ Content has been verified and enhanced using multiple state-of-the-art AI models
         └── survival_guide.md
 ```
 
-### 📄 File Descriptions
+### File Descriptions
 
-#### CS4.5.md (Claude Sonnet 4.5)
+#### (Claude Sonnet 4.5)
 
 Strategic exam analysis including:
 
@@ -74,7 +74,7 @@ Strategic exam analysis including:
 - Expected marks distribution
 - Exam strategies and tips
 
-#### G5.md (GPT-5)
+#### (GPT-5)
 
 Comprehensive question-answer guide with:
 
@@ -84,7 +84,7 @@ Comprehensive question-answer guide with:
 - Practice problems with solutions
 - Quick revision notes
 
-#### G2.5_p.md (Gemini 2.5 Pro)
+#### (Gemini 2.5 Pro)
 
 Visual learning materials including:
 
@@ -94,7 +94,7 @@ Visual learning materials including:
 - One-page chapter summaries
 - Memory techniques and mnemonics
 
-#### 2DayPrep/survival_guide.md
+#### 
 
 Emergency 2-day preparation guide:
 
@@ -105,7 +105,7 @@ Emergency 2-day preparation guide:
 
 ---
 
-## 🎯 Target Audience
+## Target Audience
 
 - **BSc.CSIT 5th semester** students
 - Focus on scoring **35+ marks** (pass with good margin)
@@ -114,16 +114,16 @@ Emergency 2-day preparation guide:
 
 ---
 
-## 📈 Success Strategy
+## Success Strategy
 
-### Our Approach
+### Approach
 
 ✅ **High-frequency questions** - Focus on what's repeatedly asked  
 ✅ **Maximum ROI** - Best marks return for study time invested  
 ✅ **Practical strategies** - Real exam tips, not just theory  
 ✅ **Strategic selection** - Know what to study (and what to skip)
 
-### Study Plans Available
+### Plans Available
 
 We provide multiple study plans to fit your schedule:
 
@@ -134,11 +134,11 @@ We provide multiple study plans to fit your schedule:
 
 ---
 
-## 🚀 How to Use This Repository
+## How to Use This Repository
 
-### Based on Your Available Time
+### on Your Available Time
 
-#### 🕐 If You Have 30 Days
+#### If You Have 30 Days
 
 1. Start with `CS4.5.md` for strategic overview
 2. Follow the 30-day plan chapter by chapter
@@ -146,21 +146,21 @@ We provide multiple study plans to fit your schedule:
 4. Use `G2.5_p.md` for visual revision
 5. Last 3 days: Focus on `2DayPrep` for final revision
 
-#### 🕐 If You Have 15 Days
+#### If You Have 15 Days
 
 1. Read `CS4.5.md` priority chapters only
 2. Focus on high-frequency questions in `G5.md`
 3. Use `G2.5_p.md` flashcards for quick learning
 4. Last 2 days: `2DayPrep` intensive revision
 
-#### 🕐 If You Have 7 Days
+#### If You Have 7 Days
 
 1. Skip to high-priority sections in `CS4.5.md`
 2. Practice top 20 questions from `G5.md`
 3. Use `G2.5_p.md` one-page summaries
 4. Last day: `2DayPrep` emergency prep
 
-#### 🚨 If You Have Only 2 Days
+#### If You Have Only 2 Days
 
 1. **GO DIRECTLY TO** `2DayPrep/survival_guide.md`
 2. Follow it religiously
@@ -169,28 +169,28 @@ We provide multiple study plans to fit your schedule:
 
 ---
 
-## 📊 Features
+## Features
 
-### 📈 Data-Driven Analysis
+### Data-Driven Analysis
 
 - Frequency analysis of 7+ years of questions
 - Chapter importance based on actual exam patterns
 - Expected marks calculation per topic
 
-### 🎓 Multiple Learning Formats
+### Multiple Learning Formats
 
 - **Strategic** (CS4.5.md) - For planners
 - **Detailed** (G5.md) - For deep learners
 - **Visual** (G2.5_p.md) - For visual learners
 - **Emergency** (2DayPrep) - For last-minute prep
 
-### ⏱️ Time-Optimized
+### Time-Optimized
 
 - Study plans for different time constraints
 - Prioritized content to maximize efficiency
 - Skip low-value topics guilt-free
 
-### Exam-Focused
+### 
 
 - Question selection strategies
 - Time management tips
@@ -199,7 +199,7 @@ We provide multiple study plans to fit your schedule:
 
 ---
 
-## 🎓 Success Metrics (Target)
+## Success Metrics (Target)
 
 Following these materials, students can expect:
 
@@ -210,23 +210,23 @@ Following these materials, students can expect:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-### What This Repository Is
+### This Repository Is
 
 ✅ Strategic study guide based on pattern analysis  
 ✅ Supplementary resource to official curriculum  
 ✅ Time-efficient exam preparation tool  
 ✅ Based on past trends and expert analysis
 
-### What This Repository Is NOT
+### This Repository Is NOT
 
 ❌ Not a replacement for attending classes  
 ❌ Not a substitute for textbooks  
 ❌ Not a guarantee of specific scores  
 ❌ Not predicting future exam questions
 
-### You Should
+### Should
 
 ✅ Use this as a strategic study tool  
 ✅ Cross-reference with official syllabus  
@@ -236,9 +236,9 @@ Following these materials, students can expect:
 
 ---
 
-## 📚 Methodology
+## Methodology
 
-### Analysis Process
+### Process
 
 1. **Data Collection**
 
@@ -269,7 +269,7 @@ Following these materials, students can expect:
    - Conflict resolution
    - Quality assurance
 
-### Importance Calculation Formula
+### Calculation Formula
 
 ```
 Importance Score = (Frequency × 0.4) + (Marks × 0.3) + (Recency × 0.3)
@@ -282,11 +282,11 @@ Where:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found an error? Have suggestions? Want to contribute?
 
-### Ways to Contribute
+### to Contribute
 
 1. **Report Issues**
 
@@ -305,7 +305,7 @@ Found an error? Have suggestions? Want to contribute?
    - What could be improved
    - Success stories
 
-### How to Contribute
+### to Contribute
 
 - Open an [issue](../../issues)
 - Submit a [pull request](../../pulls)
@@ -313,7 +313,7 @@ Found an error? Have suggestions? Want to contribute?
 
 ---
 
-## 📊 Repository Statistics
+## Repository Statistics
 
 - **Total Subjects:** 6
 - **Question Papers Analyzed:** 42+ (7 per subject)
@@ -324,13 +324,13 @@ Found an error? Have suggestions? Want to contribute?
 
 ---
 
-## 🗓️ Project Timeline
+## Project Timeline
 
 - **Project Start:** November 30, 2025
 - **Expected Completion:** [Set date based on resources]
 - **Last Updated:** November 30, 2025
 
-### Completion Status
+### Status
 
 | Subject      | Question Sets | Syllabus | CS4.5.md | G5.md | G2.5_p.md | 2DayPrep | Status         |
 | ------------ | ------------- | -------- | -------- | ----- | --------- | -------- | -------------- |
@@ -345,23 +345,23 @@ Legend: ⏳ Pending | 🔄 In Progress | ✅ Complete
 
 ---
 
-## 📚 Related Resources
+## Related Resources
 
-### Other Semesters
+### Semesters
 
 - [4th Semester Materials](https://github.com/aakku106/4thSem_impQtns) ✅ Complete
 
-### Reference Books
+### Books
 
 _To be added based on syllabus_
 
-### Online Resources
+### Resources
 
 _To be added as identified_
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Question Paper Sources:** [To be credited]
 - **AI Models:** Claude Sonnet 4.5, GPT-5, Gemini 2.5 Pro
@@ -370,7 +370,7 @@ _To be added as identified_
 
 ---
 
-## 📜 License
+## License
 
 This material is for **educational purposes only**.
 
@@ -382,15 +382,15 @@ This material is for **educational purposes only**.
 
 ---
 
-## 📞 Support & Contact
+## Support & Contact
 
-### Get Help
+### Help
 
 - 📧 Email: [Your email]
 - 💬 Discussions: [Enable GitHub Discussions]
 - 🐛 Issues: [Report here](../../issues)
 
-### Stay Updated
+### Updated
 
 ⭐ **Star this repository** to show support!  
 👁️ **Watch** to get notified of updates  
@@ -399,9 +399,9 @@ This material is for **educational purposes only**.
 
 ---
 
-## 🎯 Quick Navigation
+## Quick Navigation
 
-### By Subject
+### Subject
 
 - [DAA - Design and Analysis of Algorithms](./DAA)
 - [SAD - System Analysis and Design](./SAD)
@@ -410,14 +410,14 @@ This material is for **educational purposes only**.
 - [WT - Web Technology](./WT)
 - [SEIT - Society and Ethics in IT](./SEIT)
 
-### By Study Plan
+### Study Plan
 
 - [30-Day Plans](./DAA/imp_qtns/CS4.5.md) (See each subject's CS4.5.md)
 - [15-Day Plans](./DAA/imp_qtns/CS4.5.md) (See each subject's CS4.5.md)
 - [7-Day Plans](./DAA/imp_qtns/CS4.5.md) (See each subject's CS4.5.md)
 - [2-Day Emergency Prep](./DAA/imp_qtns/2DayPrep/) (See each subject)
 
-### By Content Type
+### Content Type
 
 - [Strategic Analysis](./DAA/imp_qtns/CS4.5.md) (CS4.5.md files)
 - [Detailed Q&A](./DAA/imp_qtns/G5.md) (G5.md files)
@@ -426,9 +426,9 @@ This material is for **educational purposes only**.
 
 ---
 
-## 💡 Pro Tips
+## Pro Tips
 
-### For Best Results
+### Best Results
 
 1. **Start Early** - Even 30 minutes daily makes a difference
 2. **Follow Priority** - Trust the importance rankings
@@ -437,7 +437,7 @@ This material is for **educational purposes only**.
 5. **Use All Formats** - Strategic + Detailed + Visual = Best retention
 6. **Share & Discuss** - Study groups amplify learning
 
-### Common Mistakes to Avoid
+### Mistakes to Avoid
 
 ❌ Trying to study everything equally  
 ❌ Starting preparation too late  
@@ -447,7 +447,7 @@ This material is for **educational purposes only**.
 
 ---
 
-## 🎉 Success Stories
+## Success Stories
 
 _This section will be updated with student feedback and results after exam season_
 
@@ -455,7 +455,7 @@ _This section will be updated with student feedback and results after exam seaso
 
 ---
 
-## 📱 Social
+## Social
 
 Follow for updates and announcements:
 
@@ -464,7 +464,7 @@ Follow for updates and announcements:
 
 ---
 
-## 🔮 Future Plans
+## Future Plans
 
 - [ ] Create interactive quizzes
 - [ ] Community discussion forums
@@ -484,7 +484,7 @@ _Empowering students to achieve their academic goals efficiently_
 
 ---
 
-### ⚡ Quick Start
+### Quick Start
 
 **New here? Start with these steps:**
 

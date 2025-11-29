@@ -1,10 +1,10 @@
-# Documentation Index
+# Index
 
 > **Navigation Hub** - All documentation for the 5th Semester BSc.CSIT Exam Preparation Materials Project
 
 ---
 
-## Quick Navigation
+## Navigation
 
 **New here?** Start with: [START_HERE.md](./START_HERE.md) → [README.md](../../README.md)
 
@@ -16,9 +16,9 @@
 
 ---
 
-## 📑 All Documents
+## All Documents
 
-### 1. START_HERE.md
+### START_HERE.md
 
 **File:** `START_HERE.md`  
 **Purpose:** Quick start guide - your first read  
@@ -37,7 +37,7 @@
 
 ---
 
-### 2. README.md
+### README.md
 
 **File:** `../../README.md` (repository root)  
 **Purpose:** Main repository documentation  
@@ -56,7 +56,7 @@
 
 ---
 
-### 3. 5thSem_Generation_Prompt.md
+### 5thSem_Generation_Prompt.md
 
 **File:** `5thSem_Generation_Prompt.md`  
 **Purpose:** Complete project specifications  
@@ -76,7 +76,7 @@
 
 ---
 
-### 4. QuickStart_Guide.md
+### QuickStart_Guide.md
 
 **File:** `QuickStart_Guide.md`  
 **Purpose:** Practical execution guide  
@@ -96,7 +96,7 @@
 
 ---
 
-### 5. CS4.5_Template_Example.md
+### CS4.5_Template_Example.md
 
 **File:** `CS4.5_Template_Example.md`  
 **Purpose:** Format reference for Claude Sonnet 4.5 output  
@@ -115,7 +115,7 @@
 
 ---
 
-### 6. WORKFLOW_VISUAL_GUIDE.md
+### WORKFLOW_VISUAL_GUIDE.md
 
 **File:** `WORKFLOW_VISUAL_GUIDE.md`  
 **Purpose:** Visual representation of workflows  
@@ -134,7 +134,7 @@
 
 ---
 
-### 7. PROJECT_SUMMARY.md
+### PROJECT_SUMMARY.md
 
 **File:** `PROJECT_SUMMARY.md`  
 **Purpose:** Complete project overview and summary  
@@ -154,7 +154,7 @@
 
 ---
 
-### 8. 📝 WhatWeAreDoing.prompt.md
+### 📝 WhatWeAreDoing.prompt.md
 
 **File:** `WhatWeAreDoing.prompt.md` (existing)  
 **Purpose:** Original task definition  
@@ -169,9 +169,9 @@
 
 ---
 
-## Reading Order by Role
+## Order by Role
 
-### If You're the Project Owner
+### You're the Project Owner
 
 1. **START_HERE.md** (15 min) - Understand what to do
 2. **README.md** (15 min) - See student perspective
@@ -183,37 +183,37 @@
 
 **Total time:** ~3.5 hours for complete understanding
 
-### If You're an AI Agent (Claude Sonnet 4.5)
+### You're an AI Agent (Claude Sonnet 4.5)
 
 1. **5thSem_Generation_Prompt.md** - Your role section
 2. **CS4.5_Template_Example.md** - Format to follow
 3. **QuickStart_Guide.md** - Phase 2 workflow
 
-### If You're an AI Agent (GPT-5)
+### You're an AI Agent (GPT-5)
 
 1. **5thSem_Generation_Prompt.md** - Your role section
 2. **QuickStart_Guide.md** - Phase 3 workflow
 3. **CS4.5_Template_Example.md** - For reference
 
-### If You're an AI Agent (Gemini 2.5 Pro)
+### You're an AI Agent (Gemini 2.5 Pro)
 
 1. **5thSem_Generation_Prompt.md** - Your role section
 2. **QuickStart_Guide.md** - Phase 4 workflow
 
-### If You're an AI Agent (Gemini 3 Pro)
+### You're an AI Agent (Gemini 3 Pro)
 
 1. **5thSem_Generation_Prompt.md** - Your role section
 2. **QuickStart_Guide.md** - Phase 5 workflow
 3. **Reference:** https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
 
-### If You're a Student (Future)
+### You're a Student (Future)
 
 1. **README.md** - Start here
 2. Then navigate to subject folders
 
 ---
 
-## 📂 File Structure Overview
+## File Structure Overview
 
 ```
 .github/prompts/
@@ -234,7 +234,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## 🎓 Document Purposes at a Glance
+## Document Purposes at a Glance
 
 | Document                    | Primary Audience  | Primary Purpose       | Length    |
 | --------------------------- | ----------------- | --------------------- | --------- |
@@ -249,9 +249,9 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## 🔍 Find What You Need
+## Find What You Need
 
-### I need to understand...
+### need to understand...
 
 | What                    | Where to Look               |
 | ----------------------- | --------------------------- |
@@ -264,7 +264,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 | Overview and summary    | PROJECT_SUMMARY.md          |
 | How to navigate docs    | INDEX.md (this file)        |
 
-### I want to...
+### want to...
 
 | Task                      | Document to Use                                  |
 | ------------------------- | ------------------------------------------------ |
@@ -281,7 +281,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## Document Statistics
+## Statistics
 
 | Document                    | Word Count (approx) | Sections | Purpose          |
 | --------------------------- | ------------------- | -------- | ---------------- |
@@ -298,27 +298,27 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## ✅ Documentation Checklist
+## Documentation Checklist
 
-### Phase 1: Understanding (Read These)
+### 1: Understanding (Read These)
 
 - [ ] START_HERE.md
 - [ ] README.md
 - [ ] PROJECT_SUMMARY.md
 - [ ] WORKFLOW_VISUAL_GUIDE.md
 
-### Phase 2: Planning (Reference These)
+### 2: Planning (Reference These)
 
 - [ ] 5thSem_Generation_Prompt.md
 - [ ] QuickStart_Guide.md
 
-### Phase 3: Execution (Use These)
+### 3: Execution (Use These)
 
 - [ ] QuickStart_Guide.md (step-by-step)
 - [ ] CS4.5_Template_Example.md (format reference)
 - [ ] 5thSem_Generation_Prompt.md (specifications)
 
-### Phase 4: Quality Check (Verify Against)
+### 4: Quality Check (Verify Against)
 
 - [ ] CS4.5_Template_Example.md
 - [ ] QuickStart_Guide.md (checklists)
@@ -326,9 +326,9 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## Key Concepts Across Documents
+## Concepts Across Documents
 
-### The 4 AI Agents
+### 4 AI Agents
 
 **Mentioned in:** All documents  
 **Detailed in:** 5thSem_Generation_Prompt.md, QuickStart_Guide.md
@@ -338,7 +338,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 3. **Gemini 2.5 Pro** → Visual Materials → G2.5_p.md
 4. **Gemini 3 Pro** → 2-Day Emergency Prep → survival_guide.md
 
-### The 4 Output Files (Per Subject)
+### 4 Output Files (Per Subject)
 
 **Mentioned in:** All documents  
 **Templates in:** 5thSem_Generation_Prompt.md, CS4.5_Template_Example.md
@@ -348,7 +348,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 3. **G2.5_p.md** - Visual learning materials (~4000-6000 words)
 4. **2DayPrep/survival_guide.md** - Emergency prep (~2000-3000 words)
 
-### The 6 Subjects
+### 6 Subjects
 
 **Listed in:** All documents  
 **Details in:** 5thSem_Generation_Prompt.md, README.md
@@ -360,7 +360,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 5. WT - Web Technology
 6. SEIT - Society and Ethics in IT
 
-### The 4 Study Plans
+### 4 Study Plans
 
 **Mentioned in:** README.md, CS4.5_Template_Example.md  
 **Created in:** CS4.5.md (per subject)
@@ -372,7 +372,7 @@ DAA/, SAD/, Cripto/, SM/, WT/, SEIT/
 
 ---
 
-## Success Path
+## Path
 
 ```
 START_HERE.md
@@ -392,23 +392,23 @@ START CREATING CONTENT!
 
 ---
 
-## 💡 Pro Tips for Using Documentation
+## Pro Tips for Using Documentation
 
-### First Time Reading
+### Time Reading
 
 1. **Don't read everything at once** - It's overwhelming
 2. **Start with START_HERE.md** - It guides you
 3. **Skim visuals first** - WORKFLOW_VISUAL_GUIDE.md
 4. **Deep dive later** - When you need specific details
 
-### During Work
+### Work
 
 1. **Keep QuickStart_Guide.md open** - Step-by-step reference
 2. **Keep CS4.5_Template_Example.md open** - Format reference
 3. **Refer to 5thSem_Generation_Prompt.md** - When in doubt
 4. **Use INDEX.md** - To find what you need quickly
 
-### For AI Agents
+### AI Agents
 
 1. **Read your specific role section** - In 5thSem_Generation_Prompt.md
 2. **Follow the template** - CS4.5_Template_Example.md or similar
@@ -417,9 +417,9 @@ START CREATING CONTENT!
 
 ---
 
-## 🎓 Learning Path
+## Learning Path
 
-### Beginner (Never seen the project)
+### (Never seen the project)
 
 **Time:** 1 hour
 
@@ -430,7 +430,7 @@ START CREATING CONTENT!
 
 **Result:** Understand what the project is and how it works
 
-### Intermediate (Ready to start work)
+### (Ready to start work)
 
 **Time:** 3 hours
 
@@ -441,7 +441,7 @@ START CREATING CONTENT!
 
 **Result:** Ready to collect data and start first subject
 
-### Advanced (Actively working)
+### (Actively working)
 
 **Time:** Ongoing reference
 
@@ -454,9 +454,9 @@ START CREATING CONTENT!
 
 ---
 
-## 📞 Quick Reference
+## Quick Reference
 
-### Need Help With...
+### Help With...
 
 | Issue                   | Check Document            | Section              |
 | ----------------------- | ------------------------- | -------------------- |
@@ -470,7 +470,7 @@ START CREATING CONTENT!
 
 ---
 
-## 🎉 You're Ready!
+## You're Ready!
 
 With this documentation, you have:
 
@@ -486,7 +486,7 @@ With this documentation, you have:
 
 ---
 
-## 📝 Document Version Control
+## Document Version Control
 
 | Document                    | Version | Last Updated | Status      |
 | --------------------------- | ------- | ------------ | ----------- |
@@ -501,7 +501,7 @@ With this documentation, you have:
 
 ---
 
-## Next Action
+## Action
 
 **Go to:** [START_HERE.md](./START_HERE.md) and begin your journey!
 

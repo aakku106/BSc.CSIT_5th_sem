@@ -1,14 +1,14 @@
-# 5th Semester Project Summary
+# Semester Project Summary
 
-## 📋 What Has Been Created
+## What Has Been Created
 
 This repository now contains a complete blueprint for generating AI-powered exam preparation materials for BSc.CSIT 5th semester students.
 
 ---
 
-## 📁 Files Created
+## Files Created
 
-### 1. Main README.md
+### Main README.md
 
 **Location:** `/Users/aakku/Desktop/5th_sem/README.md`
 
@@ -26,7 +26,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-### 2. 5th Semester Generation Prompt
+### 5th Semester Generation Prompt
 
 **Location:** `/Users/aakku/Desktop/5th_sem/.github/prompts/5thSem_Generation_Prompt.md`
 
@@ -50,7 +50,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-### 3. Quick Start Guide
+### Quick Start Guide
 
 **Location:** `/Users/aakku/Desktop/5th_sem/.github/prompts/QuickStart_Guide.md`
 
@@ -70,7 +70,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-### 4. CS4.5 Template Example
+### CS4.5 Template Example
 
 **Location:** `/Users/aakku/Desktop/5th_sem/.github/prompts/CS4.5_Template_Example.md`
 
@@ -87,7 +87,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-### 5. Existing Subject Folders
+### Existing Subject Folders
 
 **Locations:**
 
@@ -104,7 +104,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-## 🎯 Project Structure Overview
+## Project Structure Overview
 
 ```
 5th_sem/
@@ -146,9 +146,9 @@ This repository now contains a complete blueprint for generating AI-powered exam
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
-### Immediate Actions (Your Part)
+### Actions (Your Part)
 
 1. **Collect Question Papers**
 
@@ -173,7 +173,7 @@ This repository now contains a complete blueprint for generating AI-powered exam
    - Complete all 4 files for one subject before moving to next
    - Test the workflow on one subject
 
-### AI Agent Work (After You Provide Materials)
+### Agent Work (After You Provide Materials)
 
 For each subject:
 
@@ -209,9 +209,9 @@ For each subject:
 
 ---
 
-## 📊 Project Timeline (Estimated)
+## Project Timeline (Estimated)
 
-### Phase 1: Data Collection (Your work)
+### 1: Data Collection (Your work)
 
 - **Duration:** 1-2 weeks
 - **Tasks:**
@@ -220,14 +220,14 @@ For each subject:
   - Organize into folders
 - **Deliverable:** All 6 subjects have complete qtn_sets_and_syllabus folders
 
-### Phase 2: Analysis & Generation (AI work)
+### 2: Analysis & Generation (AI work)
 
 - **Duration:** 6-8 weeks (if done sequentially)
 - **Or:** 1-2 weeks (if using all 3 AI agents in parallel)
 - **Tasks:** Generate all 4 files per subject
 - **Deliverable:** Complete imp_qtns folders for all subjects
 
-### Phase 3: Verification & Polish
+### 3: Verification & Polish
 
 - **Duration:** 1 week
 - **Tasks:**
@@ -240,9 +240,9 @@ For each subject:
 
 ---
 
-## 🎯 Success Criteria Checklist
+## Success Criteria Checklist
 
-### Repository Level
+### Level
 
 - [x] README.md created and comprehensive
 - [x] Generation prompt document complete
@@ -252,7 +252,7 @@ For each subject:
 - [ ] GitHub repository published
 - [ ] Documentation reviewed
 
-### Per Subject (x6)
+### Subject (x6)
 
 - [ ] 8 PDFs in qtn_sets_and_syllabus/
 - [ ] CS4.5.md created (5000-7000 words)
@@ -263,7 +263,7 @@ For each subject:
 - [ ] No contradictions between files
 - [ ] Navigation links working
 
-### Quality Metrics
+### Metrics
 
 - [ ] 80%+ question coverage from 7 years
 - [ ] Realistic study plans for all timeframes
@@ -273,9 +273,9 @@ For each subject:
 
 ---
 
-## 💡 How to Use These Documents
+## How to Use These Documents
 
-### For You (Project Owner)
+### You (Project Owner)
 
 1. **Read the README.md first**
 
@@ -296,7 +296,7 @@ For each subject:
    - Show to AI agents as example
    - Use for quality comparison
 
-### For AI Agents (When You Engage Them)
+### AI Agents (When You Engage Them)
 
 **Claude Sonnet 4.5:**
 
@@ -349,9 +349,9 @@ Analyze all previous files and create an emergency 2-day preparation guide."
 
 ---
 
-## 📋 Quick Reference Card
+## Quick Reference Card
 
-### File Purposes at a Glance
+### Purposes at a Glance
 
 | File                              | Purpose                       | Audience        |
 | --------------------------------- | ----------------------------- | --------------- |
@@ -366,9 +366,9 @@ Analyze all previous files and create an emergency 2-day preparation guide."
 
 ---
 
-## 🎓 Project Goals Recap
+## Project Goals Recap
 
-### Primary Goal
+### Goal
 
 Create comprehensive, AI-powered exam preparation materials for 5th semester BSc.CSIT that help students:
 
@@ -377,14 +377,14 @@ Create comprehensive, AI-powered exam preparation materials for 5th semester BSc
 - Have confidence in exam hall
 - Save 60-70% study time
 
-### Secondary Goals
+### Goals
 
 - Replicate 4th semester success
 - Establish a repeatable methodology
 - Create high-quality educational resources
 - Use AI effectively for education
 
-### Success Metrics
+### Metrics
 
 - Students using materials score 35+ marks
 - Positive feedback from users
@@ -393,48 +393,48 @@ Create comprehensive, AI-powered exam preparation materials for 5th semester BSc
 
 ---
 
-## ❓ Questions You Might Have
+## Questions You Might Have
 
-### Q: Do I need to generate all 6 subjects at once?
+### Do I need to generate all 6 subjects at once?
 
 **A:** No! Start with one subject (recommended: DAA or WT), test the workflow, then proceed to others.
 
-### Q: Can I modify the templates?
+### Can I modify the templates?
 
 **A:** Yes, the templates are guidelines. Adapt based on your subject's specific needs, but maintain the core structure.
 
-### Q: What if I can't find all 7 question papers?
+### What if I can't find all 7 question papers?
 
 **A:** Work with what you have. Even 4-5 papers can provide valuable insights. Note the gap in documentation.
 
-### Q: How do I coordinate the 3 AI agents?
+### How do I coordinate the 3 AI agents?
 
 **A:** Sequential is easier (CS4.5 → G5 → G2.5_p). Each uses previous output. Or use different platforms and merge.
 
-### Q: Can I use different AI models?
+### Can I use different AI models?
 
 **A:** Yes, but these three are recommended. If using others, maintain the role separation (Strategic/Detailed/Visual).
 
-### Q: What if subjects have very different patterns?
+### What if subjects have very different patterns?
 
 **A:** Adapt the template per subject while maintaining core structure. Document variations.
 
 ---
 
-## 🔗 Resources & References
+## Resources & References
 
-### Your 4th Semester Repository
+### 4th Semester Repository
 
 - **URL:** https://github.com/aakku106/4thSem_impQtns
 - **Use for:** Structure reference, success patterns, quality benchmarks
 
-### AI Model Access
+### Model Access
 
 - **Claude Sonnet 4.5:** Anthropic Claude
 - **GPT-5:** OpenAI GPT (when available) or GPT-4
 - **Gemini 2.5 Pro:** Google Gemini
 
-### Recommended Tools
+### Tools
 
 - **Markdown Editor:** VS Code, Typora, or similar
 - **PDF Management:** For organizing question papers
@@ -442,9 +442,9 @@ Create comprehensive, AI-powered exam preparation materials for 5th semester BSc
 
 ---
 
-## 🚀 Ready to Start?
+## Ready to Start?
 
-### Your Immediate To-Do List
+### Immediate To-Do List
 
 1. ✅ Review this summary document
 2. ⏳ Read README.md thoroughly
@@ -456,7 +456,7 @@ Create comprehensive, AI-powered exam preparation materials for 5th semester BSc
 8. ⏳ Engage Claude Sonnet 4.5 for CS4.5.md
 9. ⏳ Continue with workflow...
 
-### Progress Tracking
+### Tracking
 
 Use this simple tracker:
 
@@ -488,7 +488,7 @@ Repository Status:
 
 ---
 
-## 🎉 You're All Set!
+## You're All Set!
 
 You now have:
 
@@ -503,7 +503,7 @@ You now have:
 
 ---
 
-## 📞 Need Clarification?
+## Need Clarification?
 
 If you have questions about:
 
@@ -524,7 +524,7 @@ Good luck with your 5th semester preparation materials project! 🎓📚
 
 ---
 
-## Appendix: File Locations Reference
+## File Locations Reference
 
 ```
 /Users/aakku/Desktop/5th_sem/

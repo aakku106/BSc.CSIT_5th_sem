@@ -1,14 +1,14 @@
-# Quick Start Guide for 5th Semester Material Generation
+# Start Guide for 5th Semester Material Generation
 
-## 🚀 For AI Agents: How to Use This Repository
+## For AI Agents: How to Use This Repository
 
 This guide helps Claude Sonnet 4.5, GPT-5, and Gemini 2.5 Pro understand their roles in generating comprehensive exam preparation materials.
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
-### Required Materials Per Subject
+### Materials Per Subject
 
 Before starting analysis, ensure you have:
 
@@ -25,27 +25,27 @@ Before starting analysis, ensure you have:
 
 ---
 
-## 🤖 Agent Roles Quick Reference
+## Agent Roles Quick Reference
 
-### Claude Sonnet 4.5 → CS4.5.md
+### Sonnet 4.5 → CS4.5.md
 
 **Role:** Strategic Analyst  
 **Output:** ~5000-7000 words  
 **Focus:** Patterns, frequencies, priorities, study plans
 
-### GPT-5 → G5.md
+### → G5.md
 
 **Role:** Content Expert  
 **Output:** ~8000-12000 words  
 **Focus:** Detailed answers, explanations, examples
 
-### Gemini 2.5 Pro → G2.5_p.md
+### 2.5 Pro → G2.5_p.md
 
 **Role:** Visual Designer  
 **Output:** ~4000-6000 words  
 **Focus:** Diagrams, tables, flashcards, summaries
 
-### Gemini 3 Pro → 2DayPrep/survival_guide.md
+### 3 Pro → 2DayPrep/survival_guide.md
 
 **Role:** Emergency Prep Specialist  
 **Output:** ~2000-3000 words  
@@ -54,9 +54,9 @@ Before starting analysis, ensure you have:
 
 ---
 
-## 📝 Step-by-Step Workflow
+## Step-by-Step Workflow
 
-### Phase 1: Data Preparation (Manual)
+### 1: Data Preparation (Manual)
 
 1. **Create folder structure:**
 
@@ -75,7 +75,7 @@ Before starting analysis, ensure you have:
    - Ensure PDFs are readable
    - Confirm syllabus is current version
 
-### Phase 2: Analysis by Claude Sonnet 4.5
+### 2: Analysis by Claude Sonnet 4.5
 
 **Task:** Create CS4.5.md
 
@@ -118,7 +118,7 @@ Format the output as a comprehensive markdown document (~5000-7000 words) named 
 - [ ] Study plans for 4 timeframes
 - [ ] Priority rankings assigned
 
-### Phase 3: Content Creation by GPT-5
+### 3: Content Creation by GPT-5
 
 **Task:** Create G5.md
 
@@ -155,7 +155,7 @@ Format as markdown document (~8000-12000 words) named G5.md with proper navigati
 - [ ] Examples and diagrams included
 - [ ] Practice problems added
 
-### Phase 4: Visual Materials by Gemini 2.5 Pro
+### 4: Visual Materials by Gemini 2.5 Pro
 
 **Task:** Create G2.5_p.md
 
@@ -197,7 +197,7 @@ Use tables, ASCII art, and structured layouts extensively.
 - [ ] One-page summaries for all chapters
 - [ ] Visual aids and tables added
 
-### Phase 5: Emergency Prep (Gemini 3 Pro)
+### 5: Emergency Prep (Gemini 3 Pro)
 
 **Task:** Create 2DayPrep/survival_guide.md
 
@@ -263,11 +263,11 @@ Tone: Urgent, direct, no fluff.
 
 ---
 
-## ✅ Quality Checklist
+## Quality Checklist
 
-### Per Subject Completion Checklist
+### Subject Completion Checklist
 
-#### Files Created
+#### Created
 
 - [ ] `qtn_sets_and_syllabus/` folder with all 8 PDFs
 - [ ] `imp_qtns/CS4.5.md` (5000-7000 words)
@@ -275,7 +275,7 @@ Tone: Urgent, direct, no fluff.
 - [ ] `imp_qtns/G2.5_p.md` (4000-6000 words)
 - [ ] `imp_qtns/2DayPrep/survival_guide.md` (2000-3000 words)
 
-#### Content Quality
+#### Quality
 
 - [ ] Frequency data accurate (cross-checked with all 7 question sets)
 - [ ] All syllabus chapters covered
@@ -286,7 +286,7 @@ Tone: Urgent, direct, no fluff.
 - [ ] 2-day guide actually achievable
 - [ ] Cross-references between files working
 
-#### Cross-Verification
+#### 
 
 - [ ] CS4.5.md priorities match G5.md coverage
 - [ ] G2.5_p.md flashcards cover CS4.5.md high-priority topics
@@ -296,7 +296,7 @@ Tone: Urgent, direct, no fluff.
 
 ---
 
-## 🔄 Subject Order Recommendation
+## Subject Order Recommendation
 
 Complete subjects in this order for efficiency:
 
@@ -331,9 +331,9 @@ Complete subjects in this order for efficiency:
 
 ---
 
-## 🎯 Success Metrics
+## Success Metrics
 
-### Quantitative Goals
+### Goals
 
 - [ ] 100% syllabus coverage
 - [ ] 80%+ question coverage (from 7 years)
@@ -341,7 +341,7 @@ Complete subjects in this order for efficiency:
 - [ ] 50-60 flashcards per subject
 - [ ] Realistic 35+ marks path in 2-day guide
 
-### Qualitative Goals
+### Goals
 
 - [ ] Clear, student-friendly language
 - [ ] Actionable advice (not vague)
@@ -351,9 +351,9 @@ Complete subjects in this order for efficiency:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
-### Common Issues
+### Issues
 
 **Issue:** Can't access all question papers
 **Solution:** Start with available papers, note gaps, update when papers available
@@ -372,9 +372,9 @@ Complete subjects in this order for efficiency:
 
 ---
 
-## 📊 Progress Tracking
+## Progress Tracking
 
-### Use This Table
+### This Table
 
 | Subject | Data | CS4.5 | G5  | G2.5_p | 2Day | Verified | Status      |
 | ------- | ---- | ----- | --- | ------ | ---- | -------- | ----------- |
@@ -389,30 +389,30 @@ Update as: ⏳ → 🔄 → ✅
 
 ---
 
-## 💡 Pro Tips for Agents
+## Pro Tips for Agents
 
-### For Claude Sonnet 4.5
+### Claude Sonnet 4.5
 
 - Create frequency tables before analyzing
 - Use consistent importance scoring formula
 - Make study plans specific (not generic)
 - Include time estimates for each topic
 
-### For GPT-5
+### GPT-5
 
 - Write answers at appropriate exam length
 - Include examples that fit exam time constraints
 - Provide answer frameworks students can memorize
 - Balance depth with exam practicality
 
-### For Gemini 2.5 Pro
+### Gemini 2.5 Pro
 
 - Keep visuals simple (ASCII works better than complex diagrams)
 - Make flashcards atomic (one concept each)
 - One-page summaries should truly fit one page
 - Tables should be scannable quickly
 
-### For 2-Day Guide (All)
+### 2-Day Guide (All)
 
 - Be brutally selective (quality over quantity)
 - Hour-by-hour schedule must be realistic
@@ -421,14 +421,14 @@ Update as: ⏳ → 🔄 → ✅
 
 ---
 
-## 🔗 File Linking Strategy
+## File Linking Strategy
 
 Within each subject's files, create navigation:
 
 **In CS4.5.md:**
 
 ```markdown
-## Related Materials
+## Materials
 
 - [Detailed Q&A Guide](./G5.md)
 - [Visual Learning Materials](./G2.5_p.md)
@@ -439,7 +439,7 @@ Within each subject's files, create navigation:
 **In G5.md:**
 
 ```markdown
-## Navigation
+## 
 
 - [Strategic Analysis](./CS4.5.md) - See priority rankings
 - [Visual Aids](./G2.5_p.md) - Diagrams and flashcards
@@ -449,7 +449,7 @@ Within each subject's files, create navigation:
 **In G2.5_p.md:**
 
 ```markdown
-## Companion Guides
+## Guides
 
 - [Study Strategy](./CS4.5.md) - When to use these visuals
 - [Detailed Answers](./G5.md) - Full explanations
@@ -458,9 +458,9 @@ Within each subject's files, create navigation:
 
 ---
 
-## 📅 Timeline Recommendation
+## Timeline Recommendation
 
-### Realistic Schedule (Per Subject)
+### Schedule (Per Subject)
 
 - **Day 1:** Data collection and verification (1 hour)
 - **Day 2-3:** CS4.5.md creation and review (6-8 hours)
@@ -474,7 +474,7 @@ Within each subject's files, create navigation:
 
 ---
 
-## ✅ Final Checklist Before Moving to Next Subject
+## Final Checklist Before Moving to Next Subject
 
 - [ ] All 4 main files created and properly formatted
 - [ ] Word counts within target ranges
@@ -487,7 +487,7 @@ Within each subject's files, create navigation:
 
 ---
 
-## 🎓 Remember
+## Remember
 
 **Quality > Speed**
 
@@ -503,7 +503,7 @@ Would this actually help a student with 2 days left? If not, revise.
 
 ---
 
-## 📞 Need Help?
+## Need Help?
 
 If agents encounter issues:
 

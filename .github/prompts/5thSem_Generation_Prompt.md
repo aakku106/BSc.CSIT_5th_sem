@@ -1,14 +1,14 @@
-# 5th Semester BSc.CSIT Exam Preparation Materials - Generation Prompt
+# Semester BSc.CSIT Exam Preparation Materials - Generation Prompt
 
-## Project Objective
+## Objective
 
 Create comprehensive exam preparation materials for 5th semester BSc.CSIT students, mirroring the successful structure and methodology used in the 4th semester repository (https://github.com/aakku106/4thSem_impQtns).
 
 ---
 
-## Subject Information
+## Information
 
-### Course Details
+### Details
 
 | Course Code | Course Title                                        | Credit Hours |
 | ----------- | --------------------------------------------------- | ------------ |
@@ -22,9 +22,9 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Required Repository Structure
+## Repository Structure
 
-### Overall Structure
+### Structure
 
 ```
 5th_sem/
@@ -94,13 +94,13 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## AI Agent Roles & Responsibilities
+## Agent Roles & Responsibilities
 
-### Agent 1: Claude Sonnet 4.5 (CS4.5.md)
+### 1: Claude Sonnet 4.5 (CS4.5.md)
 
 **Primary Focus: Strategic Analysis & Pattern Recognition**
 
-#### Tasks:
+#### 
 
 1. **Frequency Analysis**
 
@@ -126,32 +126,32 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 4. **Output Format for CS4.5.md:**
 
 ```markdown
-# [Subject Name] - Strategic Exam Analysis by Claude Sonnet 4.5
+# Name] - Strategic Exam Analysis by Claude Sonnet 4.5
 
-## Overview Statistics
+## Statistics
 
 - Total Chapters: [X]
 - Total Questions Analyzed: [X from 7 sets]
 - High Priority Topics: [X]
 - Expected Coverage: [X]%
 
-## Frequency Analysis
+## Analysis
 
-### High-Frequency Questions (Asked 4+ times)
-
-[List with marks and years asked]
-
-### Medium-Frequency Questions (Asked 2-3 times)
+### Questions (Asked 4+ times)
 
 [List with marks and years asked]
 
-### Low-Frequency Questions (Asked once)
+### Questions (Asked 2-3 times)
+
+[List with marks and years asked]
+
+### Questions (Asked once)
 
 [List]
 
-## Chapter-wise Analysis
+## Analysis
 
-### Chapter 1: [Name]
+### 1: [Name]
 
 - **Importance Level:** High/Medium/Low
 - **Expected Marks:** X-Y marks
@@ -169,50 +169,50 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [Repeat for all chapters]
 
-## Strategic Study Plans
+## Study Plans
 
-### 30-Day Comprehensive Plan
+### Comprehensive Plan
 
 **Week 1:** [Topics]
 **Week 2:** [Topics]
 **Week 3:** [Topics]
 **Week 4:** [Review & Practice]
 
-### 15-Day Crash Course
+### Crash Course
 
 **Days 1-5:** [High-priority chapters]
 **Days 6-10:** [Medium-priority chapters]
 **Days 11-15:** [Practice & weak areas]
 
-### 7-Day Intensive Prep
+### Intensive Prep
 
 **Day 1-2:** [Most important topics]
 **Day 3-4:** [Second-tier topics]
 **Day 5-6:** [Practice questions]
 **Day 7:** [Final review]
 
-### 2-Day Survival Strategy
+### Survival Strategy
 
 [Absolute minimum to pass/score 35+]
 
-## Expected Marks Distribution
+## Marks Distribution
 
 - High Priority Topics: 45-55 marks
 - Medium Priority Topics: 25-30 marks
 - Low Priority Topics: 10-15 marks
 
-## 💡 Exam Strategy
+## Exam Strategy
 
 1. Attempt Strategy
 2. Time Management
 3. Question Selection Tips
 4. Marking Scheme Insights
 
-## Must-Study Questions
+## Questions
 
 [Top 30-40 questions guaranteed to maximize marks]
 
-## ⚠️ Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 [List based on pattern analysis]
 
@@ -225,11 +225,11 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-### Agent 2: GPT-5 (G5.md)
+### 2: GPT-5 (G5.md)
 
 **Primary Focus: Detailed Question Solutions & Explanations**
 
-#### Tasks:
+#### 
 
 1. **Question-Answer Compilation**
 
@@ -252,17 +252,17 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 4. **Output Format for G5.md:**
 
 ```markdown
-# [Subject Name] - Comprehensive Q&A Guide by GPT-5
+# Name] - Comprehensive Q&A Guide by GPT-5
 
-## Table of Contents
+## of Contents
 
 [Chapter-wise navigation]
 
-## Chapter 1: [Name]
+## 1: [Name]
 
-### High-Priority Questions
+### Questions
 
-#### Q1: [Question Text] (X marks)
+#### [Question Text] (X marks)
 
 **Frequency:** Asked in 2076, 2079, 2081
 **Difficulty:** Medium
@@ -293,19 +293,19 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 [Repeat for all important questions]
 
-## 💡 Quick Revision Notes
+## Quick Revision Notes
 
 [Concise notes for last-minute review]
 
-## Practice Problems
+## Problems
 
 [Additional questions with solutions]
 
-## Formula Sheet
+## Sheet
 
 [Important formulas, algorithms, definitions]
 
-## Exam Tips for This Subject
+## Tips for This Subject
 
 [Specific to subject nature]
 
@@ -317,11 +317,11 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-### Agent 3: Gemini 2.5 Pro (G2.5_p.md)
+### 3: Gemini 2.5 Pro (G2.5_p.md)
 
 **Primary Focus: Visual Learning & Quick Reference**
 
-#### Tasks:
+#### 
 
 1. **Visual Representations**
 
@@ -344,41 +344,41 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 4. **Output Format for G2.5_p.md:**
 
 ```markdown
-# [Subject Name] - Visual Learning Guide by Gemini 2.5 Pro
+# Name] - Visual Learning Guide by Gemini 2.5 Pro
 
-## Visual Overview
+## Overview
 
-### Subject Mind Map
+### Mind Map
 
 [ASCII or Mermaid diagram showing all chapters and connections]
 
-## Chapter-wise Visual Summaries
+## Visual Summaries
 
-### Chapter 1: [Name]
+### 1: [Name]
 
-#### Concept Map
+#### Map
 ```
 
 [Visual representation of concepts]
 
 ```
 
-#### Quick Facts Table
+#### Facts Table
 | Topic | Key Points | Marks | Frequency |
 |-------|-----------|-------|-----------|
 | ... | ... | ... | ... |
 
-#### Comparison Charts
+#### Charts
 [Where applicable - algorithm comparisons, method differences, etc.]
 
-#### Flowcharts
+#### 
 [For processes, algorithms, methodologies]
 
 ---
 
-## Flashcards
+## 
 
-### Chapter 1 Flashcards
+### 1 Flashcards
 
 **Card 1:**
 - **Q:** [Question]
@@ -389,34 +389,34 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Topic Interconnections
+## Interconnections
 
-### Prerequisites
+### 
 [What you need to know before studying each chapter]
 
-### Related Topics
+### Topics
 [Connections across chapters and subjects]
 
 ---
 
-## One-Page Summaries
+## Summaries
 
-### Chapter 1 - Single Page Cheat Sheet
+### 1 - Single Page Cheat Sheet
 [Ultra-condensed version fitting in one page]
 
 ---
 
-## Memory Techniques
+## Techniques
 
-### Mnemonics
+### 
 [Memory aids for formulas, lists, processes]
 
-### Pattern Recognition
+### Recognition
 [Identify question types instantly]
 
 ---
 
-## Topic Priority Matrix
+## Priority Matrix
 
 | Chapter | Priority | Difficulty | Time | Expected Marks |
 |---------|----------|-----------|------|----------------|
@@ -426,7 +426,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Study Tracker Template
+## Tracker Template
 
 - [ ] Chapter 1 - Topic 1
 - [ ] Chapter 1 - Topic 2
@@ -440,7 +440,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## 2-Day Survival Guide (2DayPrep/survival_guide.md)
+## Survival Guide (2DayPrep/survival_guide.md)
 
 **Created by:** Gemini 3 Pro  
 **Purpose:** Absolute minimum to score 35+ marks with just 2 days of study  
@@ -449,81 +449,81 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 **Format:**
 
 ```markdown
-# [Subject Name] - 2-Day Survival Guide
+# Name] - 2-Day Survival Guide
 
-## Time Allocation
+## Allocation
 
 - **Day 1:** 8-10 hours
 - **Day 2:** 6-8 hours
 - **Exam Day Morning:** 2-3 hours
 
-## Guaranteed 35+ Marks Strategy
+## 35+ Marks Strategy
 
-### Day 1 - Foundation (8 hours)
+### 1 - Foundation (8 hours)
 
-#### Session 1 (3 hours): High-Value Topics
+#### 1 (3 hours): High-Value Topics
 
 [Topics that appear every year]
 
-#### Session 2 (3 hours): Medium-Value Topics
+#### 2 (3 hours): Medium-Value Topics
 
 [Second-tier important topics]
 
-#### Session 3 (2 hours): Practice
+#### 3 (2 hours): Practice
 
 [5-10 must-do questions]
 
 ---
 
-### Day 2 - Consolidation (6 hours)
+### 2 - Consolidation (6 hours)
 
-#### Session 1 (2 hours): Quick Revision
+#### 1 (2 hours): Quick Revision
 
 [Review Day 1 materials]
 
-#### Session 2 (2 hours): Problem-Solving
+#### 2 (2 hours): Problem-Solving
 
 [Practice variations]
 
-#### Session 3 (2 hours): Weak Areas
+#### 3 (2 hours): Weak Areas
 
 [Fill gaps]
 
 ---
 
-### Exam Day Morning (2 hours)
+### Day Morning (2 hours)
 
 [Final revision checklist]
 
 ---
 
-## Must-Memorize Content
+## Content
 
-### Definitions (15-20 marks guaranteed)
+### (15-20 marks guaranteed)
 
 1. [Definition 1]
 2. [Definition 2]
    [List all important definitions]
 
-### Diagrams (8-10 marks guaranteed)
+### (8-10 marks guaranteed)
 
 1. [Diagram 1 name and how to draw]
 2. [Diagram 2 name and how to draw]
 
-### Formulas/Algorithms (5-8 marks guaranteed)
+### (5-8 marks guaranteed)
 
 [All important formulas]
 
 ---
 
-## Question Selection Strategy
+## Selection Strategy
 
-### Attempt Pattern
+### Pattern
 
 1. **Section A (Short Questions):** Attempt all [Expected: 10-15 marks]
 2. **Section B (Long Questions):** Select these questions: [List specific questions]
 
-### Time Management
+### Management
 
 - Reading: 5 minutes
 - Section A: 30 minutes
@@ -531,9 +531,9 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Ultra-Quick Revision Points
+## Revision Points
 
-### Chapter 1
+### 1
 
 - Key Point 1
 - Key Point 2
@@ -543,13 +543,13 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## What to Skip
+## to Skip
 
 [Topics that rarely appear or are too complex for 2-day prep]
 
 ---
 
-## Exam Day Checklist
+## Day Checklist
 
 - [ ] Reviewed all definitions
 - [ ] Can draw all important diagrams
@@ -559,7 +559,7 @@ Create comprehensive exam preparation materials for 5th semester BSc.CSIT studen
 
 ---
 
-## Success Probability
+## Probability
 
 Following this guide: **85-90% chance of scoring 35+**
 
@@ -573,9 +573,9 @@ Following this guide: **85-90% chance of scoring 35+**
 
 ---
 
-## Analysis Methodology
+## Methodology
 
-### Data Sources Required:
+### Sources Required:
 
 1. ✅ **Question Sets (7 total)**
 
@@ -598,21 +598,21 @@ Following this guide: **85-90% chance of scoring 35+**
    - Class notes
    - Previous solutions
 
-### Analysis Process:
+### Process:
 
-#### Step 1: Question Extraction
+#### 1: Question Extraction
 
 - Extract all questions from 7 sets
 - Categorize by chapter
 - Tag with marks, year, type
 
-#### Step 2: Frequency Analysis
+#### 2: Frequency Analysis
 
 - Count question repetitions
 - Identify pattern variations
 - Calculate topic weightage
 
-#### Step 3: Importance Calculation
+#### 3: Importance Calculation
 
 ```
 Importance Score = (Frequency × 0.4) + (Marks × 0.3) + (Recency × 0.3)
@@ -623,7 +623,7 @@ Where:
 - Recency = Weighted by year (2081=1.0, 2076=0.5)
 ```
 
-#### Step 4: Strategic Planning
+#### 4: Strategic Planning
 
 - Create study schedules based on importance scores
 - Optimize for maximum marks with minimum time
@@ -631,16 +631,16 @@ Where:
 
 ---
 
-## Success Criteria
+## Criteria
 
-### For Each Subject, Create:
+### Each Subject, Create:
 
 1. ✅ **CS4.5.md** - Strategic analysis (5000-7000 words)
 2. ✅ **G5.md** - Detailed Q&A (8000-12000 words)
 3. ✅ **G2.5_p.md** - Visual guide (4000-6000 words)
 4. ✅ **2DayPrep/survival_guide.md** - Emergency prep (2000-3000 words)
 
-### Quality Metrics:
+### Metrics:
 
 - **Coverage:** At least 80% of likely exam questions
 - **Accuracy:** Cross-verified by all 3 AI models
@@ -650,16 +650,16 @@ Where:
 
 ---
 
-## 🔄 Cross-Verification Process
+## Cross-Verification Process
 
-### Model Collaboration:
+### Collaboration:
 
 1. **Claude Sonnet 4.5** identifies patterns and creates strategy
 2. **GPT-5** provides detailed explanations and solutions
 3. **Gemini 2.5 Pro** creates visual aids and quick references
 4. **Final Review:** All three models cross-check each other's output
 
-### Conflict Resolution:
+### Resolution:
 
 - If models disagree on importance: Use majority vote
 - If models provide different answers: Include all approaches
@@ -667,18 +667,18 @@ Where:
 
 ---
 
-## README.md Structure
+## Structure
 
 ```markdown
-# 5th Semester BSc.CSIT Exam Preparation Materials
+# Semester BSc.CSIT Exam Preparation Materials
 
 [![Repository Views](https://komarev.com/ghpvc/?username=5thsem&abbreviated=true&base=1&label=Repo+VIEWS&style=for-the-badge)]
 
-## Overview
+## 
 
 Comprehensive exam preparation materials for 5th semester BSc.CSIT students, powered by advanced AI analysis.
 
-### 🤖 AI-Powered Analysis
+### AI-Powered Analysis
 
 Materials created by analyzing:
 
@@ -686,7 +686,7 @@ Materials created by analyzing:
 - **Current syllabus** structure and weightage
 - **Chapter-wise importance** and frequency patterns
 
-### AI Models Used
+### Models Used
 
 Content verified and enhanced by:
 
@@ -696,7 +696,7 @@ Content verified and enhanced by:
 
 ---
 
-## 📂 Subjects Covered
+## Subjects Covered
 
 | Code   | Subject                           | Credit | Status      |
 | ------ | --------------------------------- | ------ | ----------- |
@@ -709,15 +709,15 @@ Content verified and enhanced by:
 
 ---
 
-## What's Inside Each Subject?
+## Inside Each Subject?
 
-### 📁 qtn_sets_and_syllabus/
+### qtn_sets_and_syllabus/
 
 - Official syllabus
 - 7 years of question papers (2076-2081)
 - Model question sets
 
-### 📁 imp_qtns/
+### imp_qtns/
 
 - **CS4.5.md** - Strategic exam analysis with frequency data
 - **G5.md** - Detailed question-answer guide
@@ -726,7 +726,7 @@ Content verified and enhanced by:
 
 ---
 
-## Target Audience
+## Audience
 
 - **BSc.CSIT 5th semester** students
 - Focus on scoring **35+ marks** (pass with margin)
@@ -735,16 +735,16 @@ Content verified and enhanced by:
 
 ---
 
-## Success Strategy
+## Strategy
 
-### Our Approach:
+### Approach:
 
 ✅ **High-frequency questions** - Focus on what's asked repeatedly  
 ✅ **Maximum ROI** - Best marks for study time invested  
 ✅ **Practical strategies** - Real exam tips, not just theory  
 ✅ **Strategic selection** - Know what to study (and skip)
 
-### Study Plans Available:
+### Plans Available:
 
 - 📅 **30-Day** Comprehensive Plan
 - 📅 **15-Day** Crash Course
@@ -753,11 +753,11 @@ Content verified and enhanced by:
 
 ---
 
-## 🚀 How to Use This Repository
+## How to Use This Repository
 
-### For Different Time Frames:
+### Different Time Frames:
 
-#### If You Have 30 Days:
+#### You Have 30 Days:
 
 1. Start with **CS4.5.md** for strategic overview
 2. Follow the 30-day plan chapter by chapter
@@ -765,21 +765,21 @@ Content verified and enhanced by:
 4. Use **G2.5_p.md** for visual revision
 5. Last 3 days: Focus on **2DayPrep** for revision
 
-#### If You Have 15 Days:
+#### You Have 15 Days:
 
 1. Read **CS4.5.md** priority chapters only
 2. Focus on high-frequency questions in **G5.md**
 3. Use **G2.5_p.md** flashcards for quick learning
 4. Last 2 days: **2DayPrep** intensive revision
 
-#### If You Have 7 Days:
+#### You Have 7 Days:
 
 1. Skip to high-priority sections in **CS4.5.md**
 2. Practice top 20 questions from **G5.md**
 3. Use **G2.5_p.md** one-page summaries
 4. Last day: **2DayPrep** emergency prep
 
-#### If You Have 2 Days: 😱
+#### You Have 2 Days: 😱
 
 1. **GO DIRECTLY TO 2DayPrep/survival_guide.md**
 2. Follow it religiously
@@ -788,13 +788,13 @@ Content verified and enhanced by:
 
 ---
 
-## Success Stories
+## Stories
 
 _This section will be updated with student feedback and results_
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 These materials are:
 ✅ Study guides based on pattern analysis  
@@ -809,7 +809,7 @@ You should:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found an error? Have a suggestion?
 
@@ -819,7 +819,7 @@ Found an error? Have a suggestion?
 
 ---
 
-## Repository Statistics
+## Statistics
 
 - **Total Questions Analyzed:** 500+
 - **Study Hours Saved:** Estimated 100+ hours per student
@@ -828,13 +828,13 @@ Found an error? Have a suggestion?
 
 ---
 
-## 📜 License
+## License
 
 Educational purposes only. Maintain academic integrity.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Previous year question paper sources
 - AI models: Claude Sonnet 4.5, GPT-5, Gemini 2.5 Pro
@@ -842,7 +842,7 @@ Educational purposes only. Maintain academic integrity.
 
 ---
 
-## 📞 Support
+## Support
 
 ⭐ Star this repo if it helps you!  
 🔄 Share with your classmates  
@@ -857,17 +857,17 @@ _Last Updated: November 30, 2025_
 
 ---
 
-## 🚀 Generation Workflow
+## Generation Workflow
 
-### Phase 1: Data Collection (Manual)
+### 1: Data Collection (Manual)
 
 1. Collect all 7 question sets for each subject
 2. Obtain official syllabus documents
 3. Organize in `qtn_sets_and_syllabus/` folders
 
-### Phase 2: Analysis (AI Agents)
+### 2: Analysis (AI Agents)
 
-#### For Each Subject:
+#### Each Subject:
 
 **Agent 1 (Claude Sonnet 4.5):**
 
@@ -901,13 +901,13 @@ Include only the absolute essentials, time allocation, and must-memorize content
 Output format: [survival_guide.md template above]"
 ```
 
-### Phase 3: Cross-Verification
+### 3: Cross-Verification
 
 1. Each agent reviews others' outputs
 2. Resolve conflicts and inconsistencies
 3. Ensure alignment across all documents
 
-### Phase 4: Finalization
+### 4: Finalization
 
 1. Format all markdown files properly
 2. Add navigation links between documents
@@ -916,9 +916,9 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## Checklist for Completion
+## for Completion
 
-### Per Subject:
+### Subject:
 
 - [ ] All 7 question sets collected
 - [ ] Syllabus document added
@@ -929,7 +929,7 @@ Output format: [survival_guide.md template above]"
 - [ ] Cross-verification completed
 - [ ] Quality check passed
 
-### Repository-wide:
+### 
 
 - [ ] All 6 subjects completed
 - [ ] README.md created
@@ -940,16 +940,16 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## Expected Outcomes
+## Outcomes
 
-### Student Benefits:
+### Benefits:
 
 1. **Time Efficiency:** 60-70% reduction in study time
 2. **Score Improvement:** Average 35-45 marks (passing with margin)
 3. **Confidence:** Know what to expect in exam
 4. **Strategy:** Smart question selection skills
 
-### Repository Impact:
+### Impact:
 
 1. **Comprehensive:** 6 subjects fully covered
 2. **AI-Powered:** Triple-verified by advanced models
@@ -958,9 +958,9 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## Additional Features to Consider
+## Features to Consider
 
-### Optional Enhancements:
+### Enhancements:
 
 1. **Video Explanations:** Links to explanation videos
 2. **Practice Tests:** Mock exam papers
@@ -970,16 +970,16 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## ⚙️ Technical Specifications
+## Technical Specifications
 
-### File Formats:
+### Formats:
 
 - **Documentation:** Markdown (.md)
 - **Question Papers:** PDF
 - **Diagrams:** ASCII art, Mermaid, or image files
 - **Code Examples:** Code blocks with syntax highlighting
 
-### Naming Conventions:
+### Conventions:
 
 - Folders: lowercase with underscores
 - Files: PascalCase or standard naming
@@ -987,7 +987,7 @@ Output format: [survival_guide.md template above]"
 
 ---
 
-## Final Notes
+## Notes
 
 This is a **comprehensive, AI-powered exam preparation system** designed to:
 
@@ -1010,30 +1010,30 @@ The three-AI-model approach ensures:
 
 ---
 
-## 🤖 Agent Instructions Summary
+## Agent Instructions Summary
 
-### Claude Sonnet 4.5:
+### Sonnet 4.5:
 
 - Focus on patterns and strategy
 - Create study schedules
 - Calculate priorities
 - Output: CS4.5.md
 
-### GPT-5:
+### 
 
 - Provide detailed answers
 - Explain concepts thoroughly
 - Include examples and diagrams
 - Output: G5.md
 
-### Gemini 2.5 Pro:
+### 2.5 Pro:
 
 - Create visual representations
 - Make quick reference materials
 - Design flashcards and summaries
 - Output: G2.5_p.md
 
-### Collaborative:
+### 
 
 - Create emergency 2-day guide
 - Cross-verify all outputs

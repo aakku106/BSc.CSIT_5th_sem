@@ -1,10 +1,10 @@
-# One-Click Project Automation Script
+# Project Automation Script
 
-## Purpose
+## 
 
 This script automates the entire 5th semester exam preparation materials generation process. When you say "Go", it will orchestrate all AI agents to work on all subjects simultaneously.
 
-## Prerequisites
+## 
 
 Before running automation:
 
@@ -13,34 +13,34 @@ Before running automation:
 - All materials organized in respective qtn_sets_and_syllabus folders
 - AI API keys configured for Claude, GPT, and Gemini
 
-## Agent Assignment
+## Assignment
 
-### Agent 1: Claude Sonnet 4.5
+### 1: Claude Sonnet 4.5
 
 **Generates:** CS4.5.md for each subject
 **Input:** Question papers + Syllabus
 **Output:** Strategic analysis (~5000-7000 words)
 
-### Agent 2: GPT-5
+### 2: GPT-5
 
 **Generates:** G5.md for each subject
 **Input:** CS4.5.md + Question papers + Syllabus
 **Output:** Detailed Q&A (~8000-12000 words)
 
-### Agent 3: Gemini 2.5 Pro
+### 3: Gemini 2.5 Pro
 
 **Generates:** G2.5_p.md for each subject
 **Input:** CS4.5.md + G5.md
 **Output:** Visual materials (~4000-6000 words)
 
-### Agent 4: Gemini 3 Pro
+### 4: Gemini 3 Pro
 
 **Generates:** 2DayPrep/survival_guide.md for each subject
 **Input:** CS4.5.md + G5.md + G2.5_p.md
 **Output:** Emergency 2-day guide (~2000-3000 words)
 **Reference:** https://github.com/aakku106/4thSem_impQtns/tree/main/DBMS/imp_qtns/2DayPrep
 
-## Automation Workflow
+## Workflow
 
 ```
 START
@@ -105,7 +105,7 @@ START
 COMPLETE
 ```
 
-## File Structure Map for Automation
+## Structure Map for Automation
 
 ```
 /Users/aakku/Desktop/5th_sem/
@@ -147,9 +147,9 @@ Output Files (Auto-generated):
 └── SEIT/imp_qtns/ [same structure]
 ```
 
-## Prompt Templates for Automation
+## Templates for Automation
 
-### For Claude Sonnet 4.5 (CS4.5.md)
+### Claude Sonnet 4.5 (CS4.5.md)
 
 ```
 SYSTEM: You are Claude Sonnet 4.5, an expert at strategic analysis and pattern recognition.
@@ -176,7 +176,7 @@ REQUIREMENTS:
 BEGIN ANALYSIS...
 ```
 
-### For GPT-5 (G5.md)
+### GPT-5 (G5.md)
 
 ```
 SYSTEM: You are GPT-5, an expert at detailed content creation and explanations.
@@ -204,7 +204,7 @@ REQUIREMENTS:
 BEGIN CONTENT CREATION...
 ```
 
-### For Gemini 2.5 Pro (G2.5_p.md)
+### Gemini 2.5 Pro (G2.5_p.md)
 
 ```
 SYSTEM: You are Gemini 2.5 Pro, an expert at visual design and quick reference materials.
@@ -232,7 +232,7 @@ REQUIREMENTS:
 BEGIN VISUAL DESIGN...
 ```
 
-### For Gemini 3 Pro (2DayPrep/survival_guide.md)
+### Gemini 3 Pro (2DayPrep/survival_guide.md)
 
 ```
 SYSTEM: You are Gemini 3 Pro, an expert at creating emergency preparation guides.
@@ -266,7 +266,7 @@ REQUIREMENTS:
 BEGIN GUIDE CREATION...
 ```
 
-## Progress Tracking During Automation
+## Tracking During Automation
 
 The script will update a progress file: `/Users/aakku/Desktop/5th_sem/.automation_progress.json`
 
@@ -294,7 +294,7 @@ The script will update a progress file: `/Users/aakku/Desktop/5th_sem/.automatio
 }
 ```
 
-## Quality Checks (Automated)
+## Checks (Automated)
 
 After generation, the script performs these checks:
 
@@ -310,7 +310,7 @@ For each subject:
   ✓ Ensure all required sections present
 ```
 
-## Execution Command
+## Command
 
 When you're ready and say "Go":
 
@@ -325,7 +325,7 @@ Or for single subject test:
 python3 .github/scripts/automate_generation.py --subject=DAA --mode=test
 ```
 
-## Post-Automation Steps
+## Steps
 
 After automation completes:
 
@@ -335,7 +335,7 @@ After automation completes:
 4. Update README.md status table (auto-updated)
 5. Commit and push to GitHub
 
-## Error Handling
+## Handling
 
 If any step fails:
 
@@ -344,7 +344,7 @@ If any step fails:
 - Generates partial output
 - Creates recovery script for failed subjects
 
-## Configuration File
+## File
 
 Create: `/Users/aakku/Desktop/5th_sem/.automation_config.yaml`
 
@@ -410,7 +410,7 @@ quality_checks:
   verify_no_contradictions: true
 ```
 
-## API Rate Limiting
+## Rate Limiting
 
 The script handles rate limiting:
 
@@ -419,7 +419,7 @@ The script handles rate limiting:
 - Retries failed requests
 - Logs all API calls
 
-## Estimated Total Time
+## Total Time
 
 With parallel processing:
 
@@ -434,7 +434,7 @@ Time per subject:
 - Gemini 3 Pro: 4-6 min
 - Total: ~30-40 min per subject
 
-## Success Criteria
+## Criteria
 
 Automation is successful when:
 
@@ -444,7 +444,7 @@ Automation is successful when:
 - README.md updated with progress
 - Quality report shows 95%+ compliance
 
-## Manual Intervention Points
+## Intervention Points
 
 You may need to manually:
 
@@ -454,7 +454,7 @@ You may need to manually:
 - Fix any flagged issues
 - Push to GitHub
 
-## Ready to Go
+## to Go
 
 Once you say "Go", the automation will:
 

@@ -1,14 +1,14 @@
-# 🚀 START HERE - Quick Reference
+# START HERE - Quick Reference
 
 > **Welcome!** This document gives you everything you need to start working on the 5th semester exam preparation materials project.
 
 ---
 
-## ✅ What's Been Created
+## What's Been Created
 
 You now have a **complete system** for creating AI-powered exam prep materials for BSc.CSIT 5th semester, similar to your successful 4th semester repository.
 
-### 📄 Documents Created (5 files)
+### Documents Created (5 files)
 
 1. **README.md** - Main repository page
 2. **5thSem_Generation_Prompt.md** - Complete specifications
@@ -20,9 +20,9 @@ You now have a **complete system** for creating AI-powered exam prep materials f
 
 ---
 
-## 🎯 Your Next Steps (In Order)
+## Your Next Steps (In Order)
 
-### Step 1: Understand the Project (30 minutes)
+### 1: Understand the Project (30 minutes)
 
 Read these files in this order:
 
@@ -32,7 +32,7 @@ Read these files in this order:
 
 Now you understand what you're building!
 
-### Step 2: Understand the Process (1 hour)
+### 2: Understand the Process (1 hour)
 
 Read these for detailed understanding:
 
@@ -42,7 +42,7 @@ Read these for detailed understanding:
 
 Now you know how to build it!
 
-### Step 3: Collect Materials (1-2 weeks)
+### 3: Collect Materials (1-2 weeks)
 
 For **each of the 6 subjects**, collect:
 
@@ -55,31 +55,31 @@ For **each of the 6 subjects**, collect:
 
 **Total needed:** 6 syllabi + 42 question papers = 48 PDFs
 
-### Step 4: Organize Files
+### 4: Organize Files
 
 For each subject:
 
 ```bash
-# Navigate to subject folder
+# to subject folder
 cd /Users/aakku/Desktop/5th_sem/[Subject]
 
-# Create subfolders
+# subfolders
 mkdir -p qtn_sets_and_syllabus
 mkdir -p imp_qtns/2DayPrep
 
-# Add your PDFs to qtn_sets_and_syllabus/
-# Name them: syllabus.pdf, 2076_questions.pdf, etc.
+# your PDFs to qtn_sets_and_syllabus/
+# them: syllabus.pdf, 2076_questions.pdf, etc.
 ```
 
-### Step 5: Start with ONE Subject (Pilot)
+### 5: Start with ONE Subject (Pilot)
 
 **Recommended:** Start with DAA or WT
 
 This proves the process works before scaling to all 6 subjects.
 
-### Step 6: Engage AI Agents
+### 6: Engage AI Agents
 
-#### For Claude Sonnet 4.5
+#### Claude Sonnet 4.5
 
 ```
 Prompt: "I need you to create a strategic exam analysis (CS4.5.md) for
@@ -102,7 +102,7 @@ comprehensive analysis (~5000-7000 words) including:
 [Attach: Section from 5thSem_Generation_Prompt.md about Claude's role]"
 ```
 
-#### For GPT-5
+#### GPT-5
 
 ```
 Prompt: "Based on the strategic analysis by Claude Sonnet 4.5, create a
@@ -126,7 +126,7 @@ Please create detailed answers for all HIGH and MEDIUM priority questions
 [Attach: Relevant section from 5thSem_Generation_Prompt.md]"
 ```
 
-#### For Gemini 2.5 Pro
+#### Gemini 2.5 Pro
 
 ```
 Prompt: "Create visual learning materials (G2.5_p.md) for [Subject Name]
@@ -150,7 +150,7 @@ Use tables, ASCII art, and structured layouts extensively.
 [Attach: Relevant section from 5thSem_Generation_Prompt.md]"
 ```
 
-#### For 2-Day Guide (Gemini 3 Pro)
+#### 2-Day Guide (Gemini 3 Pro)
 
 ```
 Prompt: "You are Gemini 3 Pro. Analyze the complete study materials for [Subject Name]:
@@ -179,7 +179,7 @@ Output: 2DayPrep/survival_guide.md
 [Attach: Relevant section from 5thSem_Generation_Prompt.md]"
 ```
 
-### Step 7: Verify Quality
+### 7: Verify Quality
 
 Use the checklist from **QuickStart_Guide.md** to verify:
 
@@ -189,7 +189,7 @@ Use the checklist from **QuickStart_Guide.md** to verify:
 - [ ] Cross-references work
 - [ ] Student-friendly language
 
-### Step 8: Scale to All Subjects
+### 8: Scale to All Subjects
 
 Once pilot subject is complete and verified:
 
@@ -199,7 +199,7 @@ Once pilot subject is complete and verified:
 4. Then WT
 5. Finally SEIT
 
-### Step 9: Finalize
+### 9: Finalize
 
 - [ ] Update README.md status table
 - [ ] Check all navigation links
@@ -209,9 +209,9 @@ Once pilot subject is complete and verified:
 
 ---
 
-## 📊 Progress Tracker
+## Progress Tracker
 
-### Data Collection Status
+### Collection Status
 
 | Subject | Syllabus | 2076 | 2077 | 2078 | 2079 | 2080 | 2081 | Model | Total |
 | ------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ----- |
@@ -224,7 +224,7 @@ Once pilot subject is complete and verified:
 
 **Grand Total:** 0/48 files collected
 
-### Analysis Status
+### Status
 
 | Subject | CS4.5.md | G5.md | G2.5_p.md | 2DayPrep | Complete |
 | ------- | -------- | ----- | --------- | -------- | -------- |
@@ -239,31 +239,31 @@ Once pilot subject is complete and verified:
 
 ---
 
-## ⚡ Quick Commands
+## Quick Commands
 
 ```bash
-# Navigate to project
+# to project
 cd /Users/aakku/Desktop/5th_sem
 
-# List current structure
+# current structure
 ls -la
 
-# Create folders for a subject (example: DAA)
+# folders for a subject (example: DAA)
 mkdir -p DAA/qtn_sets_and_syllabus
 mkdir -p DAA/imp_qtns/2DayPrep
 
-# Open in VS Code
+# in VS Code
 code .
 
-# Check git status (if using version control)
+# git status (if using version control)
 git status
 ```
 
 ---
 
-## 📚 Key Files Reference
+## Key Files Reference
 
-### Where to Find What
+### to Find What
 
 | Need to...                  | Look at...                  |
 | --------------------------- | --------------------------- |
@@ -277,9 +277,9 @@ git status
 
 ---
 
-## 🎯 Time Estimates
+## Time Estimates
 
-### If Working Alone (Sequential)
+### Working Alone (Sequential)
 
 - **Data Collection:** 1-2 weeks
 - **Per Subject Analysis:** 1-1.5 weeks
@@ -287,7 +287,7 @@ git status
 - **Final Polish:** 1 week
 - **Total:** ~8-12 weeks
 
-### If Using All 3 AI Agents in Parallel
+### Using All 3 AI Agents in Parallel
 
 - **Data Collection:** 1-2 weeks
 - **Per Subject Analysis:** 2-3 days
@@ -297,9 +297,9 @@ git status
 
 ---
 
-## 💡 Pro Tips
+## Pro Tips
 
-### Do's ✅
+### ✅
 
 1. **Start with one subject** (pilot) - Don't do all 6 at once
 2. **Follow the templates** - They're based on proven 4th sem success
@@ -308,7 +308,7 @@ git status
 5. **Keep it simple** - Student-friendly language
 6. **Be consistent** - Same format across all subjects
 
-### Don'ts ❌
+### ❌
 
 1. **Don't skip the planning phase** - Understanding before doing
 2. **Don't work without question papers** - Data is crucial
@@ -319,9 +319,9 @@ git status
 
 ---
 
-## 🔥 Priority Actions (Do These First)
+## Priority Actions (Do These First)
 
-### Today (2 hours)
+### (2 hours)
 
 - [x] Documents created (already done!)
 - [ ] Read START_HERE.md (5 min)
@@ -331,14 +331,14 @@ git status
 - [ ] Plan question paper collection strategy (30 min)
 - [ ] Create collection checklist (10 min)
 
-### This Week (5-10 hours)
+### Week (5-10 hours)
 
 - [ ] Source for question papers online/offline
 - [ ] Download/scan available papers
 - [ ] Organize in spreadsheet/checklist
 - [ ] Aim to collect for at least 1 subject completely
 
-### Next 2 Weeks (10-20 hours)
+### 2 Weeks (10-20 hours)
 
 - [ ] Complete data collection for all 6 subjects
 - [ ] Organize all PDFs properly in folders
@@ -346,7 +346,7 @@ git status
 - [ ] Set up AI agent access (Claude, GPT, Gemini)
 - [ ] Read QuickStart_Guide and 5thSem_Generation_Prompt thoroughly
 
-### Month 1 (30-40 hours)
+### 1 (30-40 hours)
 
 - [ ] Complete pilot subject (all 4 files)
 - [ ] Verify quality thoroughly
@@ -355,9 +355,9 @@ git status
 
 ---
 
-## 🎓 Success Definition
+## Success Definition
 
-### You'll Know You've Succeeded When
+### Know You've Succeeded When
 
 1. ✅ All 6 subjects have complete materials (4 files each)
 2. ✅ A student can actually use these to score 35+ marks
@@ -368,37 +368,37 @@ git status
 
 ---
 
-## ❓ FAQs
+## FAQs
 
-### Q: Can I start without all question papers?
+### Can I start without all question papers?
 
 **A:** Yes, but you need at least 4-5 papers for meaningful pattern analysis. Start with subjects where you have more papers.
 
-### Q: Do I really need all 3 AI agents?
+### Do I really need all 3 AI agents?
 
 **A:** Recommended for quality and multiple perspectives, but you can adapt. Minimum: use 2 different AI models for cross-verification.
 
-### Q: What if a subject has different exam patterns?
+### What if a subject has different exam patterns?
 
 **A:** Adapt the template while maintaining core structure. Document the differences in the analysis.
 
-### Q: Can I hire someone to collect question papers?
+### Can I hire someone to collect question papers?
 
 **A:** Yes! That's actually a time-saver. Focus your energy on the analysis and quality control.
 
-### Q: How do I know if the output is good enough?
+### How do I know if the output is good enough?
 
 **A:** Use the quality checklists in QuickStart_Guide.md. Also, test with a real student if possible.
 
-### Q: What's the minimum viable product (MVP)?
+### What's the minimum viable product (MVP)?
 
 **A:** Complete, high-quality materials for 2-3 most important subjects (e.g., DAA, WT, SAD). You can add others later.
 
 ---
 
-## 🚀 Ready to Start?
+## Ready to Start?
 
-### Your Immediate Action Plan
+### Immediate Action Plan
 
 **Right Now (next 30 minutes):**
 
@@ -430,15 +430,15 @@ git status
 
 ---
 
-## 🎯 One-Line Summary
+## One-Line Summary
 
 **Build AI-powered exam prep materials for 5th sem BSc.CSIT, just like your successful 4th sem repo, by having 3 AI agents analyze question patterns and create strategic study guides that help students score 35+ marks efficiently.**
 
 ---
 
-## 📞 Final Notes
+## Final Notes
 
-### You Have Everything You Need
+### Have Everything You Need
 
 - ✅ Complete blueprints (5+ detailed documents)
 - ✅ Templates and examples
@@ -447,13 +447,13 @@ git status
 - ✅ Success criteria
 - ✅ Time estimates
 
-### What You Don't Have Yet
+### You Don't Have Yet
 
 - ⏳ Question papers (you'll collect these)
 - ⏳ Syllabi (you'll collect these)
 - ⏳ AI agent outputs (you'll generate these)
 
-### What You DO Have
+### You DO Have
 
 - ✅ Clear vision
 - ✅ Proven methodology (from 4th sem)
@@ -462,7 +462,7 @@ git status
 
 ---
 
-## 🎉 Let's Build This
+## Let's Build This
 
 **The only thing between you and a complete, helpful repository is action.**
 
@@ -489,4 +489,4 @@ You're going to create something awesome that will help hundreds of students! �
 
 ---
 
-## Next: Read README.md → PROJECT_SUMMARY.md → Then collect question papers! 📚
+## Read README.md → PROJECT_SUMMARY.md → Then collect question papers! 📚
