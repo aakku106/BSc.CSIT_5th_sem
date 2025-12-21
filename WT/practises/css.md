@@ -5,9 +5,16 @@
 
 - css only work with with markup languages
 -- predefined: user agent css
+
 ```css
 selector{
     //css rules
     propety.value
 }
 ```
+## Selector
+
+- universal selector '*{...}'
+- element/tag selector eg: div{...},p{...},..
+- class selector eg: .className{...}...
+- id selector eg: #idName{...}...
