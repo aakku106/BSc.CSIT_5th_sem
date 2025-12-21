@@ -5,3 +5,9 @@
 
 - css only work with with markup languages
 -- predefined: user agent css
+```css
+selector{
+    //css rules
+    propety.value
+}
+```
