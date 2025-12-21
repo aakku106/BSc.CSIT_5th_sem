@@ -6,4 +6,9 @@ h2 {
 * {
   transition: all .3s easy;
   transform: rotate(-2deg);
+  padding: 1rem;
+}
+
+#dogHeading {
+  background-color: peru;
 }
