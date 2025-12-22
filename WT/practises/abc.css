@@ -12,3 +12,27 @@ h2 {
 #dogHeading {
   background-color: peru;
 }
+
+.main {
+  &:hover {
+    transform: scale(1.004) rotate(2deg);
+  }
+
+  & p {
+    &:hover {
+      transform: translate(-1rem);
+    }
+  }
+
+  & ul {
+    &:hover {
+      padding: 1.4rem;
+    }
+
+    & li {
+      &:hover {
+        transform: translateX(-1rem);
+      }
+    }
+  }
+}
