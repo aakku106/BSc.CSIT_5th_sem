@@ -18,3 +18,11 @@ selector{
 - element/tag selector eg: div{...},p{...},..
 - class selector eg: .className{...}...
 - id selector eg: #idName{...}...
+
+## Combinator
+
+- Decendent combinator '.parent p{...}'
+- Child combinator '.parent > p{...}'
+- Geneeral sibling '.bhai ~p{...}'
+- Adajecont sibling '.bhai +p{...}'
+
