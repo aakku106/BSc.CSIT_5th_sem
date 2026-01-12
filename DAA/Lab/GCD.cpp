@@ -12,6 +12,6 @@ int main(void) {
     a = b;
     b = temp;
   }
-  std::cout << "GCD: " << a << "\n";
+  std::cout << "GCD from c++: " << a << "\n";
   return 0;
 }

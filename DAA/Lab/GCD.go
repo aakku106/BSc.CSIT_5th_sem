@@ -4,15 +4,16 @@ import "fmt"
 
 func main() {
 	var a, b, temp int
-	a, _ = fmt.Scanln()
-	b, _ = fmt.Scanln()
+	fmt.Println("enter 2 nums")
+	fmt.Scanln(&a)
+	fmt.Scanln(&b)
 	for {
-		if b != 0 {
+		if b == 0 {
 			break
 		}
 		temp = a % b
 		a = b
 		b = temp
-		fmt.Println("GCD:", a)
 	}
+	fmt.Println("GCD from Go: ", a)
 }
