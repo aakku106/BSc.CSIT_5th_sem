@@ -1,0 +1,1 @@
+togglePasswordView= document.getElementById("passToggle")
