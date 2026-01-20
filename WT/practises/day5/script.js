@@ -6,7 +6,6 @@ const listContainer = document.createElement("ul");
 const clearAllBtn = document.createElement("button");
 
 let todoData = JSON.parse(localStorage.getItem("TO_DO_DATA")) || [];
-console.log(typeof todoData);
 
 const addStyles = () => {
   body.style.height = "90vh";
@@ -47,7 +46,6 @@ const renderList = () => {
     listContainer.append(list);
   });
 };
-
 const clearAllToDO = () => {
   localStorage.clear("TO_DO_DATA");
   todoData = [];
