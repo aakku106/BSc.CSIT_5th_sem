@@ -3,8 +3,10 @@ const body = document.getElementById("div");
 const input = document.createElement("input");
 const subBtn = document.createElement("input");
 const listContainer = document.createElement("ul");
+const clearAllBtn = document.createElement("button");
 
 let todoData = JSON.parse(localStorage.getItem("TO_DO_DATA")) || [];
+console.log(typeof todoData);
 
 const addStyles = () => {
   body.style.height = "90vh";
@@ -14,6 +16,8 @@ const addStyles = () => {
   body.style.backgroundColor = "rgb(229, 179, 155)";
   body.style.textAlign = `center`;
   body.style.padding = `1rem`;
+  listContainer.style.backgroundColor = "rgb(250, 1, 155, 0.1)";
+  clearAllBtn.style.backgroundColor = "red";
 };
 const addInput = () => {
   input.placeholder = `Enter To-Do`;
@@ -44,6 +48,12 @@ const renderList = () => {
   });
 };
 
+const clearAllToDO = () => {
+  localStorage.clear("TO_DO_DATA");
+  todoData = [];
+  renderList();
+};
+
 const init = () => {
   addStyles();
   addInput();
@@ -54,3 +64,6 @@ const init = () => {
 
 init();
 subBtn.addEventListener("click", addList);
+body.append(clearAllBtn);
+clearAllBtn.innerText = `Clear All ToDo`;
+clearAllBtn.addEventListener("click", clearAllToDO);
