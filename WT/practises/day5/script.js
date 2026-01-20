@@ -11,7 +11,7 @@ const input = document.createElement("input");
 const subBtn = document.createElement("input");
 const listContainer = document.createElement("ul");
 
-const todoData = [];
+const todoData = localStorage.getItem("TO_DO_DATA");
 
 const addInput = () => {
   input.placeholder = `Enter To-Do`;
@@ -23,21 +23,23 @@ const addBtn = () => {
   body.append(subBtn);
 };
 const addList = () => {
-  let list = document.createElement("li");
-  todoData = localStorage.getItem("TO_Do_Data");
-  todoData.map((value, index) => {});
-  listContainer.append(list);
-};
-const handleBtnClick = () => {
   todoData.push(input.value);
-  localStorage.setItem("TO_Do_Data", todoData);
+  localStorage.setItem("TO_DO_DATA", todoData);
   input.value = "";
-  startRender();
+  renderList();
 };
+const renderList = () => {
+  todoData.map((value, _) => {
+    let list = document.createElement("li");
+    list.textContent = value;
+    listContainer.append(list);
+  });
+};
+
 const startRender = () => {
   addInput();
   addBtn();
   addList();
 };
 body.addEventListener("mouseover", startRender);
-subBtn.addEventListener("click", handleBtnClick);
+subBtn.addEventListener("click", addList);

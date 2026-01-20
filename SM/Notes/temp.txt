@@ -5,3 +5,7 @@ Process of measurement instrument reading against the known highly knowm model t
 Purpose of calibration:
 - Help to increase confidence 
 - Insures model behave realistacially
+
+Tests are subjective and objective
+- Subjective test usually involve people who are knowlagable about oen or more aspect of the system making judjement about its model and its output.
+- Objective tests always requare data on the system behaviour + the crosssponding data produced by the model
