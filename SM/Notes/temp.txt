@@ -1,0 +1,7 @@
+Calibration :
+Process of measurement instrument reading against the known highly knowm model to check for errors
+- Process fo Confuguring instrument to provide a result for a sample within a accepatable range, the main purposr of calebrating ins to insure that a measuring instrument or a device produces accuret result
+- Itterative process of comparing the model to the real system, make adjustement to the model, comparing again and so on. The comparision to the model is carried out by varities of tests.
+Purpose of calibration:
+- Help to increase confidence 
+- Insures model behave realistacially
