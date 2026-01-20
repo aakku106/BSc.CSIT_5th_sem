@@ -1,18 +1,20 @@
 const body = document.getElementById("div");
-body.style.height = "90vh";
-body.style.width = "90vw";
-body.style.borderRadius = "12px";
-body.style.margin = "auto";
-body.style.backgroundColor = "red";
-body.style.textAlign = `center`;
-body.style.padding = `1rem`;
 
 const input = document.createElement("input");
 const subBtn = document.createElement("input");
 const listContainer = document.createElement("ul");
 
-const todoData = localStorage.getItem("TO_DO_DATA");
+let todoData = JSON.parse(localStorage.getItem("TO_DO_DATA")) || [];
 
+const addStyles = () => {
+  body.style.height = "90vh";
+  body.style.width = "90vw";
+  body.style.borderRadius = "12px";
+  body.style.margin = "auto";
+  body.style.backgroundColor = "rgb(229, 179, 155)";
+  body.style.textAlign = `center`;
+  body.style.padding = `1rem`;
+};
 const addInput = () => {
   input.placeholder = `Enter To-Do`;
   body.append(input);
@@ -22,24 +24,33 @@ const addBtn = () => {
   subBtn.value = "ADD-TODO";
   body.append(subBtn);
 };
+const addListContainer = () => {
+  body.append(listContainer);
+};
 const addList = () => {
-  todoData.push(input.value);
-  localStorage.setItem("TO_DO_DATA", todoData);
-  input.value = "";
-  renderList();
+  if (input.value.trim()) {
+    todoData.push(input.value);
+    localStorage.setItem("TO_DO_DATA", JSON.stringify(todoData));
+    input.value = "";
+    renderList();
+  }
 };
 const renderList = () => {
-  todoData.map((value, _) => {
+  listContainer.innerHTML = "";
+  todoData.forEach((value) => {
     let list = document.createElement("li");
     list.textContent = value;
     listContainer.append(list);
   });
 };
 
-const startRender = () => {
+const init = () => {
+  addStyles();
   addInput();
   addBtn();
-  addList();
+  addListContainer();
+  renderList();
 };
-body.addEventListener("mouseover", startRender);
+
+init();
 subBtn.addEventListener("click", addList);
