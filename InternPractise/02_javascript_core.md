@@ -42,6 +42,10 @@ The event loop continuously checks if the call stack is empty. When it is, it ta
 
 There are also microtasks (like promise callbacks) that have higher priority and are executed before regular tasks.
 
+Better Ans if you can handle:
+
+The event loop is a scheduling mechanism implemented by the host environment that coordinates execution between the JavaScript call stack and multiple callback queues. JavaScript executes code synchronously on a single call stack, while asynchronous operations are handled by external APIs. When these operations complete, references to their callbacks are placed into task or microtask queues. The event loop continuously monitors the call stack, and when it becomes empty, it first executes all queued microtasks, then moves the next task into the call stack for execution. This design allows asynchronous behavior without concurrent JavaScript executio
+
 ## How does JavaScript handle async code?
 
 JavaScript handles asynchronous code using callbacks, promises, and async/await syntax, all coordinated by the event loop.
