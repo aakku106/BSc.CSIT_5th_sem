@@ -12,13 +12,13 @@ Building it also provided hands-on experience with the complete process of creat
 
 ## What tech stack did you use?
 
-I used Next.js as the framework for my personal website, taking advantage of its server-side rendering capabilities, built-in routing, and performance optimizations.
+I used Next.js as the framework for my personal website at adarashagaihre.com.np, taking advantage of its server-side rendering capabilities, built-in routing, and performance optimizations.
 
-For styling, I used modern CSS techniques and potentially a CSS framework or styling solution that integrates well with React components, ensuring the site is responsive and works well on different devices.
+For styling, I used HTML and CSS with modern techniques, ensuring the site is responsive and works well on different devices.
 
 The website is built with React components, allowing me to create reusable UI elements and manage the site's structure in a maintainable way.
 
-I deployed the site using Cloudflare Pages, which provides automatic builds from my Git repository, global CDN distribution, and free SSL certificates.
+I deployed the site using Cloudflare, which provides DNS management, domain and subdomain configuration, global CDN distribution, and free SSL certificates.
 
 ## How is it hosted?
 

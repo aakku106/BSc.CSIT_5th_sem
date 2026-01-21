@@ -2,9 +2,9 @@
 
 ## Walk me through your resume
 
-I am currently a fifth-semester Computer Engineering student at Pulchowk Campus, where I am building a strong foundation in both theoretical computer science and practical software development. My academic journey has been complemented by hands-on experience with modern web technologies.
+I am currently a fifth-semester BSc. CSIT student at Nepathya College in Rupandehi, Nepal, where I am building a strong foundation in both theoretical computer science and practical software development. My academic journey has been complemented by hands-on experience with modern web technologies.
 
-In terms of technical projects, I have worked with Next.js to build MedFree, a healthcare platform designed to help users find free medical services. This project allowed me to understand server-side rendering, routing, and how to structure a production-ready web application. I also maintain a personal website hosted on Cloudflare, which gave me practical exposure to DNS configuration, deployment workflows, and domain management.
+In terms of technical projects, I built MedFree as a hackathon project using Next.js—a healthcare platform designed to help users find free medical services. This allowed me to understand server-side rendering, routing, and how to structure a production-ready web application. I also maintain my personal website at adarashagaihre.com.np, hosted on Cloudflare, which gave me practical exposure to DNS configuration, domain and subdomain management, and deployment workflows.
 
 Beyond web development, I am actively learning Go to understand systems programming and backend architecture. I have a solid foundation in C from my coursework, which has helped me grasp memory management, pointers, and how software interacts with hardware at a lower level.
 

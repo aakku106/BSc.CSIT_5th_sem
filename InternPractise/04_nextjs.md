@@ -124,23 +124,23 @@ Deployment and environment configuration took some trial and error, particularly
 
 ## Tell me about the MedFree project
 
-MedFree is a healthcare platform I built to help users find free medical services in their area. The goal was to make healthcare information more accessible, particularly for people who need low-cost or free medical care.
+MedFree is a healthcare platform I built as a hackathon project using Next.js. The goal was to help users find free medical services in their area and make healthcare information more accessible, particularly for people who need low-cost or free medical care.
 
-I used Next.js for this project because I needed good SEO for healthcare information to be discoverable through search engines, and server-side rendering provided better initial load performance than a pure client-side React application.
+I chose Next.js because I needed good SEO for healthcare information to be discoverable through search engines, and server-side rendering provided better initial load performance than a pure client-side React application.
 
 The application includes features for browsing available services, filtering by location and service type, and viewing detailed information about each provider. I implemented the routing using Next.js file-based routing and managed state with React hooks.
 
-This project taught me how to structure a Next.js application, handle data fetching, and think about user experience in applications where performance and discoverability are critical.
+Working under hackathon time constraints taught me how to prioritize features, make quick technical decisions, and structure a Next.js application efficiently. It also taught me to balance functionality with the limited time available.
 
 ## What was your exact contribution to MedFree?
 
-I was responsible for the complete development of MedFree, including architecture decisions, implementation, and deployment.
+I was responsible for the complete development of MedFree during the hackathon, including architecture decisions, implementation, and deployment.
 
 I designed the component structure, implemented the routing and page layouts using Next.js, and built the user interface for browsing and filtering medical services.
 
-I handled data fetching and state management, implemented the search and filter functionality, and ensured the application was responsive and worked well on different devices.
+I handled data fetching and state management, implemented the search and filter functionality, and ensured the application was responsive and worked well on different devices within the hackathon timeframe.
 
-I also configured the deployment, set up the domain and hosting, and tested the application to ensure it functioned correctly in production.
+I also configured the deployment and tested the application to ensure it functioned correctly. The project is available on my GitHub.
 
 ## What would you change if you rebuilt MedFree today?
 

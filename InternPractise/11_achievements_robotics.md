@@ -2,7 +2,7 @@
 
 ## What was your role as team lead?
 
-As team lead for the robotics team, I was responsible for coordinating the team's efforts, making technical decisions, and ensuring we met competition deadlines.
+I served as team lead for three different robotics teams—Team Glacier, Team JEEZ, and Team Ripple—across multiple competitions. I was responsible for coordinating the team's efforts, making technical decisions, and ensuring we met competition deadlines.
 
 I managed task distribution among team members based on their strengths and interests, ensuring everyone contributed effectively to the project. This included assigning mechanical design, electronics, programming, and testing responsibilities.
 
@@ -62,12 +62,14 @@ Communication breakdowns during high-pressure moments sometimes led to confusion
 
 ## What did you learn from losing (runner-up)?
 
-Finishing as runner-up taught me that success is not just about technical capability but also about execution, reliability, and performance under pressure. Having the best design does not matter if it does not work consistently during competition.
+With Team JEEZ, we finished as 2nd runner-up in the Robo Race competition. This taught me that success is not just about technical capability but also about execution, reliability, and performance under pressure. Having the best design does not matter if it does not work consistently during competition.
 
 I learned the importance of testing under conditions that match the actual use case. Many issues that cost us points could have been identified and addressed with more realistic testing.
 
 Competition results provided concrete feedback about what worked and what did not, helping me develop a more objective view of technical decisions and prioritization.
 
-Most importantly, I learned that setbacks are valuable learning experiences. Analyzing what went wrong and why is more educational than winning without understanding the reasons for success.
+Interestingly, with Team Ripple in the Robo Soccer competition, we won the Fair Play Award, which taught me that how you compete matters as much as winning. Leadership is not just about results but also about maintaining integrity and sportsmanship.
 
-These experiences taught me resilience and the importance of continuous improvement rather than being discouraged by not achieving the top position.
+With Team Glacier, we won 1st place at the district level robotics competition in Butwal, which validated our approach and showed that the lessons from previous competitions helped us improve.
+
+These varied experiences taught me resilience and the importance of continuous improvement rather than being discouraged by not achieving the top position every time.
