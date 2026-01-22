@@ -51,8 +51,6 @@ const renderList = () => {
     list.append(delBtn);
     handleDel(delBtn, index);
   });
-  console.log(todoData);
-  console.log(JSON.parse(localStorage.getItem("TO_DO_DATA")));
 };
 const handleDel = (delBtn, index) => {
   delBtn.style.color = "red";
