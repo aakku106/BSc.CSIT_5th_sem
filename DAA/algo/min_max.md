@@ -17,6 +17,10 @@ so finally we get:
 now we assign i,j for each array: like
 {i:9,j:6}, here i>j; so max:9,min:6
 so same for all arrayes, then we compare max-max and min-min of them with 2 2 of them
+ie. {9,6},{4,7} & {10,14},{8,11}; we got {9,4}&{14,8}
+now again comparing them, we filannly got: { }
+
 
 [5,4,3,8,11,2,89,23,7]
+
 
