@@ -8,16 +8,7 @@ const clearAllBtn = document.createElement("button");
 let todoData = JSON.parse(localStorage.getItem("TO_DO_DATA")) || [];
 
 const addStyles = () => {
-  body.style.height = "90vh";
-  body.style.width = "90vw";
-  body.style.borderRadius = "12px";
-  body.style.margin = "auto";
-  body.style.marginRight = "auto";
-  body.style.backgroundColor = "rgb(229, 179, 155)";
-  body.style.textAlign = `center`;
-  body.style.padding = `1rem`;
-  listContainer.style.backgroundColor = "rgb(250, 1, 155, 0.1)";
-  clearAllBtn.style.backgroundColor = "red";
+  input.type = "text";
 };
 const addInput = () => {
   input.placeholder = `Enter To-Do`;
@@ -53,9 +44,7 @@ const renderList = () => {
   });
 };
 const handleDel = (delBtn, index) => {
-  delBtn.style.color = "red";
   delBtn.innerText = "DELETE";
-  delBtn.style.marginLeft = "45%";
   delBtn.addEventListener("click", () => {
     deleteList(delBtn, index);
   });
