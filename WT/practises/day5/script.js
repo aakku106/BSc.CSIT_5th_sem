@@ -40,11 +40,23 @@ const addList = () => {
 };
 const renderList = () => {
   listContainer.innerHTML = "";
-  todoData.forEach((value) => {
-    let list = document.createElement("li");
+  todoData.forEach((value, index) => {
+    const list = document.createElement("li");
+    const delBtn = document.createElement("button");
     list.textContent = value;
     listContainer.append(list);
+    list.append(delBtn);
+    handleDel(delBtn);
   });
+  console.log(todoData);
+  console.log(JSON.parse(localStorage.getItem("TO_DO_DATA")));
+};
+const handleDel = (delBtn) => {
+  delBtn.style.color = "red";
+  delBtn.innerText = "DELETE";
+};
+const deleteList = (index) => {
+  listContainer.innerHTML = "";
 };
 const clearAllToDO = () => {
   localStorage.clear("TO_DO_DATA");
