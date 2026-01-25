@@ -30,3 +30,6 @@ A bank queue simulation show to bank managers to conform  that cosutomer, servic
 
  - Inthis step of validation, we view the model as blackbox, and feed the input at one end to sxamine the output at other 
  - If they feed closly, the black box seems working fine, otherwise something in wrong
+ - This steps check wether the model correctly tenasforms input data into a realistic outpt, this compare th esimulation output with
+    1. real syste output
+    2. Historical data
