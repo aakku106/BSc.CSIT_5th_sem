@@ -41,6 +41,20 @@ const renderList = () => {
     list.append(p);
     list.append(delBtn);
     handleDel(delBtn, index);
+    handleDone(p, index);
+  });
+};
+const handleDone = (p, index) => {
+  p.addEventListener("click", () => {
+    ok = window.confirm("Task Done ?");
+    if (!ok) {
+      return;
+    }
+
+    p.style.textDecoration = "line-through";
+
+    setTimeout(deleteList, 5000);
+    return;
   });
 };
 const handleDel = (delBtn, index) => {
