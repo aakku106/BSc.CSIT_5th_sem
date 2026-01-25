@@ -57,9 +57,14 @@ const deleteList = (delBtn, index) => {
   renderList();
 };
 const clearAllToDO = () => {
-  localStorage.clear("TO_DO_DATA");
-  todoData = [];
-  renderList();
+  ok = window.confirm("Are U sure to Clear all ?");
+  if (ok) {
+    localStorage.clear("TO_DO_DATA");
+    todoData = [];
+    renderList();
+    return;
+  }
+  return;
 };
 
 const init = () => {
