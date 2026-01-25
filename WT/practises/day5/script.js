@@ -53,7 +53,9 @@ const handleDone = (p, index) => {
 
     p.style.textDecoration = "line-through";
 
-    setTimeout(deleteList, 5000);
+    setTimeout(() => {
+      deleteList(p, index);
+    }, 5000);
     return;
   });
 };
