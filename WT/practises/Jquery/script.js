@@ -5,4 +5,8 @@ $(document).ready(() => {
     $("#hide").toggle();
     $("#show").toggle();
   });
+
+  $("#showPass").click(() => {
+    $("#password").toggle();
+  });
 });
