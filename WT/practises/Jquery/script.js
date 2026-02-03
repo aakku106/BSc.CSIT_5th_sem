@@ -6,7 +6,14 @@ $(document).ready(() => {
     $("#show").toggle();
   });
 
+  let isPass = true;
   $("#showPass").click(() => {
-    $("#password").toggle();
+    if (isPass) {
+      $("#password").attr("type", "text");
+      isPass = false;
+    } else {
+      $("#password").attr("type", "password");
+      isPass = true;
+    }
   });
 });
