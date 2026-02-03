@@ -12,7 +12,10 @@ form.addEventListener("submit", (e) => {
   handleName(e.target[0].value.trim());
   handleAge(e.target[1].value);
 
-  //   const emailRegex = new RegExp("$[a-zA-Z0-9]+/@{1}[a-z]{2-9}/.");
+  const emailRegex = new RegExp("$[a-zA-Z0-9]+/@{1}[a-z]{2-9}/.[a-z]{2-5}");
+  console.log(emailRegex);
+  const email = document.getElementById("email").value.trim();
+  console.log(emailRegex(email.match(emailRegex)));
 });
 
 const handleAge = (age) => {
