@@ -9,20 +9,29 @@ const err = {};
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  handleName(e);
+  handleName(e.target[0].value.trim());
+  handleAge(e.target[1].value);
 
-  const emailRegex = new RegExp("$[a-zA-Z0-9]+/@{1}[a-z]{2-9}/.");
+  //   const emailRegex = new RegExp("$[a-zA-Z0-9]+/@{1}[a-z]{2-9}/.");
 });
-const handleName = (e) => {
-  const name = e.target[0].value.trim();
+
+const handleAge = (age) => {
+  if (age > 99) err.age = "Too Old";
+  else if (age <= 0) err.age = "unborned";
+  else err.age = " ";
+
+  if (err && err.age)
+    document.getElementsByClassName("age-err")[0].textContent = err.age;
+
+  //   if (err?.age) console.log("wee");
+};
+
+const handleName = (name) => {
   if (name.length < 4) err.name = "Name must be longer than 3 characters.";
-  //   else err.name = "";
+  else if (name.length > 20)
+    err.name = "Name must be shorter than 20 character";
+  else err.name = "";
 
-  if (name.length > 20) err.name = "Name must be shorter than 20 character";
-  //   else err.name = "";
-
-  if (err && "name" in err) {
+  if (err && "name" in err)
     document.getElementsByClassName("name-err")[0].textContent = err.name;
-    err.name = "";
-  }
 };
