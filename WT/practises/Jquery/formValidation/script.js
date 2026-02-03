@@ -11,7 +11,12 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("vslidating name");
   const name = e.target[0].value.trim();
-  if (name.length < 4) {
-    Error;
+  console.log(name);
+  if (name.length < 4) err["name"] = "Name must be longer than 3 characters.";
+  else err.name = "";
+
+  if (err && "name" in err) {
+    console.log("short name baka");
+    document.getElementsByClassName("name-err")[0].textContent = err.name;
   }
 });
