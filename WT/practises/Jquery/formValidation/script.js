@@ -9,10 +9,12 @@ const err = {};
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  const name = e.target[0].value.trim();
-  handleName(name);
+  handleName(e);
+
+  const emailRegex = new RegExp("$[a-zA-Z0-9]+/@{1}[a-z]{2-9}/.");
 });
-const handleName = (name) => {
+const handleName = (e) => {
+  const name = e.target[0].value.trim();
   if (name.length < 4) err.name = "Name must be longer than 3 characters.";
   //   else err.name = "";
 
