@@ -4,28 +4,28 @@
 
 
 <movie>
-<title> Naruto 1k year of pain </title>t
+<title> Naruto 1k year of pain </title>
 <director> Sikimoto </director>
-<leadCharactor>
+<leadCharacter>
 <name> Naruto </name>
 <name> Sasuke </name>
 <name> itachi </name>
 <name> Madhara </name>
-</leadCharactor>
+</leadCharacter>
 <releaseYear> 2016 </releaseYear>
 </movie>
 
 
 <movie>
-<title> Naruto the last movie </title>t
+<title> Naruto the last movie </title>
 <director> Sikimoto </director>
-<leadCharactor>
+<leadCharacter>
 <name> Naruto </name>
 <name> Sasuke </name>
 <name> Hinita </name>
 <name> Kurama </name>
-</leadCharactor>
-<releaseYear> 2016 </releaseYear>
+</leadCharacter>
+<releaseYear> 1980 </releaseYear>
 </movie>
 
 
