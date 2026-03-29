@@ -40,4 +40,10 @@ EG:
 
 DEPARD BLOCK:
 
-thsi block instruct the GPSS that a trensection is leavign the queue name in its attribute value
+this block instruct the GPSS that a trensection is leavign the queue name in its attribute value
+
+SEIZE BLOCK:
+
+Thsi block allows a transection to seize a facility if it is free, it may be car seizig facility such as a petrol pump.or sustomer in supper martet seizing a facility such as a checkou assicent. when the car ot the customer is beeing serviced by facility is is sayed to be own the facility
+
+RELEASE BLOCK: the transection entering inform GPSS the it's giving the owonership of the facility named in its attribute value
