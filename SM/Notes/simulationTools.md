@@ -40,4 +40,4 @@ EG:
 
 DEPARD BLOCK:
 
-thsi block instruct hte GPSS that a trensection is leavign the queue name in its attribute value
+thsi block instruct the GPSS that a trensection is leavign the queue name in its attribute value
