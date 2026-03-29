@@ -15,5 +15,22 @@ it's a predefined operatioon that control the flow of transections
 
 Gpss block:
 GENERATE block
-    this block will produce a flow of transection with interarrivals time, deteermined by the attributes value, the level is optimal
+    this block will produce a flow of transection with interarrivals time, deteermined by the attributes value, the level is optimal. The distrution of interalival tiem follow a uniform probability  distrubution
+systex:
+GENERATE A,B,C,D,E
+sysmol:
+
+      -------
+ |a,b| C,D,E 
+      --------
+
+where a= average value of unifirm distrubution, 
+b= half width of uniform distrubution
+c=  TIme delay before the 1st transection is generated
+d= max num of transection generated
+e= prority aloocated to the 
+
+EG: GENERATE 18,6
  
+QUEUE BLOCK:
+This block wil instruct GPSS to start gathering queue statstics on the queue named inits attribute value thsi lvl is optimal but may be necesarry if you have to refer to this line somewhere else in the porgram
