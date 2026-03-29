@@ -34,3 +34,10 @@ EG: GENERATE 18,6
  
 QUEUE BLOCK:
 This block wil instruct GPSS to start gathering queue statstics on the queue named inits attribute value thsi lvl is optimal but may be necesarry if you have to refer to this line somewhere else in the porgram
+Systex ---------> QYEUE A
+SYMBOL
+EG:
+
+DEPARD BLOCK:
+
+thsi block instruct hte GPSS that a trensection is leavign the queue name in its attribute value
