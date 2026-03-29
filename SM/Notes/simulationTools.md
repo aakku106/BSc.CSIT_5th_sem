@@ -47,3 +47,6 @@ SEIZE BLOCK:
 Thsi block allows a transection to seize a facility if it is free, it may be car seizig facility such as a petrol pump.or sustomer in supper martet seizing a facility such as a checkou assicent. when the car ot the customer is beeing serviced by facility is is sayed to be own the facility
 
 RELEASE BLOCK: the transection entering inform GPSS the it's giving the owonership of the facility named in its attribute value
+
+enter block
+this block instrict the GPSS that a tranction is entured the stirage, the name of the storage is given byt he1st attribute, the 2nd sttribut e value gives the amiunt of storage imcremented when the transection entres the enter block
