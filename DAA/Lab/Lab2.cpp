@@ -1,2 +1,30 @@
-#include<bits/stdc++.h>
-using namespace std;int main(){int n,x,s=-1,b=-1;cin>>n;vector<int>a(n);for(int&i:a)cin>>i;cin>>x;for(int i=0;i<n;i++)if(a[i]==x){s=i;break;}int l=0,r=n-1;while(l<=r){int m=(l+r)/2;if(a[m]==x){b=m;break;}if(a[m]<x)l=m+1;else r=m-1;}cout<<s<<" "<<b;}
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int n, x, seq = -1, bin = -1;
+	cin >> n;
+	vector<int> a(n);
+	for (int &i : a) cin >> i;
+	cin >> x;
+
+	for (int i = 0; i < n; i++) {
+		if (a[i] == x) {
+			seq = i;
+			break;
+		}
+	}
+
+	int l = 0, r = n - 1;
+	while (l <= r) {
+		int m = (l + r) / 2;
+		if (a[m] == x) {
+			bin = m;
+			break;
+		}
+		if (a[m] < x) l = m + 1;
+		else r = m - 1;
+	}
+
+	cout << seq << " " << bin;
+}
