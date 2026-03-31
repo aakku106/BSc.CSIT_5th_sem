@@ -1,11 +1,15 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
 	int n, x, seq = -1, bin = -1;
+	cout << "Enter size: ";
 	cin >> n;
 	vector<int> a(n);
+	cout << "Enter sorted array: ";
 	for (int &i : a) cin >> i;
+	cout << "Enter key: ";
 	cin >> x;
 
 	for (int i = 0; i < n; i++) {
@@ -26,5 +30,6 @@ int main() {
 		else r = m - 1;
 	}
 
-	cout << seq << " " << bin;
+	cout << "Sequential index = " << seq << "\n";
+	cout << "Binary index = " << bin;
 }

@@ -1,12 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
 	long long a, b;
+	cout << "Enter two numbers: ";
 	cin >> a >> b;
 	while (b) {
-		a %= b;
-		swap(a, b);
+		long long t = a % b;
+		a = b;
+		b = t;
 	}
-	cout << a;
+	cout << "GCD = " << a;
 }

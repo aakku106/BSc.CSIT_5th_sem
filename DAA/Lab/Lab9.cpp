@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <iomanip>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 struct I { double v, w; };
@@ -6,8 +9,10 @@ struct I { double v, w; };
 int main() {
 	int n;
 	double W, ans = 0;
+	cout << "Enter items and capacity: ";
 	cin >> n >> W;
 	vector<I> a(n);
+	cout << "Enter value weight for each item: ";
 	for (auto &i : a) cin >> i.v >> i.w;
 
 	sort(a.begin(), a.end(), [](I x, I y) {
@@ -21,5 +26,5 @@ int main() {
 		W -= take;
 	}
 
-	cout << fixed << setprecision(2) << ans;
+	cout << "Max value = " << fixed << setprecision(2) << ans;
 }

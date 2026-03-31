@@ -1,10 +1,13 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
 	int n;
+	cout << "Enter size: ";
 	cin >> n;
 	vector<int> a(n);
+	cout << "Enter array: ";
 	for (int &i : a) cin >> i;
 
 	for (int i = 1; i < n; i++) {
@@ -16,5 +19,6 @@ int main() {
 		a[j + 1] = key;
 	}
 
+	cout << "Sorted: ";
 	for (int x : a) cout << x << " ";
 }

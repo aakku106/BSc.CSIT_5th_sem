@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 void qs(vector<int> &a, int l, int r) {
@@ -15,9 +16,12 @@ void qs(vector<int> &a, int l, int r) {
 
 int main() {
 	int n;
+	cout << "Enter size: ";
 	cin >> n;
 	vector<int> a(n);
+	cout << "Enter array: ";
 	for (int &i : a) cin >> i;
 	qs(a, 0, n - 1);
+	cout << "Sorted: ";
 	for (int x : a) cout << x << " ";
 }

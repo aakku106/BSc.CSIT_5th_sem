@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <queue>
+#include <string>
+#include <vector>
 using namespace std;
 
 struct N {
@@ -25,9 +28,11 @@ void dfs(N *x, string s) {
 int main() {
 	int n, f;
 	char c;
+	cout << "Enter number of chars: ";
 	cin >> n;
 	priority_queue<N *, vector<N *>, C> q;
 
+	cout << "Enter char frequency pairs: ";
 	while (n--) {
 		cin >> c >> f;
 		q.push(new N(c, f));
@@ -39,5 +44,6 @@ int main() {
 		q.push(new N('#', a->f + b->f, a, b));
 	}
 
+	cout << "Huffman Codes:\n";
 	dfs(q.top(), "");
 }

@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 void ms(vector<int> &a, int l, int r) {
@@ -17,9 +18,12 @@ void ms(vector<int> &a, int l, int r) {
 
 int main() {
 	int n;
+	cout << "Enter size: ";
 	cin >> n;
 	vector<int> a(n);
+	cout << "Enter array: ";
 	for (int &i : a) cin >> i;
 	ms(a, 0, n - 1);
+	cout << "Sorted: ";
 	for (int x : a) cout << x << " ";
 }
