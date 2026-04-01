@@ -1,11 +1,11 @@
 graph TD
-%% Entities
-User[User]
-Org[Organization]
-Repo[Repository]
-PR[Pull Request]
-Issue[Issue]
-Commit[Commit]
+    %% Entities
+    User[User]
+    Org[Organization]
+    Repo[Repository]
+    PR[Pull Request]
+    Issue[Issue]
+    Commit[Commit]
 
     %% Relationships
     Membership{Membership}
@@ -46,13 +46,13 @@ Commit[Commit]
 
     User --- OwnsU --- Repo
     Org --- OwnsO --- Repo
-
+    
     User --- Contributes --- Repo
     c1((commit_count)) --- Contributes
 
     User --- AuthorsPR --- PR
     Repo --- HasPR --- PR
-
+    
     User --- ReportsIssue --- Issue
     Repo --- HasIssue --- Issue
 
@@ -83,6 +83,6 @@ Commit[Commit]
     style PR fill:#f9f,stroke:#333,stroke-width:2px
     style Issue fill:#f9f,stroke:#333,stroke-width:2px
     style Commit fill:#f9f,stroke:#333,stroke-width:2px
-
+    
     style Membership fill:#fff,stroke:#333,stroke-dasharray: 5 5
     style Contributes fill:#fff,stroke:#333,stroke-dasharray: 5 5
