@@ -25,14 +25,12 @@
         background: var(--page-bg);
         color: var(--ink);
         min-height: 100vh;
-        padding: 28px 18px;
-        display: flex;
-        justify-content: center;
+        padding: 12px;
       }
 
       .container {
         width: 100%;
-        max-width: 2100px;
+        max-width: none;
         background: var(--panel-bg);
         border: 1px solid var(--panel-border);
         border-radius: 12px;
@@ -58,12 +56,12 @@
         background: #ffffff;
         border: 1px solid var(--panel-border);
         border-radius: 10px;
-        padding: 16px;
-        overflow-x: auto;
+        padding: 0;
+        overflow: hidden;
       }
 
       .diagram-wrapper svg {
-        width: 2600px;
+        width: 100%;
         height: auto;
         display: block;
       }
@@ -316,30 +314,30 @@
           <line x1="1480" y1="360" x2="1480" y2="338" stroke-width="1.5" />
 
           <!-- ORG_MEMBERSHIP attributes placed in side-lanes (prevents overlap with REPOSITORY) -->
-          <ellipse cx="900" cy="410" rx="72" ry="28" stroke-width="2" />
-          <text x="900" y="415" font-size="12" text-anchor="middle">
+          <ellipse cx="760" cy="410" rx="72" ry="28" stroke-width="2" />
+          <text x="760" y="415" font-size="12" text-anchor="middle">
             user_id
           </text>
-          <line x1="1040" y1="410" x2="972" y2="410" stroke-width="1.5" />
+          <line x1="1040" y1="410" x2="832" y2="410" stroke-width="1.5" />
 
-          <ellipse cx="1700" cy="410" rx="72" ry="28" stroke-width="2" />
-          <text x="1700" y="415" font-size="12" text-anchor="middle">
+          <ellipse cx="1840" cy="410" rx="72" ry="28" stroke-width="2" />
+          <text x="1840" y="415" font-size="12" text-anchor="middle">
             org_id
           </text>
-          <line x1="1560" y1="410" x2="1628" y2="410" stroke-width="1.5" />
+          <line x1="1560" y1="410" x2="1768" y2="410" stroke-width="1.5" />
 
-          <ellipse cx="900" cy="480" rx="130" ry="30" stroke-width="2" />
-          <text x="900" y="475" font-size="11" text-anchor="middle">role</text>
-          <text x="900" y="490" font-size="10" text-anchor="middle">
+          <ellipse cx="760" cy="480" rx="130" ry="30" stroke-width="2" />
+          <text x="760" y="475" font-size="11" text-anchor="middle">role</text>
+          <text x="760" y="490" font-size="10" text-anchor="middle">
             (Owner/Member/Billing)
           </text>
-          <line x1="1040" y1="440" x2="990" y2="480" stroke-width="1.5" />
+          <line x1="1040" y1="440" x2="890" y2="480" stroke-width="1.5" />
 
-          <ellipse cx="1700" cy="480" rx="88" ry="28" stroke-width="2" />
-          <text x="1700" y="485" font-size="12" text-anchor="middle">
+          <ellipse cx="1840" cy="480" rx="88" ry="28" stroke-width="2" />
+          <text x="1840" y="485" font-size="12" text-anchor="middle">
             joined_at
           </text>
-          <line x1="1560" y1="440" x2="1612" y2="480" stroke-width="1.5" />
+          <line x1="1560" y1="440" x2="1752" y2="480" stroke-width="1.5" />
 
           <!-- Link Membership relationship to ORG_MEMBERSHIP (kept separate from attribute connector lanes) -->
           <path d="M 1300 270 L 1300 360" stroke-width="2" />
@@ -347,87 +345,87 @@
           <!-- ========== ENTITY: REPOSITORY ========== -->
           <rect
             x="1020"
-            y="520"
+            y="640"
             width="560"
             height="110"
             stroke-width="2"
             rx="4" />
           <text
             x="1300"
-            y="585"
+            y="705"
             font-size="16"
             font-weight="bold"
             text-anchor="middle">
             REPOSITORY
           </text>
 
-          <ellipse cx="1300" cy="470" rx="78" ry="30" stroke-width="2" />
+          <ellipse cx="1300" cy="590" rx="78" ry="30" stroke-width="2" />
           <text
             x="1300"
-            y="475"
+            y="595"
             font-size="12"
             text-anchor="middle"
             font-weight="bold">
             <tspan text-decoration="underline">repo_id</tspan>
           </text>
-          <line x1="1300" y1="520" x2="1300" y2="500" stroke-width="1.5" />
+          <line x1="1300" y1="640" x2="1300" y2="620" stroke-width="1.5" />
 
           <!-- left-side attributes -->
-          <ellipse cx="900" cy="545" rx="92" ry="28" stroke-width="2" />
-          <text x="900" y="550" font-size="12" text-anchor="middle">
+          <ellipse cx="700" cy="665" rx="92" ry="28" stroke-width="2" />
+          <text x="700" y="670" font-size="12" text-anchor="middle">
             repo_name
           </text>
-          <line x1="1020" y1="555" x2="992" y2="545" stroke-width="1.5" />
+          <line x1="1020" y1="675" x2="792" y2="665" stroke-width="1.5" />
 
-          <ellipse cx="900" cy="605" rx="98" ry="28" stroke-width="2" />
-          <text x="900" y="610" font-size="12" text-anchor="middle">
+          <ellipse cx="700" cy="725" rx="98" ry="28" stroke-width="2" />
+          <text x="700" y="730" font-size="12" text-anchor="middle">
             description
           </text>
-          <line x1="1020" y1="585" x2="996" y2="605" stroke-width="1.5" />
+          <line x1="1020" y1="705" x2="798" y2="725" stroke-width="1.5" />
 
-          <ellipse cx="900" cy="665" rx="110" ry="28" stroke-width="2" />
-          <text x="900" y="670" font-size="12" text-anchor="middle">
+          <ellipse cx="700" cy="785" rx="110" ry="28" stroke-width="2" />
+          <text x="700" y="790" font-size="12" text-anchor="middle">
             default_branch
           </text>
-          <line x1="1020" y1="615" x2="1008" y2="665" stroke-width="1.5" />
+          <line x1="1020" y1="735" x2="810" y2="785" stroke-width="1.5" />
 
-          <ellipse cx="900" cy="725" rx="110" ry="28" stroke-width="2" />
-          <text x="900" y="730" font-size="12" text-anchor="middle">
+          <ellipse cx="700" cy="845" rx="110" ry="28" stroke-width="2" />
+          <text x="700" y="850" font-size="12" text-anchor="middle">
             owner_user_id
           </text>
-          <line x1="1020" y1="630" x2="1008" y2="725" stroke-width="1.5" />
+          <line x1="1020" y1="750" x2="810" y2="845" stroke-width="1.5" />
 
           <!-- right-side attributes -->
-          <ellipse cx="1700" cy="545" rx="92" ry="28" stroke-width="2" />
-          <text x="1700" y="550" font-size="12" text-anchor="middle">
+          <ellipse cx="1900" cy="665" rx="92" ry="28" stroke-width="2" />
+          <text x="1900" y="670" font-size="12" text-anchor="middle">
             visibility
           </text>
-          <line x1="1580" y1="555" x2="1608" y2="545" stroke-width="1.5" />
+          <line x1="1580" y1="675" x2="1808" y2="665" stroke-width="1.5" />
 
-          <ellipse cx="1700" cy="605" rx="88" ry="28" stroke-width="2" />
-          <text x="1700" y="610" font-size="12" text-anchor="middle">
+          <ellipse cx="1900" cy="725" rx="88" ry="28" stroke-width="2" />
+          <text x="1900" y="730" font-size="12" text-anchor="middle">
             language
           </text>
-          <line x1="1580" y1="585" x2="1604" y2="605" stroke-width="1.5" />
+          <line x1="1580" y1="705" x2="1812" y2="725" stroke-width="1.5" />
 
-          <ellipse cx="1700" cy="665" rx="98" ry="28" stroke-width="2" />
-          <text x="1700" y="670" font-size="12" text-anchor="middle">
+          <ellipse cx="1900" cy="785" rx="98" ry="28" stroke-width="2" />
+          <text x="1900" y="790" font-size="12" text-anchor="middle">
             forked_from
           </text>
-          <line x1="1580" y1="615" x2="1592" y2="665" stroke-width="1.5" />
+          <line x1="1580" y1="735" x2="1802" y2="785" stroke-width="1.5" />
 
-          <ellipse cx="1700" cy="725" rx="110" ry="28" stroke-width="2" />
-          <text x="1700" y="730" font-size="12" text-anchor="middle">
+          <ellipse cx="1900" cy="845" rx="110" ry="28" stroke-width="2" />
+          <text x="1900" y="850" font-size="12" text-anchor="middle">
             owner_org_id
           </text>
-          <line x1="1580" y1="630" x2="1592" y2="725" stroke-width="1.5" />
+          <line x1="1580" y1="750" x2="1790" y2="845" stroke-width="1.5" />
 
           <!-- Place created_at away from the main "Has" trunk (prevents line-on-line overlap) -->
-          <ellipse cx="1560" cy="850" rx="88" ry="28" stroke-width="2" />
-          <text x="1560" y="855" font-size="12" text-anchor="middle">
+          <ellipse cx="1560" cy="970" rx="88" ry="28" stroke-width="2" />
+          <text x="1560" y="975" font-size="12" text-anchor="middle">
             created_at
           </text>
-          <line x1="1540" y1="630" x2="1560" y2="822" stroke-width="1.5" />
+          <line x1="1540" y1="750" x2="1560" y2="942" stroke-width="1.5" />
 
           <!-- ========== RELATIONSHIPS: OWNS (USER/ORG -> REPOSITORY) ========== -->
           <polygon points="740,440 800,400 860,440 800,480" stroke-width="2" />
@@ -440,9 +438,9 @@
             Owns
           </text>
           <path d="M 480 205 L 600 205 L 600 440 L 740 440" stroke-width="2" />
-          <path d="M 860 440 L 920 440 L 920 575 L 1020 575" stroke-width="2" />
+          <path d="M 860 440 L 920 440 L 920 695 L 1020 695" stroke-width="2" />
           <text x="520" y="190" font-size="12" font-weight="bold">1</text>
-          <text x="960" y="560" font-size="12" font-weight="bold">N</text>
+          <text x="960" y="680" font-size="12" font-weight="bold">N</text>
 
           <polygon
             points="1740,440 1800,400 1860,440 1800,480"
@@ -459,10 +457,10 @@
             d="M 2080 205 L 1960 205 L 1960 440 L 1860 440"
             stroke-width="2" />
           <path
-            d="M 1740 440 L 1660 440 L 1660 575 L 1580 575"
+            d="M 1740 440 L 1660 440 L 1660 695 L 1580 695"
             stroke-width="2" />
           <text x="2020" y="190" font-size="12" font-weight="bold">1</text>
-          <text x="1620" y="560" font-size="12" font-weight="bold">N</text>
+          <text x="1620" y="680" font-size="12" font-weight="bold">N</text>
 
           <!-- ========== ENTITY: CONTRIBUTOR ========== -->
           <rect
@@ -728,41 +726,43 @@
 
           <!-- ========== RELATIONSHIPS: HAS (REPOSITORY -> others) ========== -->
           <!-- Has: REPOSITORY -> CONTRIBUTOR (1:N) -->
-          <polygon points="800,950 860,910 920,950 860,990" stroke-width="2" />
+          <polygon points="800,860 860,820 920,860 860,900" stroke-width="2" />
           <text
             x="860"
-            y="955"
+            y="865"
             font-size="13"
             font-weight="bold"
             text-anchor="middle">
             Has
           </text>
-          <path d="M 1020 575 L 740 575 L 740 910 L 860 910" stroke-width="2" />
           <path
-            d="M 800 950 L 650 950 L 650 1030 L 400 1030"
+            d="M 1020 695 L 1020 790 L 860 790 L 860 820"
             stroke-width="2" />
-          <text x="1005" y="560" font-size="12" font-weight="bold">1</text>
+          <path
+            d="M 860 900 L 650 900 L 650 1030 L 400 1030"
+            stroke-width="2" />
+          <text x="1005" y="680" font-size="12" font-weight="bold">1</text>
           <text x="520" y="1015" font-size="12" font-weight="bold">N</text>
 
           <!-- Has: REPOSITORY -> PULL_REQUEST (1:N) -->
           <polygon
-            points="1680,950 1740,910 1800,950 1740,990"
+            points="1680,860 1740,820 1800,860 1740,900"
             stroke-width="2" />
           <text
             x="1740"
-            y="955"
+            y="865"
             font-size="13"
             font-weight="bold"
             text-anchor="middle">
             Has
           </text>
           <path
-            d="M 1580 575 L 1820 575 L 1820 950 L 1680 950"
+            d="M 1580 695 L 1580 790 L 1740 790 L 1740 820"
             stroke-width="2" />
           <path
-            d="M 1800 950 L 1950 950 L 1950 1030 L 2090 1030"
+            d="M 1740 900 L 1950 900 L 1950 1030 L 2090 1030"
             stroke-width="2" />
-          <text x="1595" y="560" font-size="12" font-weight="bold">1</text>
+          <text x="1595" y="680" font-size="12" font-weight="bold">1</text>
           <text x="2030" y="1015" font-size="12" font-weight="bold">N</text>
 
           <!-- Has: REPOSITORY -> COMMIT (1:N) -->
@@ -778,7 +778,7 @@
             Has
           </text>
           <path
-            d="M 1260 630 L 1260 1000 L 1050 1000 L 1050 1190"
+            d="M 1260 750 L 1260 1000 L 1050 1000 L 1050 1190"
             stroke-width="2" />
           <path
             d="M 1050 1270 L 1050 1360 L 780 1360 L 780 1430"
@@ -799,7 +799,7 @@
             Has
           </text>
           <path
-            d="M 1340 630 L 1340 1000 L 1550 1000 L 1550 1190"
+            d="M 1340 750 L 1340 1000 L 1550 1000 L 1550 1190"
             stroke-width="2" />
           <path d="M 1550 1270 L 1550 1360 L 1550 1430" stroke-width="2" />
           <text x="1280" y="985" font-size="12" font-weight="bold">1</text>
