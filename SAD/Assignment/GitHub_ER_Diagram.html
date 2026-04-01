@@ -11,15 +11,19 @@
         box-sizing: border-box;
       }
 
+      :root {
+        --page-bg: #ffffff;
+        --panel-bg: #ffffff;
+        --panel-border: #cfd4d8;
+        --ink: #111111;
+        --muted: #4a4a4a;
+        --shape-fill: #dfeeda; /* light green, reference-style */
+      }
+
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(
-          135deg,
-          #0f0f1e 0%,
-          #1a1a2e 50%,
-          #16213e 100%
-        );
-        color: #e0e0e0;
+        background: var(--page-bg);
+        color: var(--ink);
         min-height: 100vh;
         padding: 30px 20px;
         display: flex;
@@ -30,31 +34,31 @@
       .container {
         width: 100%;
         max-width: 2000px;
-        background: rgba(20, 30, 50, 0.8);
-        border: 2px solid #00d4ff;
+        background: var(--panel-bg);
+        border: 1px solid var(--panel-border);
         border-radius: 12px;
         padding: 30px;
-        box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+        box-shadow: none;
       }
 
       h1 {
         text-align: center;
-        color: #00d4ff;
+        color: var(--ink);
         margin-bottom: 10px;
         font-size: 2.5em;
-        text-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+        text-shadow: none;
       }
 
       .subtitle {
         text-align: center;
-        color: #a0a0a0;
+        color: var(--muted);
         margin-bottom: 30px;
         font-size: 1em;
       }
 
       .diagram-wrapper {
-        background: rgba(10, 15, 30, 0.8);
-        border: 1px solid rgba(0, 212, 255, 0.3);
+        background: #ffffff;
+        border: 1px solid var(--panel-border);
         border-radius: 8px;
         padding: 20px;
         overflow-x: auto;
@@ -62,20 +66,39 @@
       }
 
       .diagram-wrapper svg {
-        min-width: 100%;
+        width: 100%;
+        height: auto;
         display: block;
       }
 
+      /* Chen notation: clean, reference-style strokes and fills */
+      .diagram-wrapper svg rect,
+      .diagram-wrapper svg ellipse,
+      .diagram-wrapper svg polygon {
+        fill: var(--shape-fill) !important;
+        stroke: var(--ink) !important;
+      }
+
+      .diagram-wrapper svg line {
+        stroke: var(--ink) !important;
+        marker-end: none !important;
+        marker-start: none !important;
+      }
+
+      .diagram-wrapper svg text {
+        fill: var(--ink) !important;
+      }
+
       .legend {
-        background: rgba(10, 15, 30, 0.6);
-        border: 1px solid rgba(0, 212, 255, 0.3);
+        background: #ffffff;
+        border: 1px solid var(--panel-border);
         border-radius: 8px;
         padding: 20px;
         margin-top: 30px;
       }
 
       .legend h2 {
-        color: #00d4ff;
+        color: var(--ink);
         margin-bottom: 20px;
         font-size: 1.5em;
       }
@@ -87,14 +110,14 @@
       }
 
       .legend-item {
-        background: rgba(0, 212, 255, 0.05);
+        background: #f6f7f6;
         padding: 15px;
-        border-left: 3px solid #00d4ff;
+        border-left: 3px solid var(--ink);
         border-radius: 4px;
       }
 
       .legend-item strong {
-        color: #00d4ff;
+        color: var(--ink);
         display: block;
         margin-bottom: 8px;
       }
@@ -102,7 +125,7 @@
       .legend-item p {
         font-size: 0.95em;
         line-height: 1.5;
-        color: #c0c0c0;
+        color: #2e2e2e;
       }
 
       @media (max-width: 768px) {
@@ -124,17 +147,7 @@
 
       <div class="diagram-wrapper">
         <svg width="2200" height="1400" viewBox="0 0 2200 1400">
-          <defs>
-            <marker
-              id="arrowhead"
-              markerWidth="10"
-              markerHeight="10"
-              refX="9"
-              refY="3"
-              orient="auto">
-              <polygon points="0 0, 10 3, 0 6" fill="#00d4ff" />
-            </marker>
-          </defs>
+          <!-- Chen notation uses plain connectors (no arrowheads). -->
 
           <!-- ========== ENTITY: USER (Top Left) ========== -->
           <rect
@@ -497,90 +510,36 @@
             stroke-dasharray="5,5" />
 
           <!-- ========== RELATIONSHIP: Owns (USER to REPOSITORY) ========== -->
-          <polygon
-            points="320,100 380,80 420,120 380,160 320,140"
-            fill="#9c27b0"
-            stroke="#b366ff"
-            stroke-width="2" />
+          <polygon points="320,120 380,80 440,120 380,160" stroke-width="2" />
           <text
-            x="370"
+            x="380"
             y="125"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Owns
           </text>
-          <line
-            x1="230"
-            y1="90"
-            x2="320"
-            y2="90"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="420"
-            y1="120"
-            x2="800"
-            y2="90"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <text x="460" y="75" font-size="11" fill="#00d4ff" font-weight="bold">
-            1
-          </text>
-          <text x="760" y="75" font-size="11" fill="#00d4ff" font-weight="bold">
-            N
-          </text>
+          <line x1="230" y1="90" x2="320" y2="120" stroke-width="2" />
+          <line x1="440" y1="120" x2="800" y2="90" stroke-width="2" />
+          <text x="460" y="75" font-size="11" font-weight="bold">1</text>
+          <text x="760" y="75" font-size="11" font-weight="bold">N</text>
 
           <!-- ========== RELATIONSHIP: Owns (ORGANIZATION to REPOSITORY) ========== -->
           <polygon
-            points="1380,100 1440,80 1480,120 1440,160 1380,140"
-            fill="#9c27b0"
-            stroke="#b366ff"
+            points="1380,120 1440,80 1500,120 1440,160"
             stroke-width="2" />
           <text
             x="1430"
             y="125"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Owns
           </text>
-          <line
-            x1="1650"
-            y1="90"
-            x2="1480"
-            y2="90"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="1380"
-            y1="120"
-            x2="1000"
-            y2="90"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <text
-            x="1500"
-            y="75"
-            font-size="11"
-            fill="#00d4ff"
-            font-weight="bold">
-            1
-          </text>
-          <text
-            x="1100"
-            y="75"
-            font-size="11"
-            fill="#00d4ff"
-            font-weight="bold">
-            N
-          </text>
+          <line x1="1650" y1="90" x2="1500" y2="120" stroke-width="2" />
+          <line x1="1380" y1="120" x2="1000" y2="90" stroke-width="2" />
+          <text x="1500" y="75" font-size="11" font-weight="bold">1</text>
+          <text x="1100" y="75" font-size="11" font-weight="bold">N</text>
 
           <!-- ========== ENTITY: CONTRIBUTOR (Left Middle) ========== -->
           <rect
@@ -674,36 +633,17 @@
             stroke-dasharray="5,5" />
 
           <!-- ========== RELATIONSHIP: Has (REPOSITORY to CONTRIBUTOR) ========== -->
-          <polygon
-            points="700,350 760,330 800,370 760,410 700,390"
-            fill="#9c27b0"
-            stroke="#b366ff"
-            stroke-width="2" />
+          <polygon points="700,370 760,330 820,370 760,410" stroke-width="2" />
           <text
-            x="750"
+            x="760"
             y="375"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Has
           </text>
-          <line
-            x1="850"
-            y1="130"
-            x2="750"
-            y2="330"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="760"
-            y1="410"
-            x2="300"
-            y2="500"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
+          <line x1="850" y1="130" x2="760" y2="330" stroke-width="2" />
+          <line x1="760" y1="410" x2="300" y2="500" stroke-width="2" />
           <text
             x="820"
             y="250"
@@ -829,35 +769,18 @@
 
           <!-- ========== RELATIONSHIP: Has (REPOSITORY to PULL_REQUEST) ========== -->
           <polygon
-            points="1100,350 1160,330 1200,370 1160,410 1100,390"
-            fill="#9c27b0"
-            stroke="#b366ff"
+            points="1100,370 1160,330 1220,370 1160,410"
             stroke-width="2" />
           <text
-            x="1150"
+            x="1160"
             y="375"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Has
           </text>
-          <line
-            x1="1000"
-            y1="130"
-            x2="1100"
-            y2="330"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="1200"
-            y1="370"
-            x2="1400"
-            y2="540"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
+          <line x1="1000" y1="130" x2="1160" y2="330" stroke-width="2" />
+          <line x1="1220" y1="370" x2="1400" y2="540" stroke-width="2" />
           <text
             x="1040"
             y="250"
@@ -982,36 +905,17 @@
             stroke-dasharray="5,5" />
 
           <!-- ========== RELATIONSHIP: Has (REPOSITORY to COMMIT) ========== -->
-          <polygon
-            points="750,350 810,330 850,370 810,410 750,390"
-            fill="#9c27b0"
-            stroke="#b366ff"
-            stroke-width="2" />
+          <polygon points="750,370 810,330 870,370 810,410" stroke-width="2" />
           <text
-            x="800"
+            x="810"
             y="375"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Has
           </text>
-          <line
-            x1="850"
-            y1="130"
-            x2="800"
-            y2="330"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="750"
-            y1="390"
-            x2="390"
-            y2="900"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
+          <line x1="850" y1="130" x2="810" y2="330" stroke-width="2" />
+          <line x1="750" y1="370" x2="390" y2="900" stroke-width="2" />
           <text
             x="850"
             y="250"
@@ -1136,36 +1040,17 @@
             stroke-dasharray="5,5" />
 
           <!-- ========== RELATIONSHIP: Has (REPOSITORY to ISSUE) ========== -->
-          <polygon
-            points="900,350 960,330 1000,370 960,410 900,390"
-            fill="#9c27b0"
-            stroke="#b366ff"
-            stroke-width="2" />
+          <polygon points="900,370 960,330 1020,370 960,410" stroke-width="2" />
           <text
-            x="950"
+            x="960"
             y="375"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Has
           </text>
-          <line
-            x1="900"
-            y1="130"
-            x2="950"
-            y2="330"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="960"
-            y1="410"
-            x2="880"
-            y2="900"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
+          <line x1="900" y1="130" x2="960" y2="330" stroke-width="2" />
+          <line x1="960" y1="410" x2="880" y2="900" stroke-width="2" />
           <text
             x="960"
             y="250"
@@ -1290,36 +1175,17 @@
             stroke-dasharray="5,5" />
 
           <!-- ========== RELATIONSHIP: Member (USER to ORGANIZATION via ORG_MEMBERSHIP) ========== -->
-          <polygon
-            points="600,400 660,380 700,420 660,460 600,440"
-            fill="#9c27b0"
-            stroke="#b366ff"
-            stroke-width="2" />
+          <polygon points="600,420 660,380 720,420 660,460" stroke-width="2" />
           <text
-            x="650"
+            x="660"
             y="425"
             font-size="12"
-            fill="#fff"
             text-anchor="middle"
             font-weight="bold">
             Member
           </text>
-          <line
-            x1="230"
-            y1="130"
-            x2="600"
-            y2="400"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
-          <line
-            x1="700"
-            y1="420"
-            x2="1600"
-            y2="940"
-            stroke="#00d4ff"
-            stroke-width="2"
-            marker-end="url(#arrowhead)" />
+          <line x1="230" y1="130" x2="600" y2="420" stroke-width="2" />
+          <line x1="720" y1="420" x2="1600" y2="940" stroke-width="2" />
           <text
             x="410"
             y="280"
@@ -1357,10 +1223,10 @@
       </div>
 
       <div class="legend">
-        <h2>📚 Standard ER Diagram Components</h2>
+        <h2>Standard ER Diagram Components</h2>
         <div class="legend-grid">
           <div class="legend-item">
-            <strong>🟦 Entity (Rectangle)</strong>
+            <strong>Entity (Rectangle)</strong>
             <p>
               Represents a real-world object or concept (e.g., USER,
               REPOSITORY). It becomes a table in the database.
@@ -1368,15 +1234,15 @@
           </div>
 
           <div class="legend-item">
-            <strong>⭕ Attribute (Ellipse)</strong>
+            <strong>Attribute (Ellipse)</strong>
             <p>
-              Properties that describe an entity (e.g., user_id, repo_name).
-              Orange ellipses = descriptive, Red = Foreign Keys.
+              Properties that describe an entity (e.g., user_id, repo_name). Key
+              attributes are underlined.
             </p>
           </div>
 
           <div class="legend-item">
-            <strong>◇ Relationship (Diamond)</strong>
+            <strong>Relationship (Diamond)</strong>
             <p>
               Association between entities (e.g., USER "Owns" REPOSITORY). Shows
               how entities relate to each other.
@@ -1384,18 +1250,19 @@
           </div>
 
           <div class="legend-item">
-            <strong>🔑 Primary Key (PK)</strong>
+            <strong>Primary Key</strong>
             <p>
-              Unique identifier for each record. Underlined in ellipses.
-              Example: user_id uniquely identifies each USER.
+              A key attribute that uniquely identifies an entity occurrence.
+              Represented by an underlined attribute.
             </p>
           </div>
 
           <div class="legend-item">
-            <strong>🔗 Foreign Key (FK)</strong>
+            <strong>Foreign Key</strong>
             <p>
-              References a Primary Key from another entity. Shown with red
-              ellipses and dashed lines. Example: repo_id in CONTRIBUTOR.
+              An attribute whose value references a key attribute in another
+              entity, used to connect related data. Example: repo_id in
+              CONTRIBUTOR.
             </p>
           </div>
 
@@ -1432,7 +1299,7 @@
           </div>
 
           <div class="legend-item">
-            <strong>🟩 Junction Entity (Green)</strong>
+            <strong>Junction Entity</strong>
             <p>
               Created to handle M:N relationships by breaking them into two 1:N
               relationships. Examples: CONTRIBUTOR, ORG_MEMBERSHIP.
