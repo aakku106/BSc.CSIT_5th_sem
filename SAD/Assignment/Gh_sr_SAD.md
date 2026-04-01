@@ -1,88 +1,83 @@
-graph TD
-    %% Entities
-    User[User]
-    Org[Organization]
-    Repo[Repository]
-    PR[Pull Request]
-    Issue[Issue]
-    Commit[Commit]
 
-    %% Relationships
-    Membership{Membership}
-    OwnsU{Owns}
-    OwnsO{Owns}
-    Contributes{Contributes}
-    AuthorsPR{Authors}
-    HasPR{Has}
-    ReportsIssue{Reports}
-    HasIssue{Has}
-    AuthorsCommit{Authors}
-    HasCommit{Has}
-    IncludedIn{Included In}
-    ForkedFrom{Forked From}
+                  GITHUB CORE SYSTEM - ER DIAGRAM
 
-    %% User Attributes
-    u1((<u>user_id</u>)) --- User
-    u2((username)) --- User
-    u3((email)) --- User
-    u4((avatar_url)) --- User
-    u5((bio)) --- User
+ +------------------------+              +----------------------------+
+ |        USER            |              |      ORGANIZATION          |
+ +------------------------+              +----------------------------+
+ | PK  user_id            |  1    M      | PK  org_id                 |
+ |     username           |<------------>|     org_name               |
+ |     email              | (Membership) |     description            |
+ |     password_hash      |              |     plan_type              |
+ |     avatar_url         |              |     created_at             |
+ |     bio                |              +-------------+--------------+
+ |     created_at         |                            |
+ +----------+-------------+                            | Owns (1:N)
+            |                                          |
+            | Owns (1:N)                               |
+            |              +---------------------------+
+            +------------->|
+                           |        REPOSITORY
+                           +----------------------------+
+                           | PK  repo_id               |
+                           |     repo_name             |
+                           |     description           |
+                           |     visibility            |
+                           |     default_branch        |
+                           | FK  owner_user_id -> User |
+                           | FK  owner_org_id  -> Org  |
+                           |     language              |
+                           | FK  forked_from -> Repo   |
+                           |     created_at            |
+                           +------+----------+---------+
+                                  |          |
+                        Has N     |          |  Has N
+                                  |          |
+              +-------------------+          +--------------------+
+              |                                                   |
+              v                                                   v
+ +------------------------+               +------------------------+
+ |    CONTRIBUTOR         |               |    PULL_REQUEST        |
+ | (User <-> Repo)        |               +------------------------+
+ +------------------------+               | PK  pr_id              |
+ | PK  contributor_id     |               | FK  repo_id -> Repo    |
+ | FK  user_id -> User    |               | FK  author_id -> User  |
+ | FK  repo_id -> Repo    |               |     title              |
+ |     commit_count       |               |     status             |
+ |     first_commit_at    |               |     source_branch      |
+ |     last_commit_at     |               |     target_branch      |
+ +------------------------+               |     created_at         |
+                                          +————————————+
 
-    %% Organization Attributes
-    o1((<u>org_id</u>)) --- Org
-    o2((org_name)) --- Org
-    o3((plan_type)) --- Org
 
-    %% Repository Attributes
-    r1((<u>repo_id</u>)) --- Repo
-    r2((repo_name)) --- Repo
-    r3((visibility)) --- Repo
-    r4((language)) --- Repo
 
-    %% Relationship Connections
-    User --- Membership --- Org
-    m1((role)) --- Membership
-    m2((joined_at)) --- Membership
 
-    User --- OwnsU --- Repo
-    Org --- OwnsO --- Repo
-    
-    User --- Contributes --- Repo
-    c1((commit_count)) --- Contributes
 
-    User --- AuthorsPR --- PR
-    Repo --- HasPR --- PR
-    
-    User --- ReportsIssue --- Issue
-    Repo --- HasIssue --- Issue
 
-    User --- AuthorsCommit --- Commit
-    Repo --- HasCommit --- Commit
-    PR --- IncludedIn --- Commit
 
-    %% Self Relation
-    Repo --- ForkedFrom --- Repo
 
-    %% PR Attributes
-    pr1((<u>pr_id</u>)) --- PR
-    pr2((status)) --- PR
-    pr3((title)) --- PR
 
-    %% Issue Attributes
-    i1((<u>issue_id</u>)) --- Issue
-    i2((status)) --- Issue
+ +------------------------+               +------------------------+
+ |       COMMIT           |               |        ISSUE           |
+ +------------------------+               +------------------------+
+ | PK  commit_sha         |               | PK  issue_id           |
+ | FK  repo_id -> Repo    |               | FK  repo_id -> Repo    |
+ | FK  author_id -> User  |               | FK  reporter_id -> User|
+ |     message            |               |     title              |
+ |     branch             |               |     description        |
+ |     timestamp          |               |     status             |
+ | FK  pr_id -> PR        |               |     labels             |
+ +------------------------+               |     created_at         |
+                                          +------------------------+
 
-    %% Commit Attributes
-    co1((<u>commit_sha</u>)) --- Commit
-    co2((message)) --- Commit
+ +------------------------------------+
+ |        ORG_MEMBERSHIP              |
+ |   (User <-> Organization)          |
+ +------------------------------------+
+ | PK  membership_id                  |
+ | FK  user_id -> User                |
+ | FK  org_id  -> Organization        |
+ |     role (Owner/Member/Billing)    |
+ |     joined_at                      |
+ +------------------------------------+
 
-    %% Styling
-    style User fill:#f9f,stroke:#333,stroke-width:2px
-    style Org fill:#f9f,stroke:#333,stroke-width:2px
-    style Repo fill:#f9f,stroke:#333,stroke-width:2px
-    style PR fill:#f9f,stroke:#333,stroke-width:2px
-    style Issue fill:#f9f,stroke:#333,stroke-width:2px
-    style Commit fill:#f9f,stroke:#333,stroke-width:2px
-    
-    style Membership fill:#fff,stroke:#333,stroke-dasharray: 5 5
-    style Contributes fill:#fff,stroke:#333,stroke-dasharray: 5 5
+Fig: Entity Relationship Diagram for GitHub Core System
