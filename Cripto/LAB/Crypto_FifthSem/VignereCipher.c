@@ -1,84 +1,56 @@
-#include<stdio.h>
-// ##include<conio.h>
+#include <stdio.h>
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
-    void encipher();
-void decipher();
-void main()
+
+void encipher(void), decipher(void);
+
+int main(void)
 {
     int choice;
-    // clrscr();
     while (1)
     {
-        printf("\n1. Encrypt Text");
-        printf("\t2. Decrypt Text");
-        printf("\t3. Exit");
-        printf("\n\nEnter Your Choice : ");
+        printf("\n1. Encrypt Text\t2. Decrypt Text\t3. Exit\n\nEnter Your Choice : ");
         scanf("%d", &choice);
-        if (choice == 3)
-            exit(0);
-        else if (choice == 1)
-            encipher();
-        else if (choice == 2)
-            decipher();
-        else
-           { printf("Please Enter Valid Option.");
-            exit(0);}
+        if (choice == 3) exit(0);
+        if (choice == 1) encipher();
+        else if (choice == 2) decipher();
+        else { printf("Please Enter Valid Option."); exit(0); }
     }
 }
 
-void encipher()
+void encipher(void)
 {
-    unsigned int i, j;
-    char input[50], key[10];
+    char p[50], k[10];
+    int i, j, n;
 
     printf("\nEnter Plain Text: ");
-    scanf("%s", input);
-
+    scanf("%49s", p);
     printf("\nEnter Key Value: ");
-    scanf("%s", key);
+    scanf("%9s", k);
+    n = strlen(k);
 
     printf("\nResultant Cipher Text: ");
-    for (i = 0, j = 0; i < strlen(input); i++, j++)
-    {
-        if (j >= strlen(key))
-        {
-            j = 0;
-        }
-        printf("%c", 65 + (((toupper(input[i]) - 65) + (toupper(key[j]) - 65)) % 26));
-    }
+    for (i = 0, j = 0; p[i]; i++, j = (j + 1) % n)
+        putchar('A' + ((toupper(p[i]) - 'A') + (toupper(k[j]) - 'A')) % 26);
 }
 
-
-void decipher()
+void decipher(void)
 {
-    unsigned int i, j;
-    char input[50], key[10];
-    int value;
+    char p[50], k[10];
+    int i, j, n, v;
 
     printf("\nEnter Cipher Text: ");
-    scanf("%49s", input);
-
+    scanf("%49s", p);
     printf("\nEnter the key value: ");
-    scanf("%9s", key);
+    scanf("%9s", k);
+    n = strlen(k);
 
     printf("\nResultant Plain Text: ");
-
-    for (i = 0, j = 0; i < strlen(input); i++, j++)
+    for (i = 0, j = 0; p[i]; i++, j = (j + 1) % n)
     {
-        if (j >= strlen(key))
-        {
-            j = 0;
-        }
-
-        value = (toupper(input[i]) - 65) - (toupper(key[j]) - 65);
-
-        if (value < 0)
-        {
-            value += 26;
-        }
-
-        printf("%c", 65 + (value % 26));
+        v = (toupper(p[i]) - 'A') - (toupper(k[j]) - 'A');
+        if (v < 0) v += 26;
+        putchar('A' + v % 26);
     }
 }

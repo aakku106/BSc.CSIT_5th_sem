@@ -1,45 +1,32 @@
 #include <stdio.h>
-// #include<conio.h>
 #include <string.h>
-int main()
+
+int main(void)
 {
-    unsigned int a[3][3] = {{6, 24, 1}, {13, 16, 10}, {20, 17, 15}};
-    unsigned int b[3][3] = {{8, 5, 10}, {21, 8, 21}, {21, 12, 8}};
-    int i, j, t = 0;
-    char c[20], d[20];
+    int a[3][3] = {{6,24,1},{13,16,10},{20,17,15}}, b[3][3] = {{8,5,10},{21,8,21},{21,12,8}};
+    int i, j, t, p[3], c[3], d[3];
     char msg[20];
-    // clrscr();
+
     printf("Enter plain text: ");
-    scanf("%s", msg);
-    for (i = 0; i < strlen(msg); i++)
+    scanf("%19s", msg);
+    for (i = 0; i < 3; i++)
     {
-        c[i] = msg[i] - 65;
-        printf("%d\t", c[i]);
+        p[i] = msg[i] - 65;
+        printf("%d\t", p[i]);
     }
     for (i = 0; i < 3; i++)
     {
-        t = 0;
-        for (j = 0; j < 3; j++) 
-        {
-            t = t + (a[i][j] * c[j]);
-        }
-        d[i] = t % 26;
-    }
-    printf("\nEncrypted Cipher Text:");
-    for (i = 0; i < 3; i++)
-        printf("%c", d[i] + 65);
-    for (i = 0; i < 3; i++)
-    {
-        t = 0;
-        for (j = 0; j < 3; j++)
-        {
-            t = t + (b[i][j] * d[j]);
-        }
+        for (t = j = 0; j < 3; j++) t += a[i][j] * p[j];
         c[i] = t % 26;
     }
-    printf("\nDecrypted Cipher Text:");
+    printf("\nEncrypted Cipher Text:");
+    for (i = 0; i < 3; i++) printf("%c", c[i] + 65);
     for (i = 0; i < 3; i++)
-        printf("%c", c[i] + 65);
-    getchar();
+    {
+        for (t = j = 0; j < 3; j++) t += b[i][j] * c[j];
+        d[i] = t % 26;
+    }
+    printf("\nDecrypted Cipher Text:");
+    for (i = 0; i < 3; i++) printf("%c", d[i] + 65);
     return 0;
 }

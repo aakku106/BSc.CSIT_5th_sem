@@ -1,36 +1,34 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-    int main(void)
+
+int main(void)
 {
-    char plain[10], cipher[10];
-    int key, i, length;
-    int result;
+    char p[10], c[10];
+    int k, i, n;
+
     printf("\n Enter the plain text:");
-    scanf("%s", plain);
+    scanf("%9s", p);
     printf("\n Enter the key value:");
-    scanf("%d", &key);
-    printf("\n\n \t PLAIN TEXT: %s", plain);
+    scanf("%d", &k);
+    printf("\n\n \t PLAIN TEXT: %s", p);
     printf("\n\n \t ENCRYPTED TEXT: ");
-    for (i = 0, length = strlen(plain); i < length; i++)
+
+    for (n = strlen(p), i = 0; i < n; i++)
     {
-        cipher[i] = plain[i] + key;
-        if ((isupper(plain[i])) && (cipher[i] > 'Z'))
-            cipher[i] = cipher[i] - 26;
-        if ((islower(plain[i])) && (cipher[i] > 'z'))
-            cipher[i] = cipher[i] - 26;
-        printf("%c", cipher[i]);
+        c[i] = p[i] + k;
+        if (isupper(p[i]) && c[i] > 'Z') c[i] -= 26;
+        if (islower(p[i]) && c[i] > 'z') c[i] -= 26;
+        putchar(c[i]);
     }
+
     printf("\n\n \t AFTER DECRYPTION: ");
-    for (i = 0; i < length; i++)
+    for (i = 0; i < n; i++)
     {
-        plain[i] = cipher[i] - key;
-        if (isupper(cipher[i]) && (plain[i] < 'A'))
-            plain[i] = plain[i] + 26;
-        if (islower(cipher[i]) && (plain[i] < 'a'))
-            plain[i] = plain[i] + 26;
-        printf("%c", plain[i]);
+        p[i] = c[i] - k;
+        if (isupper(c[i]) && p[i] < 'A') p[i] += 26;
+        if (islower(c[i]) && p[i] < 'a') p[i] += 26;
+        putchar(p[i]);
     }
-    getchar();
     return 0;
 }
