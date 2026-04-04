@@ -4,7 +4,7 @@
 
 #define M 5
 
-void playfair(char a, char b, char k[M][M])
+void playFair(char a, char b, char k[M][M])
 {
     int i, j, r1 = 0, c1 = 0, r2 = 0, c2 = 0, t;
     FILE *f = fopen("cipher.txt", "a+");
@@ -59,8 +59,8 @@ int main(void)
 
     printf("\n\nEntered text : %s\nCipher Text :", text);
     for (i = 0; text[i]; i++)
-        if (!text[i + 1]) playfair(text[i], 'X', mat);
-        else if (text[i] == text[i + 1]) playfair(text[i], 'X', mat);
-        else playfair(text[i], text[++i], mat);
+        if (!text[i + 1]) playFair(text[i], 'X', mat);
+        else if (text[i] == text[i + 1]) playFair(text[i], 'X', mat);
+        else playFair(text[i], text[++i], mat);
     return 0;
 }
