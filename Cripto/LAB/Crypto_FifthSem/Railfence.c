@@ -8,7 +8,7 @@ int main(void)
 
     printf("\n\t\t RAIL FENCE TECHNIQUE");
     printf("\n\nEnter the input string: ");
-    scanf(" %[^
+    scanf(" %19[^\n]", s);
 
     n = strlen(s);
     for (i = 0, j = 0; i < n; i++) if (i % 2 == 0) c[j++] = s[i];
@@ -23,4 +23,3 @@ int main(void)
     printf("\nText after decryption: %s", d);
     return 0;
 }
-    if (l % 2 == 0)
