@@ -12,7 +12,7 @@ if($db_connection == false){
 }
 ?>
 
-LAB - 4
+<!-- LAB - 4
 Create a form with the following fields
  - Name,
  - Email,
@@ -22,4 +22,4 @@ Create a form with the following fields
  - Faculty,
  use server side validation to validate each fields.
  The validation message must be shown below each field
- on validation error.
+ on validation error. -->
