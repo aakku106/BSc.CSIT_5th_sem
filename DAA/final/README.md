@@ -76,7 +76,7 @@ Priority tags used below:
 |    9 | Reductions / Cook’s theorem / SAT NP-complete proof-style question                         | 8.3     |       3/6 | 2078-B12, 2080-B11, 2081-B11                          | Meaning of reduction + high-level proof structure                    | P2       |
 |   10 | Huffman coding (codes / bits / prefix code)                                                | 4.3     |       2/6 | 2079-B5, 2080-B8                                      | Construct Huffman tree + codes + total bits                          | P2       |
 |   11 | Job sequencing with deadlines (greedy)                                                     | 4.2     |       2/6 | 2078-B8, 2080-B7                                      | Steps + sorting criterion + schedule + complexity                    | P2       |
-|   12 | Number theory (Euclid/extended Euclid, CRT, primality)                                     | 7       |       4/6 | 2079-B10, 2080-B10, 2081-B8/B9, Model-B7              | One algorithm + steps + short complexity line                        | P2       |
+|   12 | Number theory (Euclid/extended Euclid, CRT)                                                | 7       |       2/6 | 2079-B10, 2080-B10                                    | One algorithm + steps + short complexity line                        | P2       |
 
 ---
 
@@ -141,8 +141,9 @@ A high-probability set of 8 short-answer areas (based on repetition):
 ### C. Practical mark safety
 
 - 2 long answers done well ≈ **20 marks**.
-- Add 3 short answers done well ≈ **15 marks**.
-- This gives a practical target around **35**, leaving room for small mistakes.
+- To cross the **30–35** safety range, **3 strong short answers** contribute ≈ **15 marks**.
+- So **20 + 15 ≈ 35 marks** as a scoring target.
+- **Important:** this does **not** change the exam pattern above; in the actual exam, Group B still requires attempting **8 short questions**, even if only about 3 need to be especially strong to push the total safely above 30.
 
 ---
 
