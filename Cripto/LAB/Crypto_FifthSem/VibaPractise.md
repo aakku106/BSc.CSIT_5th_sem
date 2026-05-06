@@ -72,10 +72,4 @@ The following four items are number-theory utilities included in `4more.md` (sup
 - **How it works:** Use the Euclidean algorithm: repeatedly replace (a,b) with (b,a mod b) until remainder is zero; the last nonzero remainder is gcd(a,b).
 - **Pros / Cons:** Extremely fast for practical sizes; trivial to implement.
 
-Next steps: I updated this file with polished wording and explicit "How it works" descriptions for each lab. If you want any of the following, tell me which option(s) to do next:
-
-- Expand a chosen entry with a worked example and a small diagram.
-- Add time/space complexity and attack/defense notes per item.
-- Create a short slide-style summary (3–5 bullets) for each lab.
-
 File location: [Cripto/LAB/Crypto_FifthSem/VibaPractise.md](Cripto/LAB/Crypto_FifthSem/VibaPractise.md)
