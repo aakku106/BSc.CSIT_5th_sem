@@ -1,6 +1,8 @@
 <?php
 session_start();
-$u='admin'; $p='1234';
+$u='admin';$p='1234';
+$db=mysqli_connect('localhost','root','','student');
+$db->query('create table if not exists s(id int auto_increment primary key,n varchar(50),a varchar(10),c varchar(20))');
 
 if(isset($_GET['logout'])){ session_destroy(); header('Location: index.php'); exit; }
 
@@ -9,25 +11,23 @@ if(isset($_POST['login']))
 	else $err='wrong';
 
 if(isset($_SESSION['ok'])){
-	$_SESSION['s']=$_SESSION['s']??[];
-	$_SESSION['id']=$_SESSION['id']??1;
-
 	if(isset($_POST['save'])){
-		$id=$_POST['id']??''; $n=trim($_POST['n']); $a=trim($_POST['a']); $c=trim($_POST['c']);
+		$id=$_POST['id']??''; $n=mysqli_real_escape_string($db,trim($_POST['n'])); $a=mysqli_real_escape_string($db,trim($_POST['a'])); $c=mysqli_real_escape_string($db,trim($_POST['c']));
 		if($n&&$a&&$c){
-			if($id=='') $_SESSION['s'][]=['id'=>$_SESSION['id']++,'n'=>$n,'a'=>$a,'c'=>$c];
-			else foreach($_SESSION['s'] as &$x) if($x['id']==$id) $x=['id'=>$id,'n'=>$n,'a'=>$a,'c'=>$c];
+			if($id=='') $db->query("insert into s(n,a,c) values('$n','$a','$c')");
+			else $db->query("update s set n='$n',a='$a',c='$c' where id=$id");
 			header('Location: index.php'); exit;
 		}
 	}
 
 	if(isset($_GET['del'])){
-		$_SESSION['s']=array_values(array_filter($_SESSION['s'],fn($x)=>$x['id']!=$_GET['del']));
+		$db->query('delete from s where id='.$_GET['del']);
 		header('Location: index.php'); exit;
 	}
 
 	$e=['id'=>'','n'=>'','a'=>'','c'=>''];
-	if(isset($_GET['edit'])) foreach($_SESSION['s'] as $x) if($x['id']==$_GET['edit']) $e=$x;
+	if(isset($_GET['edit'])) $e=$db->query('select * from s where id='.$_GET['edit'])->fetch_assoc() ?: $e;
+	$rs=$db->query('select * from s order by id desc');
 }
 ?>
 <!doctype html>
@@ -62,12 +62,12 @@ if(isset($_SESSION['ok'])){
 	</form>
 	<table>
 		<tr><th>ID</th><th>Name</th><th>Age</th><th>Class</th><th>Action</th></tr>
-		<?php foreach($_SESSION['s'] as $x): ?>
+		<?php while($x=$rs->fetch_assoc()): ?>
 		<tr>
 			<td><?= $x['id'] ?></td><td><?= $x['n'] ?></td><td><?= $x['a'] ?></td><td><?= $x['c'] ?></td>
 			<td><a href="?edit=<?= $x['id'] ?>">Edit</a><a href="?del=<?= $x['id'] ?>">Del</a></td>
 		</tr>
-		<?php endforeach; ?>
+		<?php endwhile; ?>
 	</table>
 <?php endif; ?>
 </div>
