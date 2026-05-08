@@ -18,3 +18,11 @@ Login:
 ```text
 admin / 1234
 ```
+
+MySQL:
+
+```sql
+create database student;
+use student;
+create table s(id int auto_increment primary key,n varchar(50),a varchar(10),c varchar(20));
+```
