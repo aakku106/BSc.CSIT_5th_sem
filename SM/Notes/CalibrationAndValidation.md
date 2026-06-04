@@ -400,23 +400,18 @@ Now the validated model can answer:
 ## Common Validation Mistakes
 
 1. **Using same data for calibration and validation**
-
    - Solution: Use separate datasets (training vs testing)
 
 2. **Validating too early**
-
    - Solution: Complete calibration first
 
 3. **Accepting small sample sizes**
-
    - Solution: Collect enough data for statistical significance
 
 4. **Ignoring expert feedback**
-
    - Solution: Involve stakeholders throughout
 
 5. **Over-calibrating**
-
    - Solution: Accept reasonable accuracy, not perfection
 
 6. **Not documenting**
